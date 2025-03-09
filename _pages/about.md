@@ -1,23 +1,20 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of Leeds, Woodhouse Lane, Leeds, United Kingdom.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -27,8 +24,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello, I am Kexuan Zhang from China, currently pursuing a PhD in <strong>Perceptual Graphics</strong> at the University of Leeds under the supervision of Dr. Rafael Kuffner dos Anjos, Dr. Markus Billeter, and Prof. Gordon Love. I previously obtained my Master of Science degree in <strong>High-Performance Graphics</strong> and Games Engineering. Before that, I worked as a game server development engineer, specializing in C#, multithreading, network communication, and performance optimization.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests are <strong>Virtual Reality (VR)</strong> and <strong>High-Performance Graphics (HPG)</strong>.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+The relative topics are: <strong>Foveated Rendering, Color / Depth / Texture Perception,  Stereo Reprojection (Warping), Image Inpainting (Hole-filling)</strong>, combining with high-performance graphics techniques. The libraries that I mainly use are Vulkan and OpenXR.
+
+In my free time, I enjoy singing and coding—indeed, I feel uneasy without coding. I like to experiment with small projects, often porting games or software to my favorite handheld/console platforms or developing and implementing game engines and other tools, savoring the process of building something from scratch. I believe that the purpose of life is to satisfy one’s curiosity, continually create, and gain a sense of achievement.
