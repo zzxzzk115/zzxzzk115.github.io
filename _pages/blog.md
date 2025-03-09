@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /blog/
+permalink: /featured-posts/
 title: Featured Posts
 nav: true
 nav_order: 1
