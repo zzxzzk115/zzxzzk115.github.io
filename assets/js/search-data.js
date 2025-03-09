@@ -60,16 +60,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+            },},{id: "news-embarked-on-my-phd-journey-and-joined-the-vcg-group-at-the-university-of-leeds",
+          title: 'Embarked on my PhD journey and joined the VCG group at the University...',
           description: "",
           section: "News",},{id: "projects-catmario-gb",
           title: 'Catmario GB',
