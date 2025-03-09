@@ -55,12 +55,7 @@ ninja.data = [{
           window.open("https://zzxzzk115.github.io/blog/posts/phd-life/openxr-simulator.html", "_blank");
         
       },
-    },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-embarked-on-my-phd-journey-and-joined-the-vcg-group-at-the-university-of-leeds",
+    },{id: "news-embarked-on-my-phd-journey-and-joined-the-vcg-group-at-the-university-of-leeds",
           title: 'Embarked on my PhD journey and joined the VCG group at the University...',
           description: "",
           section: "News",},{id: "projects-catmario-gb",
