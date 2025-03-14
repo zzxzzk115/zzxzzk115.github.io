@@ -51,6 +51,20 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
+            },{id: "dropdown-vcg-profile",
+              title: "VCG Profile",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://vcg.leeds.ac.uk/profiles/kexuan-zhang/";
+              },
+            },{id: "dropdown-faculty-profile",
+              title: "Faculty Profile",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "https://eps.leeds.ac.uk/computing/pgr/1015430/kexuan-zhang";
+              },
             },{id: "post-giscus-enabled",
       
         title: "Giscus enabled!",
