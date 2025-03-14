@@ -44,7 +44,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "post-giscus-enabled",
+        },{id: "dropdown-lazy-v-39-s-blog",
+              title: "Lazy_V&#39;s Blog",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/blog/";
+              },
+            },{id: "post-giscus-enabled",
       
         title: "Giscus enabled!",
       
