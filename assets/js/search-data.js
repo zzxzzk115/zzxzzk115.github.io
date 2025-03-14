@@ -63,7 +63,7 @@ ninja.data = [{
               description: "",
               section: "Dropdown",
               handler: () => {
-                window.location.href = "https://eps.leeds.ac.uk/computing/pgr/1015430/kexuan-zhang";
+                window.location.href = "https://eps.leeds.ac.uk/computing/pgr/15430/kexuan-zhang";
               },
             },{id: "post-giscus-enabled",
       
