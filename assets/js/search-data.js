@@ -52,7 +52,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/blog/2025/giscus-enabled/";
+          window.location.href = "/_blog/2025/giscus-enabled/";
         
       },
     },{id: "post-develop-openxr-native-pc-apps-without-a-headset-by-using-meta-xr-simulator-lazy-v-39-s-blog",
