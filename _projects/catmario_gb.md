@@ -8,4 +8,6 @@ category: fun
 related_publications: false
 ---
 
+[![zzxzzk115/CatmarioGB - GitHub](https://gh-card.dev/repos/zzxzzk115/CatmarioGB.svg?fullname=)](https://github.com/zzxzzk115/CatmarioGB)
+
 <iframe frameborder="0" src="https://itch.io/embed/1490065" width="552" height="167"><a href="https://lazy-v.itch.io/catmario-gb">CatMario-GB by Lazy_V</a></iframe>
