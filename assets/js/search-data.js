@@ -14,7 +14,7 @@ ninja.data = [{
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_blog/";
+            window.location.href = "/featured-posts/";
           },
         },{id: "nav-publications",
           title: "Publications",
@@ -59,7 +59,7 @@ ninja.data = [{
       section: "Posts",
       handler: () => {
         
-          window.location.href = "/_blog/2025/giscus-enabled/";
+          window.location.href = "/featured-posts/2025/giscus-enabled/";
         
       },
     },{id: "post-develop-openxr-native-pc-apps-without-a-headset-by-using-meta-xr-simulator-lazy-v-39-s-blog",
