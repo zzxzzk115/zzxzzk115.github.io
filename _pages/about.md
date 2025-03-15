@@ -5,10 +5,13 @@ permalink: /
 subtitle: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of Leeds, Woodhouse Lane, Leeds, United Kingdom.
 
 profile:
-  align: left
+  align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
+    <p>🧑🏻‍🎓 PhD Student</p>
+    <p>🫖 Game&Graphics Programmer</p>
+    <p>🧑🏻‍💻 C/C++/C#/Java/Python/Lua</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
