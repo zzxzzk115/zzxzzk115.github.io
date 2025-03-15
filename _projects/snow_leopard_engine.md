@@ -31,18 +31,19 @@ This project is a group project of COMP5530M(23/24 Group Project, 37449), Univer
 
 Group Members:
 
-| Name         | Responsibility                                                       |
-| ------------ | -------------------------------------------------------------------- |
-| [Kexuan Zhang](https://zzxzzk115.github.io/) | Leader. Architecture, Core Systems, Rendering, Editor, Audio, Report |
-| Ziyu Min     | Associate Leader. Rendering, Shaders, Report                         |
-| Jubiao Lin   | Physics, In-Game GUI, Poster                                         |
-| [Simiao Wang](https://wangsimiao2000.github.io/)  | Physics, Poster, Showcase Video                                      |
-| Ruofan He    | GamePlay (Path-Finding)                                              |
-| [Haodong Lin](https://leolanger.github.io/)  | Animation                                                            |
-| Yanni Ma     | Editor                                                               |
+| Name                                             | Responsibility                                                       |
+| ------------------------------------------------ | -------------------------------------------------------------------- |
+| [Kexuan Zhang](https://zzxzzk115.github.io/)     | Leader. Architecture, Core Systems, Rendering, Editor, Audio, Report |
+| Ziyu Min                                         | Associate Leader. Rendering, Shaders, Report                         |
+| Jubiao Lin                                       | Physics, In-Game GUI, Poster                                         |
+| [Simiao Wang](https://wangsimiao2000.github.io/) | Physics, Poster, Showcase Video                                      |
+| Ruofan He                                        | GamePlay (Path-Finding)                                              |
+| [Haodong Lin](https://leolanger.github.io/)      | Animation                                                            |
+| Yanni Ma                                         | Editor                                                               |
 
 ## Features
-- Modern OpenGL (4.6)                                                                    
+
+- Modern OpenGL (4.6)
 - Unity-like Shaders (DzShader)
 - PhysX for Physics Simulation
 - PBR Rendering
@@ -53,6 +54,7 @@ Group Members:
 And more!
 
 ## Examples
+
 TODO
 
 ## Game
@@ -68,6 +70,7 @@ TODO
 
 > Avoid long-path limit:
 > Execute with system manager permission (Powershell):
+>
 > ```powershell
 > New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" ` -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
 > git config --system core.longpaths true
@@ -162,4 +165,5 @@ xmake run SnowLeopardEditor
 ## Reference List
 
 ## License
+
 This project is licensed under the [MIT](https://github.com/SnowLeopardEngine/SnowLeopardEngine/blob/main/LICENSE) license.

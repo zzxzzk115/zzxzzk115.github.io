@@ -28,6 +28,6 @@ Hello, I am Kexuan Zhang from China, currently pursuing a PhD in <strong>Percept
 
 My research interests are <strong>Virtual Reality (VR)</strong> and <strong>High-Performance Graphics (HPG)</strong>.
 
-The relative topics are: <strong>Foveated Rendering, Color / Depth / Texture Perception,  Stereo Reprojection (Warping), Image Inpainting (Hole-filling)</strong>, combining with high-performance graphics techniques. The libraries that I mainly use are Vulkan and OpenXR.
+The relative topics are: <strong>Foveated Rendering, Color / Depth / Texture Perception, Stereo Reprojection (Warping), Image Inpainting (Hole-filling)</strong>, combining with high-performance graphics techniques. The libraries that I mainly use are Vulkan and OpenXR.
 
 In my free time, I enjoy singing and coding—indeed, I feel uneasy without coding. I like to experiment with small projects, often porting games or software to my favorite handheld/console platforms or developing and implementing game engines and other tools, savoring the process of building something from scratch. I believe that the purpose of life is to satisfy one’s curiosity, continually create, and gain a sense of achievement.

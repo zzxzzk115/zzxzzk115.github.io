@@ -75,7 +75,13 @@
       "startDate": "2023-09-27",
       "endDate": "2024-09-26",
       "score": "First class",
-      "courses": ["Foundation of Modeling and Rendering", "Animation and Simulation", "Geometry Processing", "High-Performance Graphics", "Scientific Computation"]
+      "courses": [
+        "Foundation of Modeling and Rendering",
+        "Animation and Simulation",
+        "Geometry Processing",
+        "High-Performance Graphics",
+        "Scientific Computation"
+      ]
     },
     {
       "institution": "Jianghan University",
@@ -86,7 +92,14 @@
       "startDate": "2017-09-01",
       "endDate": "2021-06-31",
       "score": "84.3/100",
-      "courses": ["Data Structure and Algorithm", "Compilation Principle", "Principles of Computer Composition", "Computer Graphics", "Data Mining", "Operating Systems"]
+      "courses": [
+        "Data Structure and Algorithm",
+        "Compilation Principle",
+        "Principles of Computer Composition",
+        "Computer Graphics",
+        "Data Mining",
+        "Operating Systems"
+      ]
     }
   ],
   "awards": [

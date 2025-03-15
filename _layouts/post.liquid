@@ -46,7 +46,9 @@ layout: default
         &nbsp; &middot; &nbsp;
         {% for category in page.categories %}
           {% if url_beginning == '/featured-posts/' %}
-            <a href="{{ category | slugify | prepend: '/featured-posts/category/' | relative_url }}"> <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}</a>
+            <a href="{{ category | slugify | prepend: '/featured-posts/category/' | relative_url }}">
+              <i class="fa-solid fa-tag fa-sm"></i> {{ category -}}
+            </a>
           {% else %}
             <i class="fa-solid fa-tag fa-sm"></i> {{ category }}
           {% endif %}
