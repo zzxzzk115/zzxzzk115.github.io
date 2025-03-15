@@ -9,9 +9,11 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>🧑🏻‍🎓 PhD Student</p>
+    <p>🧑🏻‍🎓 PhD Student in VR & HPG</p>
     <p>🫖 Game&Graphics Programmer</p>
     <p>🧑🏻‍💻 C/C++/C#/Java/Python/Lua</p>
+    <p>🛠️ XMake/CMake & vcpkg</p>
+    <p>💻 Windows/macOS/Linux</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
