@@ -368,7 +368,9 @@
     {% if entry.gbt %}
       <!-- Hidden GB/T 7714 block -->
       <div class="gbt hidden">
-        <p>{{ entry.gbt }}</p>
+        {% highlight %}
+        {{- entry.gbt -}}
+        {% endhighlight %}
       </div>
     {% endif %}
 
