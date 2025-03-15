@@ -1,6 +1,13 @@
 ---
 layout: default
 ---
+<style>
+  .pdfobject-container {
+    height: 80vh;
+    border: 1px solid #ccc;
+  }
+</style>
+
 {% unless site.data.resume %}
   <div class="post">
     <header class="post-header">
@@ -54,16 +61,7 @@ layout: default
       </article>
     {% endcomment %}
 
-    <embed
-      {% if page.cv_pdf contains '://' %}
-        src="{{ page.cv_pdf }}"
-      {% else %}
-        src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-      {% endif %}
-      type="application/pdf"
-      width="100%"
-      height="100%"
-    >
+    <div id="my-pdf"></div>
   </div>
 {% else %}
   <div class="post">
@@ -139,15 +137,15 @@ layout: default
       </article>
     {% endcomment %}
 
-    <embed
-      {% if page.cv_pdf contains '://' %}
-        src="{{ page.cv_pdf }}"
-      {% else %}
-        src="{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
-      {% endif %}
-      type="application/pdf"
-      width="100%"
-      height="960px"
-    >
+    <div id="my-pdf"></div>
   </div>
 {% endunless %}
+
+<script src="https://cdn.jsdelivr.net/npm/pdfobject"></script>
+<script>
+  PDFObject.embed({% if page.cv_pdf contains '://' %}
+    "{{ page.cv_pdf }}"
+  {% else %}
+    "{{ page.cv_pdf | prepend: 'assets/pdf/' | relative_url }}"
+  {% endif %}, "#my-pdf", {pdfOpenParams: { view: 'Fit' }});
+</script>
