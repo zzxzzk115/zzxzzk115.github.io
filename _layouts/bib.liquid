@@ -204,6 +204,9 @@
       {% if entry.bibtex_show %}
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
+      {% if entry.gbt %}
+        <a class="gbt btn btn-sm z-depth-0" role="button">GB/T 7714</a>
+      {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
           <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
@@ -359,6 +362,13 @@
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
+      </div>
+    {% endif %}
+
+    {% if entry.gbt %}
+      <!-- Hidden GB/T 7714 block -->
+      <div class="gbt hidden">
+        <p>{{ entry.gbt }}</p>
       </div>
     {% endif %}
 
