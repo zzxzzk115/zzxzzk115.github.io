@@ -65,7 +65,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "https://eps.leeds.ac.uk/computing/pgr/15430/kexuan-zhang";
               },
-            },{id: "post-giscus-enabled",
+            },{id: "post-a-little-secret-of-tracy-profiler",
+      
+        title: "A Little Secret of Tracy Profiler",
+      
+      description: "Possible Memory Leak of Tracy? Not exactly...",
+      section: "Posts",
+      handler: () => {
+        
+          window.location.href = "/featured-posts/2025/a-little-secret-of-tracy-profiler/";
+        
+      },
+    },{id: "post-giscus-enabled",
       
         title: "Giscus enabled!",
       
