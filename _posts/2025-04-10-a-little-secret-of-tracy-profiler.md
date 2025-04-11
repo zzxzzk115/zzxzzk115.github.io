@@ -22,7 +22,7 @@ include(FetchContent)
 FetchContent_Declare(Tracy
   GIT_REPOSITORY https://github.com/wolfpld/tracy
   GIT_TAG v0.11.1
-) 
+)
 set(TRACY_ON_DEMAND ON CACHE BOOL "" FORCE) # Enable on-demand mode
 FetchContent_MakeAvailable(Tracy)
 ```
@@ -33,9 +33,9 @@ To enable the `on-demand` feature in vcpkg, update your `vcpkg.json` file as sho
 
 ```json
 {
-    "name": "tracy",
-    "features": ["on-demand"],
-    "version>=": "0.11.1#2"
+  "name": "tracy",
+  "features": ["on-demand"],
+  "version>=": "0.11.1#2"
 }
 ```
 
