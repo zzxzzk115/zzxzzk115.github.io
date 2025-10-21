@@ -6,7 +6,7 @@ subtitle: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of Leed
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_2025.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <p>🧑🏻‍🎓 PhD Student in VR & HPG</p>
