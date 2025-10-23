@@ -29,6 +29,7 @@ related_publications: false
 (This project is under early development and WIP.)
 
 ## Features
+
 - Modern Vulkan using Vulkan-Hpp, Vulkan-Memory-Allocator-Hpp and more
 - FrameGraph (RenderGraph) based rendering system
 - OpenXR support (now focusing on VR only, not AR)
@@ -36,6 +37,7 @@ related_publications: false
 - ImGui docking + multiview
 
 ## Showcase
+
 [Example: GLTF Viewer](https://github.com/zzxzzk115/libvultra/blob/master/examples/gltf_viewer/main.cpp)
 
 ![Example: GLTF Viewer](https://raw.githubusercontent.com/zzxzzk115/libvultra/refs/heads/master/media/images/example-gltf-viewer.png)
@@ -47,6 +49,7 @@ related_publications: false
 ## Build Instructions
 
 Prerequisites:
+
 - Git
 - XMake
 - Vulkan SDK
@@ -56,24 +59,29 @@ Prerequisites:
 
 Step-by-Step:
 
-- Install XMake by following [this](https://xmake.io/guide/quick-start.html#installation). 
+- Install XMake by following [this](https://xmake.io/guide/quick-start.html#installation).
 
 - Clone the project:
+
   ```bash
   git clone https://github.com/zzxzzk115/libvultra.git
   ```
 
 - Build the project:
+
   ```bash
   cd libvultra
   xmake -vD
   ```
 
 - Run the programs:
+
   ```bash
   xmake run
   ```
+
   or run a specific program:
+
   ```bash
   xmake run example-window
   xmake run example-rhi-triangle
@@ -94,6 +102,7 @@ Step-by-Step:
   > For debugging OpenXR programs without headsets, you may need Meta XR Simulator on Windows and macOS. On Linux, you can use Monado as the simulator.
 
 ## TODO List
+
 - [x] Wayland support
 - [x] More powerful texture loader that supports KTX, KTX2, DDS and more
   - [x] KTX
@@ -108,9 +117,11 @@ Step-by-Step:
 - [ ] (Maybe?) AR support
 
 ## Create your own graphics or game project
+
 You can simply create a project by using this [template](https://github.com/zzxzzk115/libvultra-starter-template).
 
 Have fun!
 
 ## License
+
 This project is under the [MIT](https://github.com/zzxzzk115/libvultra/blob/master/LICENSE) license.
