@@ -111,6 +111,11 @@ ninja.data = [{
           description: "The classic game remake. Build for GameShell, Trimui (Smart Pro and Brick) and other LOVE2D compatible gaming handheld devices. Made with LÖVE(11.1).",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gold_minder_rebirth/";
+            },},{id: "projects-libvultra",
+          title: 'libvultra',
+          description: "libvultra is the core library of Vultra, which can be used for rapidly creating graphics or game prototypes without the VultraEditor. (WIP)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/libvultra/";
             },},{id: "projects-snow-leopard-engine",
           title: 'Snow Leopard Engine',
           description: "Yet another game engine group project written in C++ with OpenGL 4.6",
