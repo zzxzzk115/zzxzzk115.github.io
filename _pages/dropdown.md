@@ -7,8 +7,8 @@ dropdown: true
 children:
   - title: Lazy_V's Blog
     permalink: /blog/
-  - title: Kexuan Zhang's Blog (NEW)
-    permalink: /new-blog/
+  # - title: Kexuan Zhang's Blog (NEW)
+  #   permalink: /new-blog/
   - title: VCG Profile
     permalink: https://vcg.leeds.ac.uk/profiles/kexuan-zhang/
   - title: Faculty Profile
