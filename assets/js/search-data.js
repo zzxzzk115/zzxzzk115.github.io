@@ -51,13 +51,6 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/blog/";
               },
-            },{id: "dropdown-kexuan-zhang-39-s-blog-new",
-              title: "Kexuan Zhang&#39;s Blog (NEW)",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/new-blog/";
-              },
             },{id: "dropdown-vcg-profile",
               title: "VCG Profile",
               description: "",
