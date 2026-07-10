@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-cv",
           title: "CV",
           description: "",
@@ -103,24 +96,74 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-catmario-gb",
           title: 'Catmario GB',
-          description: "GameBoy verion of CatMario. Made with GB Studio. You can play it online at itch.io or by GameBoy emlators.",
+          description: "The troll platformer CatMario, rebuilt for the Game Boy with GB Studio — playable on itch.io or any GB emulator.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/catmario_gb/";
+            },},{id: "projects-cells-of-division",
+          title: 'Cells of Division',
+          description: "A top-down bullet hell roguelike on Steam — fight alongside clones of your past runs inside the immune system. Free demo out now! Co-founder of High Path Games; programming lead.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/cells_of_division/";
             },},{id: "projects-gold-miner-rebirth",
           title: 'Gold Miner Rebirth',
-          description: "The classic game remake. Build for GameShell, Trimui (Smart Pro and Brick) and other LOVE2D compatible gaming handheld devices. Made with LÖVE(11.1).",
+          description: "A faithful remake of the classic Flash game, built with LÖVE2D for GameShell, Trimui, and other retro gaming handhelds.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gold_minder_rebirth/";
+            },},{id: "projects-lazy-100",
+          title: 'Lazy-100',
+          description: "A fantasy game console in the spirit of PICO-8 / TIC-80 — built to prove VRI can carry a complete product, and because retro games are great.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/lazy_100/";
             },},{id: "projects-libvultra",
           title: 'libvultra',
-          description: "libvultra is the core library of Vultra, which can be used for rapidly creating graphics or game prototypes without the VultraEditor. (WIP)",
+          description: "A modern rendering engine for rapid prototyping, VR research, and — eventually — full games. The heart of the Vultra ecosystem.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/libvultra/";
             },},{id: "projects-snow-leopard-engine",
           title: 'Snow Leopard Engine',
-          description: "Yet another game engine group project written in C++ with OpenGL 4.6",
+          description: "A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snow_leopard_engine/";
+            },},{id: "projects-vasset",
+          title: 'vasset',
+          description: "An offline-first asset pipeline — import once, optimize offline, load instantly at runtime.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vasset/";
+            },},{id: "projects-vbase",
+          title: 'vbase',
+          description: "The foundational core library of the Vultra ecosystem — minimal, engine-agnostic building blocks with no global state.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vbase/";
+            },},{id: "projects-vfilesystem",
+          title: 'vfilesystem',
+          description: "A lightweight, composable filesystem abstraction — normalized paths, virtual mounts, and platform-aware backends for desktop, Android, and WASM.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vfilesystem/";
+            },},{id: "projects-vri",
+          title: 'VRI',
+          description: "An extensible render hardware interface for Vulkan, D3D12, Metal, WebGPU, and the OpenGL family — plus CPU software rendering — with a stable C ABI core and a C++23 wrapper.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vri/";
+            },},{id: "projects-vri-framework",
+          title: 'VRI-Framework',
+          description: "A minimal, embeddable rendering framework on top of VRI — the future rendering core of libvultra. (Private, WIP)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vri_framework/";
+            },},{id: "projects-vshadersystem",
+          title: 'vshadersystem',
+          description: "A standalone shader compilation and material reflection pipeline built on Slang — one shader source, every backend.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vshadersystem/";
+            },},{id: "projects-vtask",
+          title: 'vtask',
+          description: "A general task management library built on enkiTS. (WIP)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vtask/";
+            },},{id: "projects-vultra-ecosystem",
+          title: 'Vultra Ecosystem',
+          description: "A modular family of C++ libraries for real-time rendering, XR research, and game development — from foundation utilities to a multi-backend RHI and a modern engine.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vultra_ecosystem/";
             },},{
         id: 'social-email',
         title: 'email',
