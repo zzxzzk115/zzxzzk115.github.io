@@ -2,7 +2,7 @@
 layout: page
 title: vtask
 description: A general task management library built on enkiTS. (WIP)
-importance: 9
+importance: 10
 category: work
 related_publications: false
 ---

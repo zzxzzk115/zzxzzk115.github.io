@@ -3,7 +3,7 @@ layout: page
 title: Snow Leopard Engine
 description: A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.
 img: assets/img/projects/snow-leopard-engine.jpg
-importance: 10
+importance: 11
 category: work
 related_publications: false
 ---

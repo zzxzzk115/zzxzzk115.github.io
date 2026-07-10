@@ -2,7 +2,7 @@
 layout: page
 title: vasset
 description: An offline-first asset pipeline — import once, optimize offline, load instantly at runtime.
-importance: 6
+importance: 7
 category: work
 related_publications: false
 ---

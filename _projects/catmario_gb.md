@@ -3,7 +3,7 @@ layout: page
 title: Catmario GB
 description: The troll platformer CatMario, rebuilt for the Game Boy with GB Studio — playable on itch.io or any GB emulator.
 img: assets/img/projects/catmario-project.jpg
-importance: 3
+importance: 4
 category: fun
 related_publications: false
 ---

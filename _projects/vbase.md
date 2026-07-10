@@ -2,7 +2,7 @@
 layout: page
 title: vbase
 description: The foundational core library of the Vultra ecosystem — minimal, engine-agnostic building blocks with no global state.
-importance: 7
+importance: 8
 category: work
 related_publications: false
 ---

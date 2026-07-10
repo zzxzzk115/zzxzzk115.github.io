@@ -3,7 +3,7 @@ layout: page
 title: Gold Miner Rebirth
 description: A faithful remake of the classic Flash game, built with LÖVE2D for GameShell, Trimui, and other retro gaming handhelds.
 img: assets/img/projects/gold-miner-gameshell-project.jpg
-importance: 2
+importance: 3
 category: fun
 related_publications: false
 ---

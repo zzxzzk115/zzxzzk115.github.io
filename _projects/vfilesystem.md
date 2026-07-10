@@ -2,7 +2,7 @@
 layout: page
 title: vfilesystem
 description: A lightweight, composable filesystem abstraction — normalized paths, virtual mounts, and platform-aware backends for desktop, Android, and WASM.
-importance: 8
+importance: 9
 category: work
 related_publications: false
 ---

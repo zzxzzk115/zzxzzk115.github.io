@@ -40,6 +40,7 @@ flowchart TB
     subgraph content["Content Pipeline"]
         vshadersystem["vshadersystem<br/>Slang shader pipeline"]
         vasset["vasset<br/>offline asset pipeline"]
+        vrendergraph["vrendergraph<br/>render-graph schema"]
     end
     subgraph rendering["Rendering"]
         vri["VRI<br/>multi-backend RHI"]
@@ -55,6 +56,7 @@ flowchart TB
     vri --> vrf --> libvultra
     vshadersystem --> libvultra
     vasset --> libvultra
+    vrendergraph --> libvultra
     vtask --> libvultra
     vri --> lazy
 ```
@@ -66,6 +68,7 @@ flowchart TB
 | Foundation | [vtask](/projects/vtask/)                 | Task scheduling on top of the battle-tested enkiTS.                                                                             |
 | Content    | [vshadersystem](/projects/vshadersystem/) | Slang-based shader compilation and material reflection — one shader source, every backend.                                      |
 | Content    | [vasset](/projects/vasset/)               | Offline-first asset pipeline: import once, optimize offline, load instantly at runtime.                                         |
+| Content    | [vrendergraph](/projects/vrendergraph/)   | Data-driven render pipeline schema — the `.vrg.json` format behind libvultra's RenderGraph, built as a standalone library.      |
 | Rendering  | [VRI](/projects/vri/)                     | Extensible RHI for Vulkan, D3D12, Metal, WebGPU, the OpenGL family, and CPU software rendering — with OpenXR support.           |
 | Rendering  | [VRI-Framework](/projects/vri_framework/) | A minimal, embeddable rendering framework on VRI; the future rendering core of libvultra.                                       |
 | Engine     | [libvultra](/projects/libvultra/)         | The engine itself: render graph, material graph, 3D Gaussian Splatting, OpenXR stereo rendering, plugins, AI-agent integration. |
