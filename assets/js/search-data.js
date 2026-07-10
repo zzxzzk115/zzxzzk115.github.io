@@ -114,11 +114,6 @@ ninja.data = [{
           description: "A fantasy game console in the spirit of PICO-8 / TIC-80 — built to prove VRI can carry a complete product, and because retro games are great.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/lazy_100/";
-            },},{id: "projects-libvultra",
-          title: 'libvultra',
-          description: "A modern rendering engine for rapid prototyping, VR research, and — eventually — full games. The heart of the Vultra ecosystem.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/libvultra/";
             },},{id: "projects-omnilyrics",
           title: 'OmniLyrics',
           description: "The lyric tool I always wanted — CLI, GUI, and status-bar modes, cross-platform, built with .NET 8 and Avalonia.",
@@ -129,46 +124,6 @@ ninja.data = [{
           description: "A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/snow_leopard_engine/";
-            },},{id: "projects-vasset",
-          title: 'vasset',
-          description: "An offline-first asset pipeline — import once, optimize offline, load instantly at runtime.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vasset/";
-            },},{id: "projects-vbase",
-          title: 'vbase',
-          description: "The foundational core library of the Vultra ecosystem — minimal, engine-agnostic building blocks with no global state.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vbase/";
-            },},{id: "projects-vfilesystem",
-          title: 'vfilesystem',
-          description: "A lightweight, composable filesystem abstraction — normalized paths, virtual mounts, and platform-aware backends for desktop, Android, and WASM.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vfilesystem/";
-            },},{id: "projects-vrendergraph",
-          title: 'vrendergraph',
-          description: "A tiny data-driven render pipeline layer that builds a runtime FrameGraph from JSON — the schema behind libvultra&#39;s RenderGraph.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vrendergraph/";
-            },},{id: "projects-vri",
-          title: 'VRI',
-          description: "An extensible render hardware interface for Vulkan, D3D12, Metal, WebGPU, and the OpenGL family — plus CPU software rendering — with a stable C ABI core and a C++23 wrapper.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vri/";
-            },},{id: "projects-vri-framework",
-          title: 'VRI-Framework',
-          description: "A minimal, embeddable rendering framework on top of VRI — the future rendering core of libvultra. (Private, WIP)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vri_framework/";
-            },},{id: "projects-vshadersystem",
-          title: 'vshadersystem',
-          description: "A standalone shader compilation and material reflection pipeline built on Slang — one shader source, every backend.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vshadersystem/";
-            },},{id: "projects-vtask",
-          title: 'vtask',
-          description: "A general task management library built on enkiTS. (WIP)",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/vtask/";
             },},{id: "projects-vultra-ecosystem",
           title: 'Vultra Ecosystem',
           description: "A modular family of C++ libraries for real-time rendering, XR research, and game development — from foundation utilities to a multi-backend RHI and a modern engine.",
