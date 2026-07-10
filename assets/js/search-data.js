@@ -119,6 +119,11 @@ ninja.data = [{
           description: "A modern rendering engine for rapid prototyping, VR research, and — eventually — full games. The heart of the Vultra ecosystem.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/libvultra/";
+            },},{id: "projects-omnilyrics",
+          title: 'OmniLyrics',
+          description: "The lyric tool I always wanted — CLI, GUI, and status-bar modes, cross-platform, built with .NET 8 and Avalonia.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/omnilyrics/";
             },},{id: "projects-snow-leopard-engine",
           title: 'Snow Leopard Engine',
           description: "A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.",
@@ -139,6 +144,11 @@ ninja.data = [{
           description: "A lightweight, composable filesystem abstraction — normalized paths, virtual mounts, and platform-aware backends for desktop, Android, and WASM.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vfilesystem/";
+            },},{id: "projects-vrendergraph",
+          title: 'vrendergraph',
+          description: "A tiny data-driven render pipeline layer that builds a runtime FrameGraph from JSON — the schema behind libvultra&#39;s RenderGraph.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/vrendergraph/";
             },},{id: "projects-vri",
           title: 'VRI',
           description: "An extensible render hardware interface for Vulkan, D3D12, Metal, WebGPU, and the OpenGL family — plus CPU software rendering — with a stable C ABI core and a C++23 wrapper.",
