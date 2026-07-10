@@ -1,9 +1,9 @@
 ---
 layout: page
 title: libvultra
-description: libvultra is the core library of Vultra, which can be used for rapidly creating graphics or game prototypes without the VultraEditor. (WIP)
+description: A modern rendering engine for rapid prototyping, VR research, and — eventually — full games. The heart of the Vultra ecosystem.
 img: assets/img/projects/libvultra.png
-importance: 1
+importance: 2
 category: work
 related_publications: false
 ---
@@ -12,31 +12,32 @@ related_publications: false
 
 [Explore examples](https://zzxzzk115.github.io/libvultra)
 
-<p align="center">
-    <a href="https://github.com/zzxzzk115/libvultra/actions" alt="Build-Windows">
-        <img src="https://img.shields.io/github/actions/workflow/status/zzxzzk115/libvultra/build_windows.yaml?branch=master&label=Build-Windows&logo=github" /></a>
-    <a href="https://github.com/zzxzzk115/libvultra/actions" alt="Build-Linux">
-        <img src="https://img.shields.io/github/actions/workflow/status/zzxzzk115/libvultra/build_linux.yaml?branch=master&label=Build-Linux&logo=github" /></a>
-    <a href="https://github.com/zzxzzk115/libvultra/actions" alt="Build-macOS">
-        <img src="https://img.shields.io/github/actions/workflow/status/zzxzzk115/libvultra/build_macos.yaml?branch=master&label=Build-macOS&logo=github" /></a>
-    <a href="https://github.com/zzxzzk115/libvultra/issues" alt="GitHub Issues">
-        <img src="https://img.shields.io/github/issues/zzxzzk115/libvultra">
-    </a>
-    <a href="https://www.codefactor.io/repository/github/zzxzzk115/libvultra"><img src="https://www.codefactor.io/repository/github/zzxzzk115/libvultra/badge" alt="CodeFactor" /></a>
-    <a href="https://github.com/zzxzzk115/libvultra/blob/master/LICENSE" alt="GitHub">
-        <img src="https://img.shields.io/github/license/zzxzzk115/libvultra">
-    </a>
-</p>
+Part of the [Vultra Ecosystem](/projects/vultra_ecosystem/).
 
-(This project is under early development and WIP.)
+## Why This Exists
 
-## Features
+libvultra is my answer to the regrets left behind by [Snow Leopard Engine](/projects/snow_leopard_engine/): a more modern, more complete engine — built on explicit graphics APIs instead of OpenGL — that serves two masters at once: **game development** and my **PhD research** in high-performance VR rendering.
 
-- Modern Vulkan using Vulkan-Hpp, Vulkan-Memory-Allocator-Hpp and more
-- FrameGraph (RenderGraph) based rendering system
-- OpenXR support (now focusing on VR only, not AR)
-- Modern SDL using SDL3
-- ImGui docking + multiview
+## Design Decisions
+
+**FrameGraph / RenderGraph, not hand-wired passes.** Without a frame-graph architecture, resource inputs, outputs, reads, and writes become ambiguous; you end up writing a zoo of tightly coupled OOP "Pass" classes, and nobody can see the shape of a frame at a glance. With a render graph, the entire rendering flow is declared explicitly and readable in one place. On the `dev-next` branch this goes further: pipelines are **data-driven**, described in declarative `.vrg.json` render-graph files with a live-preview editor.
+
+**VR-first, via OpenXR.** Most engines still treat VR as a bolt-on, if they support it at all. My research is high-performance VR rendering, so OpenXR stereo rendering is a first-class citizen — scene-driven XR cameras, stereo render-graph templates, and editor/runtime mirror views — and the engine doubles as the vehicle for research on stereo novel-view synthesis.
+
+**No editor required.** libvultra is deliberately usable the way raylib is: include the library, write code, get pixels. No engine project to create, no editor to learn. For research prototyping, this is the difference between an afternoon and a week.
+
+## Highlights (dev-next)
+
+The `master` branch is the stable Vulkan core; the `dev-next` branch — where the project is evolving under the name **VultraEngine** — is far ahead:
+
+- Multi-backend RHI (Vulkan, WebGPU), OpenXR VR/XR runtime with stereo rendering
+- Data-driven **RenderGraph** (`.vrg.json`) with a live-preview editor
+- **Material Graph** node editor compiling to shader sources
+- **3D Gaussian Splatting**, including OpenXR scenes, `.spz` compression, GPU radix-sort splat ordering, and foveated compositing
+- Runtime-loadable **C++ and Lua plugins** with editor-extension APIs
+- **AI-agent support**: MCP integration, an editor agent layer, per-project AI workspaces, headless simulation
+- Slang shader toolchain via [vshadersystem](/projects/vshadersystem/), asset pipeline via [vasset](/projects/vasset/), EnTT ECS, Lua hot reload, Jolt Physics, ozz-animation, spatial audio, frame debugger and GPU/CPU profilers
+- CI for Windows, Linux, macOS, Android, and WebAssembly
 
 ## Showcase
 
@@ -44,86 +45,10 @@ related_publications: false
 
 ![Example: GLTF Viewer](https://raw.githubusercontent.com/zzxzzk115/libvultra/refs/heads/master/media/images/example-gltf-viewer.png)
 
-[[Example: Sponza with Meshlet Debug View]](https://github.com/zzxzzk115/libvultra/blob/master/examples/sponza/main.cpp)
+[Example: Sponza with Meshlet Debug View](https://github.com/zzxzzk115/libvultra/blob/master/examples/sponza/main.cpp)
 
-![[Example: Sponza]](https://raw.githubusercontent.com/zzxzzk115/libvultra/refs/heads/master/media/images/example-sponza.png)
+![Example: Sponza](https://raw.githubusercontent.com/zzxzzk115/libvultra/refs/heads/master/media/images/example-sponza.png)
 
-## Build Instructions
+## Looking Ahead
 
-Prerequisites:
-
-- Git
-- XMake
-- Vulkan SDK
-- Visual Studio with MSVC if Windows
-- GCC or Clang if Linux/Unix
-- XCode with GCC or Apple Clang if macOS
-
-Step-by-Step:
-
-- Install XMake by following [this](https://xmake.io/guide/quick-start.html#installation).
-
-- Clone the project:
-
-  ```bash
-  git clone https://github.com/zzxzzk115/libvultra.git
-  ```
-
-- Build the project:
-
-  ```bash
-  cd libvultra
-  xmake -vD
-  ```
-
-- Run the programs:
-
-  ```bash
-  xmake run
-  ```
-
-  or run a specific program:
-
-  ```bash
-  xmake run example-window
-  xmake run example-rhi-triangle
-  xmake run example-imgui
-  xmake run example-framegraph-triangle
-  xmake run example-openxr-triangle
-  xmake run example-openxr-sponza
-  xmake run example-raytracing-triangle
-  xmake run example-raytracing-cornell-box
-  xmake run example-rayquery
-  xmake run example-meshshading-triangle
-  xmake run example-gltf-viewer
-  xmake run example-sponza
-  ```
-
-  > **Tips:**
-  > For OpenXR programs, you may need to set the XR_RUNTIME_JSON environment variable.
-  > For debugging OpenXR programs without headsets, you may need Meta XR Simulator on Windows and macOS. On Linux, you can use Monado as the simulator.
-
-## TODO List
-
-- [x] Wayland support
-- [x] More powerful texture loader that supports KTX, KTX2, DDS and more
-  - [x] KTX
-  - [x] KTX2
-  - [x] DDS
-  - [x] EXR
-- [x] ECS-based scene management with EnTT
-- [x] Raytracing Pipeline
-- [x] Mesh Shading Pipeline
-- [ ] Resource Pipeline
-- [ ] Lua or C# Scripting System
-- [ ] (Maybe?) AR support
-
-## Create your own graphics or game project
-
-You can simply create a project by using this [template](https://github.com/zzxzzk115/libvultra-starter-template).
-
-Have fun!
-
-## License
-
-This project is under the [MIT](https://github.com/zzxzzk115/libvultra/blob/master/LICENSE) license.
+The rendering core will migrate onto [VRI](/projects/vri/) via [VRI-Framework](/projects/vri_framework/), replacing the current in-tree Vulkan/WebGPU backends with the full cross-API stack. Above libvultra, a private **VultraEngine** repository is building the game-engine layer with **CoreCLR (C#) scripting** — Lua serves today, but C# opens the whole .NET ecosystem for gameplay code and middleware. To try libvultra yourself, start from the [starter template](https://github.com/zzxzzk115/libvultra-starter-template).

@@ -1,35 +1,22 @@
 ---
 layout: page
 title: Snow Leopard Engine
-description: Yet another game engine group project written in C++ with OpenGL 4.6
+description: A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.
 img: assets/img/projects/snow-leopard-engine.jpg
-importance: 1
+importance: 10
 category: work
 related_publications: false
 ---
 
 [![SnowLeopardEngine/SnowLeopardEngine - GitHub](https://gh-card.dev/repos/SnowLeopardEngine/SnowLeopardEngine.svg?fullname=)](https://github.com/SnowLeopardEngine/SnowLeopardEngine)
 
-<p align="center">
-    <a href="https://github.com/SnowLeopardEngine/SnowLeopardEngine/actions" alt="CI-Windows">
-        <img src="https://img.shields.io/github/actions/workflow/status/SnowLeopardEngine/SnowLeopardEngine/BuildWindows.yml?branch=main&label=CI-Windows&logo=github" /></a>
-    <a href="https://github.com/SnowLeopardEngine/SnowLeopardEngine/actions" alt="CI-Linux">
-        <img src="https://img.shields.io/github/actions/workflow/status/SnowLeopardEngine/SnowLeopardEngine/BuildLinux.yml?branch=main&label=CI-Linux&logo=github" /></a>
-    <a href="https://github.com/SnowLeopardEngine/SnowLeopardEngine/actions" alt="CI-MacOS">
-        <img src="https://img.shields.io/github/actions/workflow/status/SnowLeopardEngine/SnowLeopardEngine/BuildMacOS.yml?branch=main&label=CI-MacOS&logo=github" /></a>
-    <a href="https://github.com/SnowLeopardEngine/SnowLeopardEngine/issues" alt="GitHub Issues">
-        <img src="https://img.shields.io/github/issues/SnowLeopardEngine/SnowLeopardEngine">
-    </a>
-    <a href="https://github.com/SnowLeopardEngine/SnowLeopardEngine/blob/master/LICENSE" alt="GitHub">
-        <img src="https://img.shields.io/github/license/SnowLeopardEngine/SnowLeopardEngine">
-    </a>
-</p>
-
 <iframe width="100%" height="600" src="https://www.youtube.com/embed/z9oA2pugC6s?si=rY38cth64wPILTV_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-This project is a group project of COMP5530M(23/24 Group Project, 37449), University of Leeds.
+## Why This Exists
 
-Group Members:
+Snow Leopard Engine was the group project (COMP5530M, 2023/24) of the **High-Performance Graphics and Games Engineering** MSc programme at the University of Leeds: build a game engine from scratch, then prove it by shipping a game demo on top of it — the demo you can see in the video above.
+
+## The Team
 
 | Name                                             | Responsibility                                                       |
 | ------------------------------------------------ | -------------------------------------------------------------------- |
@@ -41,129 +28,19 @@ Group Members:
 | [Haodong Lin](https://leolanger.github.io/)      | Animation                                                            |
 | Yanni Ma                                         | Editor                                                               |
 
-## Features
+## What We Built
 
-- Modern OpenGL (4.6)
-- Unity-like Shaders (DzShader)
-- PhysX for Physics Simulation
-- PBR Rendering
-- Post-processing Effects
-- Skeletal Animations
-- Simple In-game GUI
+- Modern OpenGL 4.6 renderer with PBR and post-processing effects
+- **DzShader** — a Unity-like, data-driven shader format. This was my first experiment with data-driven shading, an idea that later matured into [vshadersystem](/projects/vshadersystem/).
+- PhysX physics simulation, skeletal animation, simple in-game GUI, and an editor
+- An attempted **C# scripting integration** (the .NET SDK was already in the build requirements) — we never finished the API bindings, but the idea survived: the private VultraEngine is now built around CoreCLR C# scripting.
 
-And more!
+## Retrospective
 
-## Examples
+The biggest gain was the people: seven teammates, each with their own strengths. The biggest regret was time — coursework and exams competed hard for everyone's hours, and as the leader I absorbed a lot of pressure holding the project together. We didn't reach the polish I had hoped for, though what we shipped was still respectable.
 
-TODO
-
-## Game
-
-## Prerequisites
-
-### Windows
-
-- [XMake](https://github.com/xmake-io/xmake)
-- Visual Studio 2019 (or above) with C++ Desktop Development Environment
-- Git 2.1 (or above)
-- .NET 8 SDK
-
-> Avoid long-path limit:
-> Execute with system manager permission (Powershell):
->
-> ```powershell
-> New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" ` -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
-> git config --system core.longpaths true
-> ```
-
-Install .NET 8 SDK through winget:
-
-```bat
-winget install Microsoft.DotNet.SDK.8
-```
-
-### macOS
-
-- [XMake](https://github.com/xmake-io/xmake)
-- XCode 13 (or above)
-- Git 2.1 (or above)
-- .NET 8 SDK
-
-To install XMake on macOS, you can use HomeBrew:
-
-```bash
-brew install xmake
-```
-
-If you don't have HomeBrew, you can also install it through bash command:
-
-```bash
-bash <(curl -fsSL https://xmake.io/shget.text)
-```
-
-To install .NET 8 SDK on macOS, please download the installer [here](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0).
-
-### Linux
-
-- [XMake](https://github.com/xmake-io/xmake)
-- GCC / Clang
-- Git 2.1 (or above)
-- .NET 8 SDK
-
-#### Ubuntu / Raspberry Pi OS / Other Debian Systems
-
-To install XMake, simply use curl:
-
-```bash
-bash <(curl -fsSL https://xmake.io/shget.text)
-```
-
-Install other packages:
-
-```bash
-sudo apt-get install build-essential cmake git clang libx11-dev libxrandr-dev libxrender-dev libglvnd-dev libxinerama-dev libxcursor-dev libxi-dev
-```
-
-To install .NET 8 SDK on Linux, please download the installer [here](https://dotnet.microsoft.com/zh-cn/download/dotnet/8.0), or you can install from package managers.
-
-#### Other Linux Systems
-
-TODO
-
-### Build Instructions
-
-#### Clone Repo
-
-```powershell
-git clone git@github.com:SnowLeopardEngine/SnowLeopardEngine.git --recursive
-```
-
-#### Build with XMake
-
-**Windows**
-
-```powershell
-cd SnowLeopardEngine
-./build.bat
-```
-
-**macOS / Linux**
-
-```bash
-cd SnowLeopardEngine
-./build.sh
-```
-
-#### Run Examples, for example, `SnowLeopardEditor`
-
-```powershell
-xmake run SnowLeopardEditor
-```
-
-## 3rd Party libraries
-
-## Reference List
+Those regrets didn't go to waste. The shortcomings of a monolithic, OpenGL-era engine — and the wish to do it properly — are exactly what seeded the [Vultra Ecosystem](/projects/vultra_ecosystem/).
 
 ## License
 
-This project is licensed under the [MIT](https://github.com/SnowLeopardEngine/SnowLeopardEngine/blob/main/LICENSE) license.
+MIT — see the [repository](https://github.com/SnowLeopardEngine/SnowLeopardEngine/blob/main/LICENSE).
