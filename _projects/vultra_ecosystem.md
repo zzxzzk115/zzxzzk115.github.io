@@ -65,7 +65,7 @@ flowchart TB
 
 ## libvultra — The Engine {#libvultra}
 
-**[GitHub](https://github.com/zzxzzk115/libvultra)** · **[Examples & Docs](https://zzxzzk115.github.io/libvultra/)** · **[Starter Template](https://github.com/zzxzzk115/libvultra-starter-template)**
+**[GitHub](https://github.com/zzxzzk115/libvultra)** · **[Examples & Docs](https://zzxzzk115.github.io/libvultra/)**
 
 libvultra is my answer to the regrets left behind by Snow Leopard: a more modern, more complete engine — built on explicit graphics APIs — serving **game development** and my **PhD research in high-performance VR rendering** at once. Three decisions define it:
 
