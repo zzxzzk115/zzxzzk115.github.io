@@ -16,7 +16,7 @@ related_publications: false
 
 ## Why This Exists
 
-Two reasons. First, the serious one: Lazy-100 is the proof that [VRI](/projects/vri/) can carry a _mature, complete product_ — a real application exercising cross-backend rendering and web deployment end to end, not just triangle demos. Second, the honest one: I have always loved retro games, and building a fantasy console in the spirit of PICO-8 / TIC-80 / BASIC8 is its own reward.
+Two reasons. First, the serious one: Lazy-100 is the proof that [VRI](/projects/vultra_ecosystem/#vri) can carry a _mature, complete product_ — a real application exercising cross-backend rendering and web deployment end to end, not just triangle demos. Second, the honest one: I have always loved retro games, and building a fantasy console in the spirit of PICO-8 / TIC-80 / BASIC8 is its own reward.
 
 (The name? **Lazy_V** is my online handle; **100** just sounds nice.)
 
@@ -26,7 +26,7 @@ Two reasons. First, the serious one: Lazy-100 is the proof that [VRI](/projects/
 - A complete **in-console editor suite**: shell, code, sprite, map, sfx, and music editors — you make games _inside_ the console.
 - Scripting in **Lua 5.4** (via sol2), with a bold twist: a **dual-VM architecture** that routes PICO-8 carts to a vendored z8lua VM, so PICO-8 games run natively. Purely for fun — but it works.
 - Carts are `.lz100` text files or shareable **`.lz100.png`** images with the cart embedded in the picture.
-- Built on [VRI](/projects/vri/) for rendering, SDL3, and miniaudio; runs on desktop and in the browser.
+- Built on [VRI](/projects/vultra_ecosystem/#vri) for rendering, SDL3, and miniaudio; runs on desktop and in the browser.
 
 ## Looking Ahead
 

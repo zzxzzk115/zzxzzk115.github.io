@@ -3,7 +3,7 @@ layout: page
 title: Snow Leopard Engine
 description: A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at Leeds — where the Vultra story began.
 img: assets/img/projects/snow-leopard-engine.jpg
-importance: 11
+importance: 2
 category: work
 related_publications: false
 ---
@@ -31,7 +31,7 @@ Snow Leopard Engine was the group project (COMP5530M, 2023/24) of the **High-Per
 ## What We Built
 
 - Modern OpenGL 4.6 renderer with PBR and post-processing effects
-- **DzShader** — a Unity-like, data-driven shader format. This was my first experiment with data-driven shading, an idea that later matured into [vshadersystem](/projects/vshadersystem/).
+- **DzShader** — a Unity-like, data-driven shader format. This was my first experiment with data-driven shading, an idea that later matured into [vshadersystem](/projects/vultra_ecosystem/#vshadersystem).
 - PhysX physics simulation, skeletal animation, simple in-game GUI, and an editor
 - An attempted **C# scripting integration** (the .NET SDK was already in the build requirements) — we never finished the API bindings, but the idea survived: the private VultraEngine is now built around CoreCLR C# scripting.
 
