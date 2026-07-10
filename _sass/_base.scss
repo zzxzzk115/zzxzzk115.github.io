@@ -1425,3 +1425,9 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Constrain content images (plain markdown img has no width attribute) to the page width
+.post img {
+  max-width: 100%;
+  height: auto;
+}
