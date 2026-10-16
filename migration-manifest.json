@@ -66,9 +66,12 @@
       ]
     },
     {
-      "path": "/#contact",
+      "path": "/",
       "text": [
-        "E-mail is the simplest way to reach me."
+        "sc23kz@leeds.ac.uk",
+        "VCG profile",
+        "Faculty profile",
+        "Room 2.04 & 2.26"
       ]
     },
     {
@@ -84,7 +87,7 @@
         "culling",
         "LOD",
         "itch.io",
-        "E-mail is the simplest way to reach me."
+        "zzxzzk115@gmail.com"
       ]
     },
     {
@@ -101,7 +104,7 @@
         "Chinese",
         "English",
         "CMake",
-        "satisfy one’s curiosity",
+        "satisfy one\u2019s curiosity",
         "multithreading",
         "network communication"
       ]
@@ -111,7 +114,7 @@
       "text": [
         "CNKI",
         "Original citation",
-        "移动远程视频监控系统",
+        "\u79fb\u52a8\u8fdc\u7a0b\u89c6\u9891\u76d1\u63a7\u7cfb\u7edf",
         "30",
         "82"
       ]

@@ -16,7 +16,6 @@ identity:
   location: Leeds, UK
   address: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of Leeds, Woodhouse Lane, Leeds, United Kingdom.
   email: sc23kz@leeds.ac.uk
-  contactNote: E-mail is the simplest way to reach me.
   photo: /assets/img/prof_pic_2025.webp
   cv: /assets/pdf/CV.pdf
 socials:
@@ -26,6 +25,7 @@ socials:
   - label: LinkedIn
     href: https://www.linkedin.com/in/kexuan-zhang-leeds
     icon: brands:linkedin
+    modes: [academic]
   - label: VCG profile
     href: https://vcg.leeds.ac.uk/profiles/kexuan-zhang/
     icon: solid:users
@@ -55,15 +55,17 @@ hero:
   intensity: 1
 modes:
   academic:
-    sections: [research, now, publications, projects, news, cv, writing, contact]
+    sections: [research, now, publications, projects, news, cv, writing]
     showToolkit: false
     sectionTitles:
       now: Current focus
       news: Milestones
       writing: Featured writing
   casual:
+    email: zzxzzk115@gmail.com
+    address: ""
     photo: https://avatars.githubusercontent.com/u/33739170?v=4
-    sections: [now, projects, interests, writing, about, contact]
+    sections: [now, projects, interests, writing]
     sectionTitles:
       now: On my workbench
       projects: Projects & games
