@@ -23,5 +23,18 @@ exploring:
     modes: [academic, casual]
 upNext:
   - title: Advanced real-time rendering studies
-    description: Build small, focused demos with libvultra to explore GPU-driven rendering and large-scene techniques, including culling, LOD, and geometry and texture streaming.
+    description: Build small rendering demos on libvultra, exploring GPU-driven large-scene rendering and sampling techniques relevant to my research.
+    workItems:
+      - title: GPU-driven visibility
+        description: Frustum and Hi-Z occlusion culling, GPU compaction, and indirect drawing, with visibility and timing comparisons.
+      - title: Cluster LOD & geometry streaming
+        description: Mesh clustering, hierarchical LOD selection, and on-demand geometry streaming, taking inspiration from Nanite.
+      - title: Virtual texturing
+        description: Feedback-driven texture streaming, page tables, and cache management under a fixed memory budget.
+      - title: Tiled & clustered lighting
+        description: Light culling and many-light rendering, comparing tiled and clustered approaches.
+      - title: Dynamic global illumination
+        description: Experiments with VXGI and DDGI, plus selected ideas from Lumen such as surface and radiance caching.
+      - title: ReSTIR-based lighting
+        description: Start with direct illumination and spatiotemporal reservoir reuse, then explore GI extensions and connections to perceptual and VR rendering.
     modes: [academic, casual]
