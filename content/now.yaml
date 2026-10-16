@@ -5,7 +5,7 @@ workingOn:
     modes: [casual]
   - projectId: vultra_ecosystem
     title: libvultra
-    description: Developing the VRI-based graphics framework and a reusable workbench for rendering experiments on the dev-VRI branch.
+    description: Developing the VRI-based graphics framework on dev-VRI, with the near-term goal of supporting small rendering demos.
     modes: [academic, casual]
   - projectId: vri
     description: Building an explicit, cross-platform rendering API with a C ABI and a C++23 wrapper.
@@ -23,5 +23,5 @@ exploring:
     modes: [academic, casual]
 upNext:
   - title: Advanced real-time rendering studies
-    description: Explore advanced real-time rendering through focused experiments in geometry, texture streaming, and lighting, drawing inspiration from systems such as Nanite and Lumen.
+    description: Build small, focused demos with libvultra to explore GPU-driven rendering and large-scene techniques, including culling, LOD, and geometry and texture streaming.
     modes: [academic, casual]
