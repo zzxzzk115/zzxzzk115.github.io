@@ -7,9 +7,6 @@ workingOn:
   - projectId: vri
     description: Building an explicit, cross-platform rendering API with a C ABI and a C++23 wrapper.
     modes: [academic]
-  - projectId: lazy_100
-    description: Building a Lua fantasy console with creative tools for making and playing games on desktop and in the browser.
-    modes: [casual]
 exploring:
   - title: CUDA & GPU programming
     description: Following CIS5650 independently to understand high-performance GPU programming more deeply. Projects 0 and 1 are complete; Project 2 (stream compaction) is halfway through.
