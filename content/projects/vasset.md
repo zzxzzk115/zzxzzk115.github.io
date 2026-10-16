@@ -1,4 +1,5 @@
 ---
+home: false
 id: "vasset"
 title: "vasset"
 description: "An asset import and packaging pipeline with UUID-based registries, custom mesh and texture formats, VPK archives and a command-line tool."

@@ -12,7 +12,7 @@ The current pin includes the template's optional profile/contact fields, portrai
 
 ## Edit content
 
-Update `site.config.yaml` for identity, contact, navigation, featured projects, colors, or integrations. Use `content/` for Markdown projects/posts/news, biography, profile, CV, repositories, BibTeX, and the blog feed snapshot. Put images and documents in `public/`; these retain their public paths. The default contact is **sc23kz@leeds.ac.uk**.
+Update `site.config.yaml` for identity, contact, section layout, navigation, colors, or integrations. Homepage content is selected in each record’s `home` field. Use `content/` for Markdown projects/posts/news, biography, profile, CV, repositories, BibTeX, and the blog feed snapshot. Put images and documents in `public/`; these retain their public paths. The default contact is **sc23kz@leeds.ac.uk**.
 
 The full biography (on the CV page), 7 original project pages, 2 homepage posts, news item, publication, and CV have been migrated from the previous Jekyll site. The catalog now contains 23 curated projects, with current public GitHub descriptions and selected real screenshots. Vultra documents the active `dev-VRI` branch and distinguishes the earlier `dev-next` experiment. Existing underscores in project slugs, article URLs, heading anchors, Giscus pathname mappings, PDF paths, and the root feed are retained. The original CV PDF keeps its existing Gmail contact; there is no staff address in it.
 
@@ -22,7 +22,9 @@ Markdown headings and homepage section titles reveal a left-side `#` and underli
 
 Current work, learning topics and tentative next steps live in `content/now.yaml`. Update its `updated` date when editing the content. Items can be scoped to Academic/Casual and refer to existing projects by `projectId`; empty groups are hidden. The homepage labels this section **Current focus** in Academic and **On my workbench** in Casual. `content/profile.yaml` also provides a short `casualAbout`; the full biography remains on the CV page.
 
-Local Markdown records accept `home: true` (the default) or `home: false`. Set it to false to exclude an article, news item or project from the homepages without removing its detail page, archives, RSS or search entry. Mode visibility, featured-project selections and homepage limits still apply. The Giscus setup note is retained at its original URL but excluded from Selected writing. Imported blog articles remain controlled by the independent blog feed.
+Projects, local posts, news and papers all use one `home` field. It defaults to false. Use `home: true` to collect a Markdown record onto the homepage, or `home: false` to keep it in its archive/detail page only. A mode-specific object controls selection and card order, for example `home: {academic: {order: 1}, casual: {order: 8}}`. Set `home.casual.hero: true` on one project to select its Casual opening image. Existing card selections and order have been moved into the corresponding project Markdown; there are no separate project-selection lists in site configuration.
+
+BibTeX records use the same field: `home = {true}` or `home = {false}`, with optional JSON for mode-specific settings. The current paper is explicitly false. The Publications section and navigation appear automatically when at least one eligible paper exists. Detail pages, archives, RSS, search and the full bibliography retain their content. The Giscus setup note remains at its original URL with `home: false`. Imported blog articles remain controlled by the independent blog feed.
 
 The homepage fetches the English JSON Feed at build time and uses `content/blog-feed.json` when it is unavailable. Rebuilding the homepage refreshes its article summaries. The blog's articles, Chinese locale, comments, repository, and deployment remain independent.
 
@@ -56,6 +58,6 @@ To restore the previous live site, switch Pages back to **Deploy from a branch**
 
 The existing MIT license and legacy theme attribution are preserved. The new template is independently MIT licensed.
 
-The Academic introduction uses the short `profile.academicBackground`; the full biography and tool list remain on the CV. Its homepage prioritizes Current focus and publications, with announcements labeled **Milestones** and writing labeled **Selected writing**. `modes.academic.showToolkit: false` keeps the research section focused on research questions.
+The Academic introduction uses the short `profile.academicBackground`; the full biography and tool list remain on the CV. Its homepage prioritizes Current focus, research interests and projects, with announcements labeled **Milestones** and writing labeled **Selected writing**. `modes.academic.showToolkit: false` keeps the research section focused on research questions.
 
-`modes.casual.heroProject: lazy_100` explicitly selects the opening project independently of the featured project order. The ten projects selected across both homepages provide `overview` frontmatter (`purpose`, `contribution`, `outcome`) summarizing the goal, my contribution and current result before the detailed write-up. Image-free project cards retain their natural height.
+`content/projects/lazy_100.md` uses `home.casual: {order: 1, hero: true}` to select the opening project independently of card order. The ten projects selected across both homepages provide `overview` frontmatter (`purpose`, `contribution`, `outcome`) summarizing the goal, my contribution and current result before the detailed write-up. Image-free project cards retain their natural height.

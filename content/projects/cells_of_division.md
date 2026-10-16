@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 2
 id: cells_of_division
 title: Cells of Division
 description: A top-down bullet hell roguelike on Steam — fight alongside clones

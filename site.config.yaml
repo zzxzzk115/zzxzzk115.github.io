@@ -61,15 +61,12 @@ modes:
       now: Current focus
       news: Milestones
       writing: Selected writing
-    featuredProjects: [vultra_ecosystem, light-propagation-volumes, vri, vplot]
   casual:
     sections: [now, projects, interests, writing, about, contact]
     sectionTitles:
       now: On my workbench
       projects: Projects & games
       writing: Selected writing
-    heroProject: lazy_100
-    featuredProjects: [lazy_100, cells_of_division, omnilyrics, gold_minder_rebirth, pocketchip-macos, mchose-control-linux, vplot, vultra_ecosystem]
 blog:
   href: /blog/
   feedUrl: https://zzxzzk115.github.io/blog/feed.json

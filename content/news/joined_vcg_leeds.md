@@ -1,4 +1,5 @@
 ---
+home: true
 id: joined_vcg_leeds
 title: Starting a PhD at Leeds
 description: Embarked on my PhD journey and joined the VCG group at the University of Leeds!

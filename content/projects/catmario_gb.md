@@ -1,4 +1,5 @@
 ---
+home: false
 id: catmario_gb
 title: Catmario GB
 description: The troll platformer CatMario, rebuilt for the Game Boy with GB

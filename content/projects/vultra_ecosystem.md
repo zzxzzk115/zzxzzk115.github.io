@@ -1,4 +1,9 @@
 ---
+home:
+  academic:
+    order: 1
+  casual:
+    order: 8
 id: vultra_ecosystem
 title: Vultra Ecosystem
 description: Graphics and engine projects for research and games, with current

@@ -1,4 +1,8 @@
 ---
+home:
+  casual:
+    order: 1
+    hero: true
 id: lazy_100
 title: Lazy-100
 description: A Lua fantasy console with code, sprite, map, sound and music

@@ -1,4 +1,5 @@
 ---
+home: false
 id: "wqx-gameshell"
 title: "WQX NC1020 on GameShell"
 description: "A GameShell adaptation of the WQX NC1020 emulator, using jswqx and NW.js with handheld launcher integration."

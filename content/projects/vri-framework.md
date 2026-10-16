@@ -1,4 +1,5 @@
 ---
+home: false
 id: "vri-framework"
 title: "VRI-Framework"
 description: "Reusable C++23 rendering building blocks over VRI: RAII resources, framegraphs, profiling, multi-queue submission and OpenXR utilities."

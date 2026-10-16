@@ -1,4 +1,5 @@
 ---
+home: false
 id: "bixuetang"
 title: "Bixuetang · 必学堂"
 description: "A Chinese-language self-study app for open courses, with prerequisite-based learning paths, progress tracking, video notes and spaced repetition."

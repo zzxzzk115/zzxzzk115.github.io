@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 3
 id: omnilyrics
 title: OmniLyrics
 description: Cross-platform desktop, terminal and status-bar lyrics with GUI,

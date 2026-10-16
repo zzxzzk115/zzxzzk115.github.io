@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 6
 id: "mchose-control-linux"
 title: "MCHOSE Control Linux"
 description: "A Linux GUI and CLI for MCHOSE mice, with DPI and sensor settings, per-application presets and KDE desktop integration."

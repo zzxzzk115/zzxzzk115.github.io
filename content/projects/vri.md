@@ -1,4 +1,7 @@
 ---
+home:
+  academic:
+    order: 3
 id: "vri"
 title: "VRI"
 description: "A cross-platform render hardware interface with a C ABI and a C++23 wrapper for Vulkan, D3D12, Metal, WebGPU and OpenGL-family backends."

@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 4
 id: gold_minder_rebirth
 title: Gold Miner Rebirth
 description: A faithful remake of the classic Flash game, built with LÖVE2D for

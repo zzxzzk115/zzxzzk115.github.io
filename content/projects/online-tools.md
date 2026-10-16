@@ -1,4 +1,5 @@
 ---
+home: false
 id: "online-tools"
 title: "Image Comparison Tools"
 description: "Browser tools for SSIM, PSNR and MSE measurements, absolute error maps and heatmaps, with English and Chinese interfaces."

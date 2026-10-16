@@ -1,4 +1,7 @@
 ---
+home:
+  academic:
+    order: 2
 id: "light-propagation-volumes"
 title: "Light Propagation Volumes"
 description: "My MSc dissertation renderer, implementing Light Propagation Volumes alongside cascaded shadows, ambient occlusion and screen-space reflections."

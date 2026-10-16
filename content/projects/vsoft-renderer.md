@@ -1,4 +1,5 @@
 ---
+home: false
 id: "vsoft-renderer"
 title: "VSoftRenderer"
 description: "A small CPU software renderer with programmable C++ shaders, Gouraud shading and textured Phong shading."

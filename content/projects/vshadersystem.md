@@ -1,4 +1,5 @@
 ---
+home: false
 id: "vshadersystem"
 title: "vshadersystem"
 description: "A Slang-based shader compilation pipeline with material reflection, keyword variants and portable runtime shader libraries."

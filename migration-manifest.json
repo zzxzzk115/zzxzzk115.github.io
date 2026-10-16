@@ -172,7 +172,8 @@
     "Steam removed from profile social links at the owner request; game project store links retained",
     "Concise Casual introduction replaces repeated full biography at the owner request; full text retained on CV",
     "Giscus setup note excluded from homepages with home:false; original routes, archives and RSS retained",
-    "Mode-aware current work, CUDA self-study progress and tentative rendering projects added at the owner request"
+    "Mode-aware current work, CUDA self-study progress and tentative rendering projects added at the owner request",
+    "All homepage curation uses per-record home metadata; former project lists, heroProject, featured and BibTeX selected are replaced. Existing card order is retained; the paper is explicitly home:false. Unmarked local records default to false."
   ],
   "assetTextReplacements": {
     "assets/json/resume.json": {

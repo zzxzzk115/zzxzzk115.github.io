@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 5
 id: "pocketchip-macos"
 title: "Classic Mac OS on PocketCHIP"
 description: "A custom Mini vMac build and handheld setup for running classic Mac OS System 7.5 on PocketCHIP."

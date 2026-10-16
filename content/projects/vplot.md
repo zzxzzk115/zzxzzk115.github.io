@@ -1,4 +1,9 @@
 ---
+home:
+  academic:
+    order: 4
+  casual:
+    order: 7
 id: "vplot"
 title: "vplot"
 description: "C++23 plotting through a C ABI, with PNG, SVG and PDF export, ImGui integration and a WebAssembly demo."

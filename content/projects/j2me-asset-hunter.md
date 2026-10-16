@@ -1,4 +1,5 @@
 ---
+home: false
 id: "j2me-asset-hunter"
 title: "J2ME Asset Hunter"
 description: "A command-line utility for extracting game assets from J2ME JAR files."
