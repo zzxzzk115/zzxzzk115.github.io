@@ -14,6 +14,13 @@ modes:
   - casual
 order: 1
 comments: false
+links:
+  - label: Play in browser
+    href: https://zzxzzk115.github.io/Lazy-100/
+    icon: solid:gamepad
+  - label: Source
+    href: https://github.com/zzxzzk115/Lazy-100
+    icon: brands:github
 ---
 [View repository ↗](https://github.com/zzxzzk115/Lazy-100)
 

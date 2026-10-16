@@ -189,7 +189,7 @@
   },
   "restored": [
     "Homepage programming languages, XMake/CMake/vcpkg and Windows/macOS/Linux preferences",
-    "Complete original biography on Casual and CV pages",
+    "Complete original biography on the CV page; a concise personal introduction on Casual",
     "CV month precision, valid original date values, institution locations and URLs",
     "Existing CV contact fields and postal address",
     "Original publication fields, CNKI link and Chinese citation; publisher URL and date from the original resume",
@@ -204,7 +204,10 @@
     "Invalid June 31 dates retain month precision; valid dates retain their original day",
     "Template example biographies and commented example pages excluded",
     "Project catalog expanded from seven migrated entries to 23 curated public projects",
-    "Steam removed from profile social links at the owner request; game project store links retained"
+    "Steam removed from profile social links at the owner request; game project store links retained",
+    "Concise Casual introduction replaces repeated full biography at the owner request; full text retained on CV",
+    "Giscus setup note excluded from homepages with home:false; original routes, archives and RSS retained",
+    "Mode-aware current work, CUDA self-study progress and tentative rendering projects added at the owner request"
   ],
   "excludedTemplateContent": [
     "_data/cv.yml (Einstein example)",

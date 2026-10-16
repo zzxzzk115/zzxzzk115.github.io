@@ -1,4 +1,5 @@
 ---
+home: true
 id: a-little-secret-of-tracy-profiler
 title: A Little Secret of Tracy Profiler
 description: Possible Memory Leak of Tracy? Not exactly...

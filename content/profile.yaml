@@ -2,11 +2,12 @@ summary: I am a PhD student in Perceptual Graphics at the University of Leeds. M
 background: I am supervised by Dr. Rafael Kuffner dos Anjos, Dr. Markus Billeter, and Prof. Gordon D. Love. I previously completed an MSc in High-Performance Graphics and Games Engineering at Leeds, and worked as a game server developer in Shanghai.
 casualHeadline: Games, graphics, and handhelds.
 casualSummary: I make graphics libraries, engines, and games. I also collect retro handhelds and enjoy getting games and software running on them — GameShell, Game Boy, Trimui, and whatever else I can get my hands on. Outside of programming, I like singing.
+casualAbout: I like understanding things by building them, from rendering libraries and game engines to small tools and handheld ports. Before starting my PhD, I worked on game servers in Shanghai. Singing is another part of my life, and OmniLyrics grew out of wanting a lyric tool that worked the way I wanted. Curiosity and the satisfaction of making something are what keep me coming back to these projects.
 research:
   - title: Perceptual rendering
-    description: Foveated rendering and the perception of colour, depth, and texture — understanding which visual details matter to the viewer.
+    description: Which visual details matter to the viewer? I am interested in how the perception of colour, depth, and texture can guide foveated rendering.
   - title: Virtual reality
-    description: Stereo reprojection, image warping, and hole filling, bringing perception and high-performance graphics together in VR.
+    description: How can stereo reprojection and hole filling reduce rendering work while preserving visual quality in VR? This connects my interests in perception and high-performance graphics.
   - title: Graphics systems
     description: Vulkan, OpenXR, and reusable rendering tools. Building the foundations to turn research ideas into working experiments.
 toolkit:

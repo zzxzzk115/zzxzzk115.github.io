@@ -55,11 +55,15 @@ hero:
   intensity: 1
 modes:
   academic:
-    sections: [research, news, publications, projects, cv, writing, contact]
+    sections: [research, now, news, publications, projects, cv, writing, contact]
+    navigation: [research, now, projects, writing, contact]
+    sectionTitles:
+      now: Current focus
     featuredProjects: [vultra_ecosystem, light-propagation-volumes, vri, vplot]
   casual:
-    sections: [projects, interests, writing, about, contact]
+    sections: [now, projects, interests, writing, about, contact]
     sectionTitles:
+      now: On my workbench
       projects: Projects & games
     featuredProjects: [lazy_100, cells_of_division, omnilyrics, gold_minder_rebirth, pocketchip-macos, mchose-control-linux, vplot, vultra_ecosystem]
 blog:

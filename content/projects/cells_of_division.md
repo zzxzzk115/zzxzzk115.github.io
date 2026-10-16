@@ -14,6 +14,10 @@ modes:
   - casual
 order: 3
 comments: false
+links:
+  - label: Free demo on Steam
+    href: https://store.steampowered.com/app/3879680/Cells_of_Division/
+    icon: brands:steam
 ---
 <iframe src="https://store.steampowered.com/widget/3879680/" frameborder="0" width="100%" height="190" title="Cells of Division preview" loading="lazy"></iframe>
 
