@@ -42,7 +42,7 @@ Pull requests build and upload a preview artifact without publishing. Pushes to 
 
 The deployment workflow does not write to the existing `gh-pages` output branch, preserving the old site for rollback. Its last pre-migration output commit is `49512f47f4c8b2e7b3344303a9cc41573cae916b`. The root build does not produce a `/blog/` directory, so the separately hosted project site remains independent.
 
-The pre-migration source is preserved by the remote tag `pre-astro-migration` (commit `878a9749b81018c2c45a376911ab4ce6fcc8ea97`). The current branch contains only site content, public resources, migration records and the configuration/scripts used by the Astro template. Retired Jekyll layouts, Ruby/Sass/Docker tooling, al-folio example documentation and inactive workflows have been removed. CodeQL continues to cover the JavaScript used here.
+The pre-migration source is preserved by the remote tag `pre-astro-migration` (commit `878a9749b81018c2c45a376911ab4ce6fcc8ea97`). The current branch contains only site content, public resources, migration records and the configuration/scripts used by the Astro template. Retired Jekyll layouts, Ruby/Sass/Docker tooling, al-folio example documentation and inactive workflows have been removed. The CodeQL configuration is retained for the JavaScript used here.
 
 Images, PDFs and other resources live only in `public/assets/`. The duplicate root `assets/` directory has been removed. Some public resources are retained for existing external URLs even when they are no longer linked from the homepage; the migration audit checks all 148 original resource paths. Do not remove these based solely on a search of current Markdown references.
 
