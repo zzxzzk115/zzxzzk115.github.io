@@ -1,0 +1,20 @@
+summary: I am a PhD student in Perceptual Graphics at the University of Leeds. My research interests are virtual reality and high-performance graphics, particularly foveated rendering, stereo reprojection, and image inpainting.
+background: I am supervised by Rafael Kuffner dos Anjos, Markus Billeter, and Gordon Love. I previously completed an MSc in High-Performance Graphics and Games Engineering at Leeds, and worked as a game server developer in Shanghai.
+casualSummary: I make graphics libraries, engines, and games. I also collect retro handhelds and enjoy getting games and software running on them — GameShell, Game Boy, Trimui, and whatever else I can get my hands on. Outside of programming, I like singing.
+research:
+  - title: Perceptual rendering
+    description: Foveated rendering and the perception of colour, depth, and texture — understanding which visual details matter to the viewer.
+  - title: Virtual reality
+    description: Stereo reprojection, image warping, and hole filling, bringing perception and high-performance graphics together in VR.
+  - title: Graphics systems
+    description: Vulkan, OpenXR, and reusable rendering tools. Building the foundations to turn research ideas into working experiments.
+interests:
+  - title: Retro handhelds
+    description: I port games and emulators to handhelds including GameShell, PocketCHIP, Game Boy, and Trimui devices.
+    href: https://lazy-v.itch.io
+  - title: Singing
+    description: Away from graphics and code, I enjoy singing. OmniLyrics grew out of wanting a lyric tool that worked the way I wanted.
+    href: /projects/omnilyrics/
+  - title: Engines & tools
+    description: Engines, libraries, fantasy consoles, and useful little tools. I like the process of understanding a thing by making it.
+    href: https://github.com/zzxzzk115

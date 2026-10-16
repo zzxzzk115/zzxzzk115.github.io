@@ -1,0 +1,52 @@
+schemaVersion: 1
+site:
+  title: Kexuan Zhang — Perceptual Graphics & Creative Code
+  description: Kexuan Zhang is a PhD researcher at the University of Leeds, exploring perceptual graphics, virtual reality, and high-performance rendering. Also known as Lazy_V.
+  url: https://zzxzzk115.github.io
+  base: /
+  language: en
+  availableLanguages: [en]
+identity:
+  name: Kexuan Zhang
+  handle: Lazy_V
+  initials: KZ
+  role: PhD researcher & graphics programmer
+  institution: University of Leeds
+  location: Leeds, UK
+  address: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of Leeds, Woodhouse Lane, Leeds, United Kingdom.
+  email: sc23kz@leeds.ac.uk
+  photo: /assets/img/prof_pic_2025.webp
+  cv: /assets/pdf/CV.pdf
+socials:
+  - label: GitHub
+    href: https://github.com/zzxzzk115
+  - label: LinkedIn
+    href: https://www.linkedin.com/in/kexuan-zhang-leeds
+  - label: VCG profile
+    href: https://vcg.leeds.ac.uk/profiles/kexuan-zhang/
+  - label: Faculty profile
+    href: https://eps.leeds.ac.uk/computing/pgr/15430/kexuan-zhang
+theme:
+  academic: '#2455cf'
+  casual: '#087763'
+hero:
+  enabled: true
+  label: A visual study of foveated sampling · an illustration, not a benchmark.
+  intensity: 1
+modes:
+  academic:
+    sections: [research, news, publications, projects, cv, writing, contact]
+    featuredProjects: [vultra_ecosystem, snow_leopard_engine]
+  casual:
+    sections: [projects, interests, writing, about, contact]
+    featuredProjects: [lazy_100, cells_of_division, gold_minder_rebirth, omnilyrics, catmario_gb, vultra_ecosystem, snow_leopard_engine]
+blog:
+  href: /blog/
+  feedUrl: https://zzxzzk115.github.io/blog/feed.json
+  snapshot: content/blog-feed.json
+comments:
+  repo: zzxzzk115/zzxzzk115.github.io
+  repoId: R_kgDOOFxFhQ
+  category: Announcements
+  categoryId: DIC_kwDOOFxFhc4CoAdp
+  mapping: pathname

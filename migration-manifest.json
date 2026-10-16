@@ -1,0 +1,13 @@
+{
+  "sourceCommit": "878a9749b81018c2c45a376911ab4ce6fcc8ea97",
+  "counts": {
+    "projects": 7,
+    "posts": 2,
+    "news": 1
+  },
+  "notes": [
+    "Legacy day values outside the calendar were normalized to month precision.",
+    "Missing project .jpg thumbnails were matched to existing .png files.",
+    "BibTeX remains the single publication source."
+  ]
+}
