@@ -1,5 +1,8 @@
 updated: '2026-10-16'
 workingOn:
+  - projectId: omnilyrics
+    description: Refining my cross-platform lyric tool, recently focusing on signed macOS releases, installation, and lyric display.
+    modes: [casual]
   - projectId: vultra_ecosystem
     title: libvultra
     description: Developing the VRI-based graphics framework and a reusable workbench for rendering experiments on the dev-VRI branch.
