@@ -55,13 +55,14 @@ hero:
   intensity: 1
 modes:
   academic:
-    sections: [now, publications, research, projects, news, cv, writing, contact]
+    sections: [research, now, publications, projects, news, cv, writing, contact]
     showToolkit: false
     sectionTitles:
       now: Current focus
       news: Milestones
       writing: Featured writing
   casual:
+    photo: https://avatars.githubusercontent.com/u/33739170?v=4
     sections: [now, projects, interests, writing, about, contact]
     sectionTitles:
       now: On my workbench
