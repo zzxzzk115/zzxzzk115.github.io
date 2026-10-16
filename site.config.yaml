@@ -60,13 +60,13 @@ modes:
     sectionTitles:
       now: Current focus
       news: Milestones
-      writing: Selected writing
+      writing: Featured writing
   casual:
     sections: [now, projects, interests, writing, about, contact]
     sectionTitles:
       now: On my workbench
       projects: Projects & games
-      writing: Selected writing
+      writing: Featured writing
 blog:
   href: /blog/
   feedUrl: https://zzxzzk115.github.io/blog/feed.json

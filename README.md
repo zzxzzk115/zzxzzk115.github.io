@@ -58,6 +58,6 @@ To restore the previous live site, switch Pages back to **Deploy from a branch**
 
 The existing MIT license and legacy theme attribution are preserved. The new template is independently MIT licensed.
 
-The Academic introduction uses the short `profile.academicBackground`; the full biography and tool list remain on the CV. Its homepage prioritizes Current focus, research interests and projects, with announcements labeled **Milestones** and writing labeled **Selected writing**. `modes.academic.showToolkit: false` keeps the research section focused on research questions.
+The Academic introduction uses the short `profile.academicBackground`; the full biography and tool list remain on the CV. Its homepage prioritizes Current focus, research interests and projects, with announcements labeled **Milestones** and writing labeled **Featured writing**. `modes.academic.showToolkit: false` keeps the research section focused on research questions.
 
 `content/projects/lazy_100.md` uses `home.casual: {order: 1, hero: true}` to select the opening project independently of card order. The ten projects selected across both homepages provide `overview` frontmatter (`purpose`, `contribution`, `outcome`) summarizing the goal, my contribution and current result before the detailed write-up. Image-free project cards retain their natural height.
