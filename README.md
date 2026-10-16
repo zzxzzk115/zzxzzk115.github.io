@@ -38,12 +38,12 @@ Node 24 and pnpm 10.34.5 are used in CI. Production builds generate the local se
 
 ## Publish and rollback
 
-The migration remains a draft pull request. The template is public and available to CI; no publishing-source settings have been changed.
+Pull requests build and upload a preview artifact without publishing. Pushes to `main` deploy through GitHub's native Pages artifact deployment using the built-in token. Set the Pages publishing source to **GitHub Actions** and allow `main` in the `github-pages` environment. The template is public and available to CI.
 
-The proposed workflow builds pull requests and uploads a preview artifact; after a separately approved release, its main branch deploys through GitHub's native Pages artifact deployment using the built-in token. The existing `gh-pages` output branch remains a rollback copy. The root build does not produce a `/blog/` directory, so the separately hosted project site remains independent.
+The deployment workflow does not write to the existing `gh-pages` output branch, preserving the old site for rollback. Its last pre-migration output commit is `49512f47f4c8b2e7b3344303a9cc41573cae916b`. The root build does not produce a `/blog/` directory, so the separately hosted project site remains independent.
 
 The pre-migration source is preserved by tag `pre-astro-migration` (commit `878a9749b81018c2c45a376911ab4ce6fcc8ea97`). Legacy Jekyll source files are retained as reference but are not read by the Astro build. Legacy build/report workflows are stored inactive under `.github/legacy-workflows/`; CodeQL remains active.
 
-To restore the previous site without rewriting history, use a separate checkout of the tag, run its documented Jekyll build, and deploy that `_site` output to the same `gh-pages` branch. To roll back an Astro version, restore the corresponding content commit and template pin, then rerun the homepage workflow.
+To restore the previous live site, switch Pages back to **Deploy from a branch**, selecting `gh-pages` and `/ (root)`. That branch retains the pre-migration output. To rebuild the legacy site, use a separate checkout of the tag, run its documented Jekyll build, and deploy that `_site` output to `gh-pages` with branch publishing enabled. To roll back an Astro version, restore the corresponding content commit and template pin, then rerun the homepage workflow on `main`.
 
 The existing MIT license and legacy theme attribution are preserved. The new template is independently MIT licensed.

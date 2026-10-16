@@ -6,7 +6,7 @@ on:
     branches: [main]
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 concurrency:
   group: homepage-${{ github.ref }}
   cancel-in-progress: true
@@ -47,12 +47,6 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: content/dist
-      - name: Publish to existing Pages branch
-        if: github.event_name != 'pull_request'
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          branch: gh-pages
-          folder: content/dist
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
     needs: build
