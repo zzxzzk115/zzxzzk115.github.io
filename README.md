@@ -33,7 +33,7 @@ Node 24 and pnpm 10.34.5 are used in CI. Production builds generate the local se
 
 ## Publish and rollback
 
-Pull requests build and verify the homepage and upload a preview artifact. The main branch publishes the verified output to the existing `gh-pages` branch. The root build does not produce a `/blog/` directory, so the separately hosted project site remains independent.
+Pull requests build and verify the homepage and upload a preview artifact. The main branch publishes through GitHub's native Pages artifact deployment using its short-lived built-in token, and retains the existing `gh-pages` output branch as a rollback copy. Pages must use the GitHub Actions publishing source. The root build does not produce a `/blog/` directory, so the separately hosted project site remains independent.
 
 The pre-migration source is preserved by tag `pre-astro-migration` (commit `878a9749b81018c2c45a376911ab4ce6fcc8ea97`). Legacy Jekyll source files are retained as reference but are not read by the Astro build. Legacy build/report workflows are stored inactive under `.github/legacy-workflows/`; CodeQL remains active.
 
