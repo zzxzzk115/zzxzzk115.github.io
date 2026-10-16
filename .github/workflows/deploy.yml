@@ -34,6 +34,10 @@ jobs:
           cache: pnpm
           cache-dependency-path: template/pnpm-lock.yaml
       - run: pnpm --dir template install --frozen-lockfile
+      - name: Compile configured CV PDFs
+        uses: ./template/.github/actions/compile-latex
+        with:
+          content-directory: content
       - run: pnpm --dir template test
       - name: Build homepage and search
         run: pnpm --dir template site build --content ../content --out ../content/dist

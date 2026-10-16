@@ -4,3 +4,5 @@ dist/
 .astro/
 reports/
 .DS_Store
+
+**/.latex-build/
