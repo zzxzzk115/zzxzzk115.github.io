@@ -55,6 +55,7 @@ hero:
   intensity: 1
 modes:
   academic:
+    sidebar: true
     sections: [research, now, publications, projects, news, cv, writing]
     showToolkit: false
     sectionTitles:
@@ -62,6 +63,7 @@ modes:
       news: Milestones
       writing: Featured writing
   casual:
+    sidebar: true
     email: zzxzzk115@gmail.com
     address: ""
     photo: https://avatars.githubusercontent.com/u/33739170?v=4
