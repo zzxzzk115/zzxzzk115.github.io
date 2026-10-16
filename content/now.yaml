@@ -22,6 +22,6 @@ exploring:
         href: https://github.com/zzxzzk115/CIS5650-Project2-xmake
     modes: [academic, casual]
 upNext:
-  - title: Real-time rendering studies
-    description: Try classic graphics projects such as VXGI, DDGI, and tiled or clustered shading.
+  - title: Advanced real-time rendering studies
+    description: Study VXGI, DDGI, and tiled or clustered shading, and build small-scale implementations inspired by Nanite (Virtual Geometry) and Lumen.
     modes: [academic, casual]
