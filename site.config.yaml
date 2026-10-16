@@ -3,6 +3,7 @@ site:
   title: Kexuan Zhang — Perceptual Graphics & Creative Code
   description: Kexuan Zhang is a PhD researcher at the University of Leeds, exploring perceptual graphics, virtual reality, and high-performance rendering. Also known as Lazy_V.
   url: https://zzxzzk115.github.io
+  favicon: /favicon.svg
   base: /
   language: en
   availableLanguages: [en]
