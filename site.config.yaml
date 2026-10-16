@@ -1,0 +1,74 @@
+schemaVersion: 1
+site:
+  title: Kexuan Zhang — Perceptual Graphics & Creative Code
+  description: Kexuan Zhang is a PhD researcher at the University of Leeds, exploring perceptual graphics, virtual reality, and high-performance rendering. Also known as Lazy_V.
+  url: https://zzxzzk115.github.io
+  base: /
+  language: en
+  availableLanguages: [en]
+  copyrightStartYear: 2017
+identity:
+  name: Kexuan Zhang
+  handle: Lazy_V
+  initials: KZ
+  role: PhD researcher & graphics programmer
+  institution: University of Leeds
+  location: Leeds, UK
+  address: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of Leeds, Woodhouse Lane, Leeds, United Kingdom.
+  email: sc23kz@leeds.ac.uk
+  contactNote: E-mail is the simplest way to reach me.
+  photo: /assets/img/prof_pic_2025.webp
+  cv: /assets/pdf/CV.pdf
+socials:
+  - label: GitHub
+    href: https://github.com/zzxzzk115
+    icon: brands:github
+  - label: LinkedIn
+    href: https://www.linkedin.com/in/kexuan-zhang-leeds
+    icon: brands:linkedin
+  - label: VCG profile
+    href: https://vcg.leeds.ac.uk/profiles/kexuan-zhang/
+    icon: solid:users
+    modes: [academic]
+  - label: Faculty profile
+    href: https://eps.leeds.ac.uk/computing/pgr/15430/kexuan-zhang
+    icon: solid:building-columns
+    modes: [academic]
+  - label: itch.io
+    href: https://lazy-v.itch.io/
+    icon: brands:itch-io
+    modes: [casual]
+theme:
+  academic: '#2455cf'
+  casual: '#087763'
+sectionLabels:
+  interests: Off the clock
+projectCategories:
+  work: Graphics & XR
+  library: Libraries
+  fun: Tools & apps
+  indie: Games
+  retro: Retro & emulation
+hero:
+  enabled: false
+  label: ''
+  intensity: 1
+modes:
+  academic:
+    sections: [research, news, publications, projects, cv, writing, contact]
+    featuredProjects: [vultra_ecosystem, light-propagation-volumes, vri, vplot]
+  casual:
+    sections: [projects, interests, writing, about, contact]
+    sectionTitles:
+      projects: Projects & games
+    featuredProjects: [lazy_100, cells_of_division, omnilyrics, gold_minder_rebirth, pocketchip-macos, mchose-control-linux, vplot, vultra_ecosystem]
+blog:
+  href: /blog/
+  feedUrl: https://zzxzzk115.github.io/blog/feed.json
+  snapshot: content/blog-feed.json
+comments:
+  repo: zzxzzk115/zzxzzk115.github.io
+  repoId: R_kgDOOFxFhQ
+  category: Announcements
+  categoryId: DIC_kwDOOFxFhc4CoAdp
+  mapping: pathname

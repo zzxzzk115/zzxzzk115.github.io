@@ -1,0 +1,331 @@
+{
+  "reviewDate": "2026-10-16",
+  "sourceCommit": "878a9749b81018c2c45a376911ab4ce6fcc8ea97",
+  "records": [
+    {
+      "id": "catmario_gb",
+      "kind": "projects",
+      "path": "/projects/catmario_gb/",
+      "body": "preserved",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "cells_of_division",
+      "kind": "projects",
+      "path": "/projects/cells_of_division/",
+      "body": "preserved",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "gold_minder_rebirth",
+      "kind": "projects",
+      "path": "/projects/gold_minder_rebirth/",
+      "body": "preserved",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "lazy_100",
+      "kind": "projects",
+      "path": "/projects/lazy_100/",
+      "body": "preserved",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "omnilyrics",
+      "kind": "projects",
+      "path": "/projects/omnilyrics/",
+      "body": "refreshed from current sources",
+      "reason": "Public README now documents CLI/TUI, .NET 10 and 0.4.2 releases; replaced outdated paused/.NET 8 claims.",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "snow_leopard_engine",
+      "kind": "projects",
+      "path": "/projects/snow_leopard_engine/",
+      "body": "refreshed from current sources",
+      "reason": "Preserved the original MSc project account; replaced its stale downstream private-engine claim with a link to optional scripting work documented by libvultra dev-VRI.",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "vultra_ecosystem",
+      "kind": "projects",
+      "path": "/projects/vultra_ecosystem/",
+      "body": "refreshed from current sources",
+      "reason": "Owner correction: dev-next was experimental; dev-VRI is current development. Verified against public branch README aa45a019128b3707ee7c106590aa651c599da93c.",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "giscus-enabled",
+      "kind": "posts",
+      "path": "/featured-posts/2025/giscus-enabled/",
+      "body": "preserved",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "a-little-secret-of-tracy-profiler",
+      "kind": "posts",
+      "path": "/featured-posts/2025/a-little-secret-of-tracy-profiler/",
+      "body": "preserved",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    },
+    {
+      "id": "joined_vcg_leeds",
+      "kind": "news",
+      "path": "/news/joined_vcg_leeds/",
+      "body": "preserved",
+      "pathPreserved": true,
+      "datePreserved": true,
+      "commentsPreserved": true
+    }
+  ],
+  "biographyPreserved": true,
+  "assets": {
+    "checked": 148,
+    "missing": [],
+    "changed": [],
+    "lineEndingsOnly": [],
+    "intentionalTextUpdates": [
+      "assets/json/resume.json"
+    ]
+  },
+  "cvRecords": [
+    {
+      "kind": "education",
+      "index": 0,
+      "checks": {
+        "institution": true,
+        "start": true,
+        "end": true,
+        "location": true,
+        "url": true,
+        "description": true
+      }
+    },
+    {
+      "kind": "education",
+      "index": 1,
+      "checks": {
+        "institution": true,
+        "start": true,
+        "end": true,
+        "location": true,
+        "url": true,
+        "description": true
+      }
+    },
+    {
+      "kind": "education",
+      "index": 2,
+      "checks": {
+        "institution": true,
+        "start": true,
+        "end": true,
+        "location": true,
+        "url": true,
+        "description": true
+      }
+    },
+    {
+      "kind": "work",
+      "index": 0,
+      "checks": {
+        "institution": true,
+        "start": true,
+        "end": true,
+        "location": true,
+        "url": true,
+        "description": true
+      }
+    },
+    {
+      "kind": "work",
+      "index": 1,
+      "checks": {
+        "institution": true,
+        "start": true,
+        "end": true,
+        "location": true,
+        "url": true,
+        "description": true
+      }
+    }
+  ],
+  "contact": {
+    "phone": true,
+    "url": true,
+    "label": true,
+    "summary": true,
+    "address": true
+  },
+  "papers": [
+    {
+      "id": "li2021mobile",
+      "originalFieldsPreserved": true,
+      "missing": []
+    }
+  ],
+  "repositories": {
+    "original": 6,
+    "current": 24,
+    "missing": []
+  },
+  "restored": [
+    "Homepage programming languages, XMake/CMake/vcpkg and Windows/macOS/Linux preferences",
+    "Complete original biography on Casual and CV pages",
+    "CV month precision, valid original date values, institution locations and URLs",
+    "Existing CV contact fields and postal address",
+    "Original publication fields, CNKI link and Chinese citation; publisher URL and date from the original resume",
+    "Original work/indie/fun project anchors and all six repository links",
+    "Original contact note: E-mail is the simplest way to reach me."
+  ],
+  "intentionalChanges": [
+    "Staff email replaced with the student address at the owner request",
+    "Supervisor prefixes and Gordon D. Love corrected at the owner request",
+    "Copyright starts in 2017 at the owner request",
+    "Decorative foveated illustration disabled at the owner request",
+    "Invalid June 31 dates retain month precision; valid dates retain their original day",
+    "Template example biographies and commented example pages excluded",
+    "Project catalog expanded from seven migrated entries to 23 curated public projects",
+    "Steam removed from profile social links at the owner request; game project store links retained"
+  ],
+  "excludedTemplateContent": [
+    "_data/cv.yml (Einstein example)",
+    "_pages/about_einstein.md",
+    "commented people/teaching/books example pages"
+  ],
+  "githubSources": [
+    {
+      "name": "VRI",
+      "sha": "8dfd5332ea228d783e980a31b19c30590c4a3d5b",
+      "url": "https://github.com/zzxzzk115/VRI/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "VRI-Framework",
+      "sha": "9b468498e4bee0f442c037b5027bbcc81b23f59a",
+      "url": "https://github.com/zzxzzk115/VRI-Framework/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "Light-Propagation-Volumes",
+      "sha": "7b92c8cbc5331ecc65e0330e565b7e39869a3de2",
+      "url": "https://github.com/zzxzzk115/Light-Propagation-Volumes/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "vgfw",
+      "sha": "5fecf8cdde5c39fb7be6b9923f5a93ff4bceb184",
+      "url": "https://github.com/zzxzzk115/vgfw/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "vplot",
+      "sha": "8c640746fb000782e44ca5a6c6072b09576b03c9",
+      "url": "https://github.com/zzxzzk115/vplot/blob/main/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "vshadersystem",
+      "sha": "852706559a28d28b5257393cdaee5418c45d7693",
+      "url": "https://github.com/zzxzzk115/vshadersystem/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "vasset",
+      "sha": "2f9e7885f7adee7b8f91e1a7625401fde89c2c90",
+      "url": "https://github.com/zzxzzk115/vasset/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "mchose-control-linux",
+      "sha": "a0592f5119b1385651cb020490e3bdadaaf7698d",
+      "url": "https://github.com/zzxzzk115/mchose-control-linux/blob/main/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "online-tools",
+      "sha": "bb3393215ced0dccb510353e4f9108dfc068e60c",
+      "url": "https://github.com/zzxzzk115/online-tools/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "Pocketchip-MacOS-Emulator",
+      "sha": "dfad5aca29793097e6f46c2eb7d3e5efc6a54da8",
+      "url": "https://github.com/zzxzzk115/Pocketchip-MacOS-Emulator/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "BBKGames_GameShell",
+      "sha": "8084486e5f6692fb84e7657ef8b6008e9498076c",
+      "url": "https://github.com/zzxzzk115/BBKGames_GameShell/blob/main/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "WqxEmulator-GameShell",
+      "sha": "cd5649361e5f7fbc1907f27e40c3dda26a2193e5",
+      "url": "https://github.com/zzxzzk115/WqxEmulator-GameShell/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "VRaytracer",
+      "sha": "a973f174e54010c2b184139a539b86aa357d4133",
+      "url": "https://github.com/zzxzzk115/VRaytracer/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "VSoftRenderer",
+      "sha": "10ebf174a38720adbcd0379e3ffcd9735a11aab4",
+      "url": "https://github.com/zzxzzk115/VSoftRenderer/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "j2me-asset-hunter",
+      "sha": "007a5cea50bd3549a525c153d6323e17b260e659",
+      "url": "https://github.com/zzxzzk115/j2me-asset-hunter/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "bixuetang",
+      "sha": "24a4d96234b15901d9ad7204fca68abc0067446b",
+      "url": "https://github.com/zzxzzk115/bixuetang/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "OmniLyrics",
+      "sha": "5774caea5668f5f0c535db96eb58624059a4366b",
+      "url": "https://github.com/zzxzzk115/OmniLyrics/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "Lazy-100",
+      "sha": "e617629f93889ddcf15628f89b90a14fef266bc0",
+      "url": "https://github.com/zzxzzk115/Lazy-100/blob/master/README.md",
+      "path": "README.md"
+    },
+    {
+      "name": "zzxzzk115",
+      "sha": "c0a4e868e061c207bdf25f9091ceefab81a8a591",
+      "url": "https://github.com/zzxzzk115/zzxzzk115/blob/main/README.md",
+      "path": "README.md"
+    }
+  ],
+  "failures": []
+}

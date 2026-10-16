@@ -1,0 +1,169 @@
+{
+  "sourceCommit": "878a9749b81018c2c45a376911ab4ce6fcc8ea97",
+  "counts": {
+    "projects": 23,
+    "posts": 2,
+    "news": 1
+  },
+  "notes": [
+    "Legacy day values outside the calendar were normalized to month precision.",
+    "Missing project .jpg thumbnails were matched to existing .png files.",
+    "BibTeX remains the single publication source."
+  ],
+  "migratedCounts": {
+    "projects": 7,
+    "posts": 2,
+    "news": 1
+  },
+  "legacyPaths": [
+    "/",
+    "/casual/",
+    "/projects/",
+    "/projects/#work",
+    "/projects/#indie",
+    "/projects/#fun",
+    "/publications/",
+    "/cv/",
+    "/repositories/",
+    "/news/",
+    "/featured-posts/",
+    "/news/joined_vcg_leeds/",
+    "/featured-posts/2025/giscus-enabled/",
+    "/featured-posts/2025/a-little-secret-of-tracy-profiler/",
+    "/projects/catmario_gb/",
+    "/projects/cells_of_division/",
+    "/projects/gold_minder_rebirth/",
+    "/projects/lazy_100/",
+    "/projects/omnilyrics/",
+    "/projects/snow_leopard_engine/",
+    "/projects/vultra_ecosystem/",
+    "/projects/vultra_ecosystem/#libvultra",
+    "/projects/vultra_ecosystem/#vri",
+    "/projects/vultra_ecosystem/#vri-framework",
+    "/projects/vultra_ecosystem/#vshadersystem",
+    "/projects/vultra_ecosystem/#vasset",
+    "/projects/vultra_ecosystem/#vrendergraph",
+    "/projects/vultra_ecosystem/#vbase",
+    "/projects/vultra_ecosystem/#vfilesystem",
+    "/projects/vultra_ecosystem/#vtask",
+    "/publications/#li2021mobile"
+  ],
+  "contentChecks": [
+    {
+      "path": "/#research",
+      "text": [
+        "C++",
+        "C#",
+        "Java",
+        "Python",
+        "Lua",
+        "XMake",
+        "CMake",
+        "vcpkg",
+        "Windows",
+        "macOS",
+        "Linux",
+        "E-mail is the simplest way to reach me."
+      ]
+    },
+    {
+      "path": "/casual/",
+      "text": [
+        "satisfy one’s curiosity",
+        "multithreading",
+        "network communication",
+        "itch.io",
+        "E-mail is the simplest way to reach me."
+      ]
+    },
+    {
+      "path": "/cv/",
+      "text": [
+        "2025-02",
+        "2023-09",
+        "2024-09",
+        "Wuhan",
+        "West Yorkshire",
+        "LS2 9JT",
+        "First class",
+        "84.3/100",
+        "Chinese",
+        "English",
+        "CMake"
+      ]
+    },
+    {
+      "path": "/publications/",
+      "text": [
+        "CNKI",
+        "Original citation",
+        "移动远程视频监控系统",
+        "30",
+        "82"
+      ]
+    },
+    {
+      "path": "/projects/vultra_ecosystem/",
+      "text": [
+        "dev-VRI",
+        "dev-next",
+        "Windows x64",
+        "Linux x86_64",
+        "Public repository"
+      ]
+    },
+    {
+      "path": "/repositories/",
+      "text": [
+        "SnowLeopardEngine/SnowLeopardEngine",
+        "zzxzzk115/GoldMiner-Rebirth",
+        "zzxzzk115/Pocketchip-MacOS-Emulator",
+        "zzxzzk115/vgfw",
+        "zzxzzk115/VRaytracer",
+        "zzxzzk115/VSoftRenderer"
+      ]
+    }
+  ],
+  "reviewDate": "2026-10-16",
+  "textReplacements": {
+    "Gordon Love": "Gordon D. Love"
+  },
+  "refreshedRecords": [
+    {
+      "id": "vultra_ecosystem",
+      "reason": "Owner correction: dev-next was experimental; dev-VRI is current development. Verified against public branch README aa45a019128b3707ee7c106590aa651c599da93c."
+    },
+    {
+      "id": "omnilyrics",
+      "reason": "Public README now documents CLI/TUI, .NET 10 and 0.4.2 releases; replaced outdated paused/.NET 8 claims."
+    },
+    {
+      "id": "snow_leopard_engine",
+      "reason": "Preserved the original MSc project account; replaced its stale downstream private-engine claim with a link to optional scripting work documented by libvultra dev-VRI."
+    }
+  ],
+  "restoredInformation": [
+    "Homepage programming languages, XMake/CMake/vcpkg and Windows/macOS/Linux preferences",
+    "Complete original biography on Casual and CV pages",
+    "CV month precision, valid original date values, institution locations and URLs",
+    "Existing CV contact fields and postal address",
+    "Original publication fields, CNKI link and Chinese citation; publisher URL and date from the original resume",
+    "Original work/indie/fun project anchors and all six repository links",
+    "Original contact note: E-mail is the simplest way to reach me."
+  ],
+  "intentionalChanges": [
+    "Staff email replaced with the student address at the owner request",
+    "Supervisor prefixes and Gordon D. Love corrected at the owner request",
+    "Copyright starts in 2017 at the owner request",
+    "Decorative foveated illustration disabled at the owner request",
+    "Invalid June 31 dates retain month precision; valid dates retain their original day",
+    "Template example biographies and commented example pages excluded",
+    "Project catalog expanded from seven migrated entries to 23 curated public projects",
+    "Steam removed from profile social links at the owner request; game project store links retained"
+  ],
+  "assetTextReplacements": {
+    "assets/json/resume.json": {
+      "K.Zhang@leeds.ac.uk": "sc23kz@leeds.ac.uk"
+    }
+  }
+}

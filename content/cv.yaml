@@ -1,0 +1,50 @@
+education:
+  - title: Postgraduate Researcher, PhD Student — Perceptual Graphics
+    institution: University of Leeds
+    start: 2025-02-01
+    end: Present
+    description: ""
+    url: https://www.leeds.ac.uk/
+    location: Leeds, West Yorkshire, UK
+  - title: Postgraduate, Master's Degree — High-Performance Graphics and Games
+      Engineering
+    institution: University of Leeds
+    start: 2023-09-27
+    end: 2024-09-26
+    description: "Result: First class. Courses: Foundation of Modeling and
+      Rendering, Animation and Simulation, Geometry Processing, High-Performance
+      Graphics, Scientific Computation"
+    url: https://www.leeds.ac.uk/
+    location: Leeds, West Yorkshire, UK
+  - title: Undergraduate, Bachelor's Degree — Computer Science and Technology
+      (Software Engineering)
+    institution: Jianghan University
+    start: 2017-09-01
+    end: 2021-06
+    description: "Result: 84.3/100. Courses: Data Structure and Algorithm,
+      Compilation Principle, Principles of Computer Composition, Computer
+      Graphics, Data Mining, Operating Systems"
+    url: https://www.jhun.edu.cn/
+    location: Wuhan, Hubei, China
+work:
+  - title: Game Server Development Engineer
+    institution: Shanghai Zihao Information Technology Co., Ltd
+    start: 2022-07-01
+    end: 2024-05-31
+    description: Develop game server by using C# .NET
+  - title: Intern Programmer
+    institution: Shanghai Zihao Information Technology Co., Ltd
+    start: 2021-12-01
+    end: 2022-06
+    description: Learn C#, Win32, Multi-threading, Unix/Linux, etc
+languages:
+  - Chinese — Native speaker
+  - English — Fluent
+skills: []
+basics:
+  label: PhD Student | Game & Graphics Programmer
+  summary: PhD Student in Perceptual Graphics
+  phone: +44 07552070929
+  url: https://zzxzzk115.github.io/
+  address: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of
+    Leeds, Leeds, West Yorkshire, LS2 9JT, UK
