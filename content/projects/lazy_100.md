@@ -21,6 +21,10 @@ links:
   - label: Source
     href: https://github.com/zzxzzk115/Lazy-100
     icon: brands:github
+overview:
+  purpose: "Build a fantasy console for making and playing small games, while exercising VRI in a complete application."
+  contribution: "I built the console and its code, sprite, map, sound and music editors, with Lua scripting and a separate VM for PICO-8 carts."
+  outcome: "The console runs on desktop and in the browser. A browser build is available to try, with editor polish and further creative tools on the wishlist."
 ---
 [View repository ↗](https://github.com/zzxzzk115/Lazy-100)
 

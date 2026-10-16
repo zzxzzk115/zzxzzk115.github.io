@@ -9,6 +9,10 @@ modes: ["academic","casual"]
 order: 3
 status: "In development"
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/VRI","icon":"brands:github"},{"label":"Browser demo","href":"https://zzxzzk115.github.io/VRI/","icon":"solid:arrow-up-right-from-square"}]
+overview:
+  purpose: "Give graphics applications a common explicit rendering interface across multiple backends."
+  contribution: "I develop the C ABI, header-only C++23 wrapper and backend implementations, with capability queries for optional features."
+  outcome: "Browser examples are available, and Lazy-100 uses VRI. Backend feature coverage is documented in the capability matrix and remains in development."
 ---
 VRI provides an explicit rendering API with command buffers, descriptor sets and synchronization. Applications can query optional capabilities and receive diagnostics from VRI and the native backend.
 

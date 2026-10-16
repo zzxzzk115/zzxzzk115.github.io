@@ -50,7 +50,7 @@
   ],
   "contentChecks": [
     {
-      "path": "/#research",
+      "path": "/cv/",
       "text": [
         "C++",
         "C#",
@@ -62,7 +62,12 @@
         "vcpkg",
         "Windows",
         "macOS",
-        "Linux",
+        "Linux"
+      ]
+    },
+    {
+      "path": "/#contact",
+      "text": [
         "E-mail is the simplest way to reach me."
       ]
     },

@@ -22,7 +22,7 @@ Markdown headings and homepage section titles reveal a left-side `#` and underli
 
 Current work, learning topics and tentative next steps live in `content/now.yaml`. Update its `updated` date when editing the content. Items can be scoped to Academic/Casual and refer to existing projects by `projectId`; empty groups are hidden. The homepage labels this section **Current focus** in Academic and **On my workbench** in Casual. `content/profile.yaml` also provides a short `casualAbout`; the full biography remains on the CV page.
 
-Local Markdown records accept `home: true` (the default) or `home: false`. Set it to false to exclude an article, news item or project from the homepages without removing its detail page, archives, RSS or search entry. Mode visibility, featured-project selections and homepage limits still apply. The Giscus setup note is retained at its original URL but excluded from Recent writing. Imported blog articles remain controlled by the independent blog feed.
+Local Markdown records accept `home: true` (the default) or `home: false`. Set it to false to exclude an article, news item or project from the homepages without removing its detail page, archives, RSS or search entry. Mode visibility, featured-project selections and homepage limits still apply. The Giscus setup note is retained at its original URL but excluded from Selected writing. Imported blog articles remain controlled by the independent blog feed.
 
 The homepage fetches the English JSON Feed at build time and uses `content/blog-feed.json` when it is unavailable. Rebuilding the homepage refreshes its article summaries. The blog's articles, Chinese locale, comments, repository, and deployment remain independent.
 
@@ -55,3 +55,7 @@ Images, PDFs and other resources live only in `public/assets/`. The duplicate ro
 To restore the previous live site, switch Pages back to **Deploy from a branch**, selecting `gh-pages` and `/ (root)`. That branch retains the pre-migration output. To rebuild the legacy site, use a separate checkout of the tag, run its documented Jekyll build, and deploy that `_site` output to `gh-pages` with branch publishing enabled. To roll back an Astro version, restore the corresponding content commit and template pin, then rerun the homepage workflow on `main`.
 
 The existing MIT license and legacy theme attribution are preserved. The new template is independently MIT licensed.
+
+The Academic introduction uses the short `profile.academicBackground`; the full biography and tool list remain on the CV. Its homepage prioritizes Current focus and publications, with announcements labeled **Milestones** and writing labeled **Selected writing**. `modes.academic.showToolkit: false` keeps the research section focused on research questions.
+
+`modes.casual.heroProject: lazy_100` explicitly selects the opening project independently of the featured project order. The ten projects selected across both homepages provide `overview` frontmatter (`purpose`, `contribution`, `outcome`) summarizing the goal, my contribution and current result before the detailed write-up. Image-free project cards retain their natural height.

@@ -13,6 +13,10 @@ modes:
   - casual
 order: 3
 comments: false
+overview:
+  purpose: "Bring the classic Flash Gold Miner game to the retro handhelds I collect."
+  contribution: "I recreated the game with LÖVE2D and extracted the original SWF’s ActionScript and assets to preserve its appearance and feel."
+  outcome: "The remake runs on GameShell, Trimui and other devices supported by LÖVE. The project page includes an itch.io entry."
 ---
 [View repository ↗](https://github.com/zzxzzk115/GoldMiner-Rebirth)
 
