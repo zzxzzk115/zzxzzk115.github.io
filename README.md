@@ -18,6 +18,8 @@ The full biography (on the CV page), 7 original project pages, 2 homepage posts,
 
 Platform and toolchain preferences live in `content/profile.yaml` under `toolkit`. Social links accept a `modes` list; itch.io appears in Casual. Steam links belong to the game project pages. Project frontmatter supports `status` and `links` for source, demo, or store links. `migration-audit.json` records the comparison against the original site, including 148 assets, CV data, publication fields, repository links, and the reasons for refreshed project text.
 
+Markdown headings and homepage section titles reveal a left-side `#` and underline on hover or keyboard focus. Click the title or marker to copy its direct link, preserving the current mode and existing anchors. Touch devices keep the marker visible.
+
 Current work, learning topics and tentative next steps live in `content/now.yaml`. Update its `updated` date when editing the content. Items can be scoped to Academic/Casual and refer to existing projects by `projectId`; empty groups are hidden. The homepage labels this section **Current focus** in Academic and **On my workbench** in Casual. `content/profile.yaml` also provides a short `casualAbout`; the full biography remains on the CV page.
 
 Local Markdown records accept `home: true` (the default) or `home: false`. Set it to false to exclude an article, news item or project from the homepages without removing its detail page, archives, RSS or search entry. Mode visibility, featured-project selections and homepage limits still apply. The Giscus setup note is retained at its original URL but excluded from Recent writing. Imported blog articles remain controlled by the independent blog feed.
