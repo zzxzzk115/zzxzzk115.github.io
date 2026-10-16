@@ -9,7 +9,11 @@ tags: ["C++","J2ME","Game tools"]
 modes: ["casual"]
 order: 18
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/j2me-asset-hunter","icon":"brands:github"}]
+image: "/assets/img/projects/enriched/j2me-asset-hunter.svg"
+imageAlt: "Recover images and MIDI from J2ME archives, with FluidSynth audio conversion."
 ---
+![Recover images and MIDI from J2ME archives, with FluidSynth audio conversion.](/assets/img/projects/enriched/j2me-asset-hunter.svg)
+
 A small command-line tool for finding and extracting game assets from J2ME `.jar` files.
 
 ```sh

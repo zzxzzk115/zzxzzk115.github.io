@@ -9,7 +9,11 @@ tags: ["C++","Slang","Shaders","Tools"]
 modes: ["academic","casual"]
 order: 9
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/vshadersystem","icon":"brands:github"}]
+image: "/assets/img/projects/enriched/vshadersystem.svg"
+imageAlt: "Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection."
 ---
+![Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection.](/assets/img/projects/enriched/vshadersystem.svg)
+
 vshadersystem separates offline shader compilation from runtime loading. Its `vshaderc` compiler processes Slang source, material attributes, reflection and keyword variants; the runtime consumes precompiled libraries without linking Slang.
 
 Version 1.0 replaced the earlier INI-style GLSL language with Slang user-defined attributes. Slang emits SPIR-V and WGSL directly. Outputs include `.vshbin`, `.vshlib` and reusable `.vshslang` source packs.
