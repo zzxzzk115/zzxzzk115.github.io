@@ -24,7 +24,8 @@ exploring:
 upNext:
   - title: Advanced real-time rendering studies
     description: Build small rendering demos on libvultra, exploring GPU-driven large-scene rendering and sampling techniques relevant to my research.
-    workItems:
+    itemsTitle: Planned work items
+    items:
       - title: GPU-driven visibility
         description: Frustum and Hi-Z occlusion culling, GPU compaction, and indirect drawing, with visibility and timing comparisons.
       - title: Cluster LOD & geometry streaming
