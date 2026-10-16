@@ -5,7 +5,7 @@ These eight previews were prepared in a new independent temporary workspace on 2
 | Project | Source PR | Media | SHA-256 |
 | --- | --- | --- | --- |
 | VRI | [Review](https://github.com/zzxzzk115/VRI/pull/22) | `/assets/img/projects/enriched/vri.webp` | `e2383958469af7c7d9e2cb13ffd923e264269f1564a6101025b89685a8fbea8e` |
-| VRI-Framework | [Review](https://github.com/zzxzzk115/VRI-Framework/pull/15) | `/assets/img/projects/enriched/vri-framework.webp` | `ceeaf64cc639a6c7d0abf52ffd70eb0820b1cab0352252e6581f070a2098f394` |
+| VRI-Framework | [Review](https://github.com/zzxzzk115/VRI-Framework/pull/15) | `/assets/img/projects/enriched/vri-framework.webp` | `6709871ed4667e19f5efd2b93a5b7f29a774d19d1bc59e61a4f18833196da483` |
 | j2me-asset-hunter | [Review](https://github.com/zzxzzk115/j2me-asset-hunter/pull/1) | `/assets/img/projects/enriched/j2me-asset-hunter.svg` | `8acdcaae52de4ec8c6d06abf241a9fe9d5a264369c3655fe5a36b37f625f1d76` |
 | vshadersystem | [Review](https://github.com/zzxzzk115/vshadersystem/pull/4) | `/assets/img/projects/enriched/vshadersystem.svg` | `426e1754d522b7e92aa6abecf3a9996ea7d12b9592984c67f0dabdd900a04819` |
 | vasset | [Review](https://github.com/zzxzzk115/vasset/pull/5) | `/assets/img/projects/enriched/vasset.svg` | `6b8b8fa8204e4af518c2a4ffc5781e2287124016d87f320f1a0a6c2a5951e349` |
