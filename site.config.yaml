@@ -6,6 +6,7 @@ site:
   base: /
   language: en
   availableLanguages: [en]
+  copyrightStartYear: 2017
 identity:
   name: Kexuan Zhang
   handle: Lazy_V
@@ -20,18 +21,22 @@ identity:
 socials:
   - label: GitHub
     href: https://github.com/zzxzzk115
+    icon: brands:github
   - label: LinkedIn
     href: https://www.linkedin.com/in/kexuan-zhang-leeds
+    icon: brands:linkedin
   - label: VCG profile
     href: https://vcg.leeds.ac.uk/profiles/kexuan-zhang/
+    icon: solid:users
   - label: Faculty profile
     href: https://eps.leeds.ac.uk/computing/pgr/15430/kexuan-zhang
+    icon: solid:building-columns
 theme:
   academic: '#2455cf'
   casual: '#087763'
 hero:
-  enabled: true
-  label: A visual study of foveated sampling · an illustration, not a benchmark.
+  enabled: false
+  label: ''
   intensity: 1
 modes:
   academic:
