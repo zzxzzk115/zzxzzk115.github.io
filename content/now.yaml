@@ -23,5 +23,5 @@ exploring:
     modes: [academic, casual]
 upNext:
   - title: Advanced real-time rendering studies
-    description: Study VXGI, DDGI, and tiled or clustered shading, and build small-scale implementations inspired by Nanite (Virtual Geometry) and Lumen.
+    description: Explore advanced real-time rendering through focused experiments in geometry, texture streaming, and lighting, drawing inspiration from systems such as Nanite and Lumen.
     modes: [academic, casual]
