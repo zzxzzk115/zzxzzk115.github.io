@@ -56,7 +56,6 @@ hero:
 modes:
   academic:
     sections: [research, now, news, publications, projects, cv, writing, contact]
-    navigation: [research, now, projects, writing, contact]
     sectionTitles:
       now: Current focus
     featuredProjects: [vultra_ecosystem, light-propagation-volumes, vri, vplot]
