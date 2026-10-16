@@ -1,46 +1,59 @@
 ---
 id: omnilyrics
 title: OmniLyrics
-description: The lyric tool I always wanted — CLI, GUI, and status-bar modes,
-  cross-platform, built with .NET 8 and Avalonia.
+description: Cross-platform desktop, terminal and status-bar lyrics with GUI,
+  CLI/TUI, bilingual karaoke, .NET 10 and Avalonia.
 legacyPath: /projects/omnilyrics/
-image: /assets/img/projects/omnilyrics.png
+image: /assets/img/projects/enriched/omnilyrics-current.webp
 category: fun
 tags:
   - .NET
   - Avalonia
 modes:
   - casual
-order: 2
+order: 4
 comments: false
+status: Desktop releases available
+links:
+  - label: Source
+    href: https://github.com/zzxzzk115/OmniLyrics
+    icon: brands:github
+  - label: Downloads
+    href: https://github.com/zzxzzk115/OmniLyrics/releases
+    icon: solid:download
 ---
-[View repository ↗](https://github.com/zzxzzk115/OmniLyrics)
-
 ## Why This Exists
 
-There is no lyric app that is truly cross-platform _and_ works well everywhere you'd want lyrics: as a desktop window, in the terminal, and in a status bar. Every existing tool covers one platform or one surface and stops. OmniLyrics is my attempt to build the one I always wanted — **CLI, GUI, and status-bar modes, on Windows, macOS, and Linux**.
+I wanted a lyric tool that worked as a desktop window, in a terminal and in a status bar on Windows, macOS and Linux. OmniLyrics shares a .NET core across an Avalonia GUI, a CLI and a TUI.
 
 ## Design
 
-- **One core, many frontends.** A shared .NET core with an Avalonia GUI and a CLI; the CLI's `--mode line` emits single-line output made for status bars — it drops straight into a Waybar module on Linux.
-- **Knows what you're playing.** Now-playing information comes from the platform's native media APIs — **MPRIS** on Linux, **SMTC** on Windows — and lyrics are fetched from online sources and synced to playback.
-- **Remote-controllable.** A running instance acts as a daemon: `--control play / pause / toggle / prev / next / seek` lets scripts and keybindings drive playback through it.
-- **Why C# / .NET 8?** I knew Avalonia well from earlier projects, and it's the same .NET affinity that shows up elsewhere in my work — the private VultraEngine bets on CoreCLR for scripting.
+- Five GUI layouts, bilingual karaoke lyrics, shared preferences and queue caching.
+- CLI/TUI interfaces, including single-line and JSON output for status bars and widgets.
+- Platform playback integrations, including MPRIS on Linux, SMTC on Windows, and native Apple Music / Spotify integration on macOS.
+- Playback control from scripts and keybindings.
+- .NET 10 and Avalonia. I was already familiar with Avalonia from earlier projects.
 
 ## Showcase
 
-Windows GUI:
+Current Focus layout:
+
+![OmniLyrics Focus layout](/assets/img/projects/enriched/omnilyrics-current.webp)
+
+Earlier Windows GUI:
 
 ![GUI Windows](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/gui_windows.png)
 
 Windows Terminal:
 
-![CLI (Windows Terminal)](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_windows_terminal.png)
+![CLI on Windows](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_windows_terminal.png)
 
-Linux Waybar (line mode):
+Linux Waybar:
 
-![CLI (Linux Waybar)](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_linux_waybar.jpg)
+![Waybar line mode](https://raw.githubusercontent.com/zzxzzk115/OmniLyrics/master/media/images/cli_linux_waybar.jpg)
 
 ## Status
 
-Development is paused for now — I'll return to it in spare moments between engine work.
+The current README documents the 0.4.2 release, including signed and notarized macOS GUI applications. GUI and CLI/TUI downloads are separate and share preferences. Portable builds include the .NET runtime.
+
+See the [user guide](https://github.com/zzxzzk115/OmniLyrics/blob/master/docs/user-guide.md) for playback integrations, layouts and settings.

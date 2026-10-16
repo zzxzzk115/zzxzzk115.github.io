@@ -8,6 +8,13 @@ research:
     description: Stereo reprojection, image warping, and hole filling, bringing perception and high-performance graphics together in VR.
   - title: Graphics systems
     description: Vulkan, OpenXR, and reusable rendering tools. Building the foundations to turn research ideas into working experiments.
+toolkit:
+  - label: Programming languages
+    items: [C, C++, C#, Java, Python, Lua]
+  - label: Build tools
+    items: [XMake, CMake, vcpkg]
+  - label: Platforms
+    items: [Windows, macOS, Linux]
 interests:
   - title: Retro handhelds
     description: I port games and emulators to handhelds including GameShell, PocketCHIP, Game Boy, and Trimui devices.

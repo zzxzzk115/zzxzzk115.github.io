@@ -12,7 +12,7 @@ tags:
 modes:
   - academic
   - casual
-order: 2
+order: 4
 comments: false
 ---
 [View repository ↗](https://github.com/SnowLeopardEngine/SnowLeopardEngine)
@@ -40,7 +40,7 @@ Snow Leopard Engine was the group project (COMP5530M, 2023/24) of the **High-Per
 - Modern OpenGL 4.6 renderer with PBR and post-processing effects
 - **DzShader** — a Unity-like, data-driven shader format. This was my first experiment with data-driven shading, an idea that later matured into [vshadersystem](/projects/vultra_ecosystem/#vshadersystem).
 - PhysX physics simulation, skeletal animation, simple in-game GUI, and an editor
-- An attempted **C# scripting integration** (the .NET SDK was already in the build requirements) — we never finished the API bindings, but the idea survived: the private VultraEngine is now built around CoreCLR C# scripting.
+- An attempted **C# scripting integration** (the .NET SDK was already in the build requirements) — we never finished the API bindings. Later native/Lua/C# scripting work is documented in the [current libvultra development branch](https://github.com/zzxzzk115/libvultra/tree/dev-VRI).
 
 ## Retrospective
 

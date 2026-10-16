@@ -5,7 +5,7 @@ description: A faithful remake of the classic Flash game, built with LÖVE2D for
   GameShell, Trimui, and other retro gaming handhelds.
 legacyPath: /projects/gold_minder_rebirth/
 image: /assets/img/projects/gold-miner-gameshell-project.png
-category: fun
+category: retro
 tags:
   - LÖVE
   - Handhelds

@@ -12,7 +12,7 @@ tags:
   - Steam
 modes:
   - casual
-order: 1
+order: 3
 comments: false
 ---
 <iframe src="https://store.steampowered.com/widget/3879680/" frameborder="0" width="100%" height="190" title="Cells of Division preview" loading="lazy"></iframe>

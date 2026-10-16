@@ -1,11 +1,11 @@
 ---
 id: lazy_100
 title: Lazy-100
-description: A fantasy game console in the spirit of PICO-8 / TIC-80 — built to
-  prove VRI can carry a complete product, and because retro games are great.
+description: A Lua fantasy console with code, sprite, map, sound and music
+  editors, built on VRI for desktop and browser play.
 legacyPath: /projects/lazy_100/
 image: /assets/img/projects/lazy-100-poster.webp
-category: fun
+category: retro
 tags:
   - C++
   - Lua
