@@ -5,7 +5,7 @@ workingOn:
     modes: [casual]
   - projectId: vultra_ecosystem
     title: libvultra
-    description: Developing the VRI-based graphics framework and a reusable workbench for rendering experiments on the dev-VRI branch.
+    description: Developing the VRI-based graphics framework on dev-VRI, with the near-term goal of supporting small rendering demos.
     modes: [academic, casual]
   - projectId: vri
     description: Building an explicit, cross-platform rendering API with a C ABI and a C++23 wrapper.
@@ -22,6 +22,20 @@ exploring:
         href: https://github.com/zzxzzk115/CIS5650-Project2-xmake
     modes: [academic, casual]
 upNext:
-  - title: Real-time rendering studies
-    description: Try classic graphics projects such as VXGI, DDGI, and tiled or clustered shading.
+  - title: Advanced real-time rendering studies
+    description: Build small rendering demos on libvultra, exploring GPU-driven large-scene rendering and sampling techniques relevant to my research.
+    itemsTitle: Planned work items
+    items:
+      - title: GPU-driven visibility
+        description: Frustum and Hi-Z occlusion culling, GPU compaction, and indirect drawing, with visibility and timing comparisons.
+      - title: Cluster LOD & geometry streaming
+        description: Mesh clustering, hierarchical LOD selection, and on-demand geometry streaming, taking inspiration from Nanite.
+      - title: Virtual texturing
+        description: Feedback-driven texture streaming, page tables, and cache management under a fixed memory budget.
+      - title: Tiled & clustered lighting
+        description: Light culling and many-light rendering, comparing tiled and clustered approaches.
+      - title: Dynamic global illumination
+        description: Experiments with VXGI and DDGI, plus selected ideas from Lumen such as surface and radiance caching.
+      - title: ReSTIR-based lighting
+        description: Start with direct illumination and spatiotemporal reservoir reuse, then explore GI extensions and connections to perceptual and VR rendering.
     modes: [academic, casual]
