@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 2
 id: cells_of_division
 title: Cells of Division
 description: A top-down bullet hell roguelike on Steam — fight alongside clones
@@ -14,6 +17,14 @@ modes:
   - casual
 order: 3
 comments: false
+links:
+  - label: Free demo on Steam
+    href: https://store.steampowered.com/app/3879680/Cells_of_Division/
+    icon: brands:steam
+overview:
+  purpose: "Create a bullet hell roguelike where clones of past runs fight alongside the player inside the immune system."
+  contribution: "As a High Path Games co-founder and programming lead, I design the program architecture, develop core subsystems and lead the programming team."
+  outcome: "A free Steam demo is available. The game is in development for Windows, macOS and Linux."
 ---
 <iframe src="https://store.steampowered.com/widget/3879680/" frameborder="0" width="100%" height="190" title="Cells of Division preview" loading="lazy"></iframe>
 

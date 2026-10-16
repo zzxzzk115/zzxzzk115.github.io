@@ -1,4 +1,5 @@
 ---
+home: false
 id: "vgfw"
 title: "VGFW"
 description: "A header-only OpenGL framework for graphics prototypes, with model loading, a framegraph and Tracy profiling."

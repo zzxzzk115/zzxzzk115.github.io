@@ -1,4 +1,7 @@
 ---
+home:
+  academic:
+    order: 2
 id: "light-propagation-volumes"
 title: "Light Propagation Volumes"
 description: "My MSc dissertation renderer, implementing Light Propagation Volumes alongside cascaded shadows, ambient occlusion and screen-space reflections."
@@ -10,6 +13,10 @@ modes: ["academic","casual"]
 order: 2
 status: "MSc dissertation project"
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/Light-Propagation-Volumes","icon":"brands:github"}]
+overview:
+  purpose: "Explore real-time global illumination with Light Propagation Volumes for my MSc dissertation."
+  contribution: "I implemented an LPV renderer on VGFW, alongside cascaded shadows, ambient occlusion and screen-space reflections."
+  outcome: "The repository includes the renderer and views of the LPV contribution; the image below shows its rendering output."
 ---
 This renderer was developed for my MSc dissertation. It implements Light Propagation Volumes (LPV) for real-time global illumination on top of [VGFW](/projects/vgfw/).
 

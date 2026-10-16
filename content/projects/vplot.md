@@ -1,4 +1,9 @@
 ---
+home:
+  academic:
+    order: 4
+  casual:
+    order: 7
 id: "vplot"
 title: "vplot"
 description: "C++23 plotting through a C ABI, with PNG, SVG and PDF export, ImGui integration and a WebAssembly demo."
@@ -10,6 +15,10 @@ modes: ["academic","casual"]
 order: 6
 status: "Early development · API evolving"
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/vplot","icon":"brands:github"},{"label":"Browser demo","href":"https://zzxzzk115.github.io/vplot/","icon":"solid:arrow-up-right-from-square"}]
+overview:
+  purpose: "Export figures and embed plots in C++ applications without requiring a Python runtime."
+  contribution: "I am porting matplotlib’s rendering stack to C++23, with a C ABI, figure export and ImGui integration."
+  outcome: "A WebAssembly demo is available, with PNG, SVG and PDF output. The API is still evolving and plotting coverage varies by method."
 ---
 vplot ports matplotlib's rendering stack to C++23 and exposes it through a C interface. It can export figures for papers or draw plots inside a renderer's ImGui interface without a Python runtime.
 

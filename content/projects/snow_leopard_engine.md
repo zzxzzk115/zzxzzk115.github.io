@@ -1,4 +1,5 @@
 ---
+home: false
 id: snow_leopard_engine
 title: Snow Leopard Engine
 description: A C++ / OpenGL 4.6 game engine built by a 7-person MSc team at

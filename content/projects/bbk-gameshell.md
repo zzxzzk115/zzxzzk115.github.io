@@ -1,4 +1,5 @@
 ---
+home: false
 id: "bbk-gameshell"
 title: "BBK Games on GameShell"
 description: "GameShell adaptations of classic BBK games, based on bbk.emu, with handheld launchers and controls."

@@ -1,4 +1,5 @@
 ---
+home: false
 id: "vraytracer"
 title: "VRaytracer"
 description: "An earlier C++ ray tracer with an ImGui interface, multithreaded rendering and configurable scenes."

@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 3
 id: omnilyrics
 title: OmniLyrics
 description: Cross-platform desktop, terminal and status-bar lyrics with GUI,
@@ -21,6 +24,10 @@ links:
   - label: Downloads
     href: https://github.com/zzxzzk115/OmniLyrics/releases
     icon: solid:download
+overview:
+  purpose: "Have lyrics available in a desktop window, terminal or status bar across the systems I use."
+  contribution: "I built shared .NET functionality for an Avalonia GUI, CLI and TUI, including bilingual karaoke and platform playback integrations."
+  outcome: "Desktop and CLI/TUI releases are available. The documented 0.4.2 release includes signed and notarized macOS GUI applications."
 ---
 ## Why This Exists
 

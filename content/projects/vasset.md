@@ -1,4 +1,5 @@
 ---
+home: false
 id: "vasset"
 title: "vasset"
 description: "An asset import and packaging pipeline with UUID-based registries, custom mesh and texture formats, VPK archives and a command-line tool."
@@ -8,7 +9,11 @@ tags: ["C++","Assets","XMake","WebAssembly"]
 modes: ["academic","casual"]
 order: 10
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/vasset","icon":"brands:github"}]
+image: "/assets/img/projects/enriched/vasset.svg"
+imageAlt: "Import source assets, cook registry entries, and package them for runtime loading."
 ---
+![Import source assets, cook registry entries, and package them for runtime loading.](/assets/img/projects/enriched/vasset.svg)
+
 vasset is a library and command-line pipeline for importing and packaging engine assets. It uses VMesh, VTexture and VMaterial formats, tracks assets by UUID, and packs them into VPK archives that can be mounted through [vfilesystem](https://github.com/zzxzzk115/vfilesystem).
 
 Desktop builds provide import and packing tools. Android distributions focus on the runtime libraries. WebAssembly builds can include the importer, with a browser upload example in the repository.

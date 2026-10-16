@@ -1,4 +1,7 @@
 ---
+home:
+  casual:
+    order: 6
 id: "mchose-control-linux"
 title: "MCHOSE Control Linux"
 description: "A Linux GUI and CLI for MCHOSE mice, with DPI and sensor settings, per-application presets and KDE desktop integration."
@@ -9,6 +12,10 @@ tags: ["Rust","Linux","KDE","Desktop"]
 modes: ["casual"]
 order: 7
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/mchose-control-linux","icon":"brands:github"}]
+overview:
+  purpose: "Configure MCHOSE mouse hardware and desktop presets from Linux."
+  contribution: "I extended Alexandre Frih’s mchose-linux with a GUI, CLI, per-application presets and KDE desktop integration, retaining its HID protocol implementation."
+  outcome: "The tool includes tray operation, automatic preset switching and Chinese/English interfaces. It is an independent project."
 ---
 This Linux desktop tool configures MCHOSE mouse DPI, polling rate, sensor rotation and other hardware settings. It includes a GUI, a CLI, editable presets and automatic switching based on the foreground application.
 

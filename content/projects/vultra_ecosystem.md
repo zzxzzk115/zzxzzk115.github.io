@@ -1,4 +1,9 @@
 ---
+home:
+  academic:
+    order: 1
+  casual:
+    order: 8
 id: vultra_ecosystem
 title: Vultra Ecosystem
 description: Graphics and engine projects for research and games, with current
@@ -20,6 +25,10 @@ links:
   - label: Current branch
     href: https://github.com/zzxzzk115/libvultra/tree/dev-VRI
     icon: brands:github
+overview:
+  purpose: "A reusable graphics framework and set of tools for my rendering research and game experiments."
+  contribution: "I maintain libvultra and the related rendering, shader and asset libraries, separating reusable components into their own repositories."
+  outcome: "The active dev-VRI branch includes a glTF viewer and research workbench. It is early development, currently targeting Vulkan on Windows and Linux."
 ---
 Vultra is a collection of graphics and engine projects that I maintain for research and game development. Current libvultra work takes place on **`dev-VRI`**. **`dev-next` was an experiment**, and its prototypes are separate from the current development branch.
 
