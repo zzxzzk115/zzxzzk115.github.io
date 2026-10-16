@@ -203,7 +203,8 @@
     "Decorative foveated illustration disabled at the owner request",
     "Invalid June 31 dates retain month precision; valid dates retain their original day",
     "Template example biographies and commented example pages excluded",
-    "Project catalog expanded from seven migrated entries to 23 curated public projects"
+    "Project catalog expanded from seven migrated entries to 23 curated public projects",
+    "Steam removed from profile social links at the owner request; game project store links retained"
   ],
   "excludedTemplateContent": [
     "_data/cv.yml (Einstein example)",

@@ -38,13 +38,17 @@ socials:
     href: https://lazy-v.itch.io/
     icon: brands:itch-io
     modes: [casual]
-  - label: Steam
-    href: https://store.steampowered.com/app/3879680/Cells_of_Division/
-    icon: brands:steam
-    modes: [casual]
 theme:
   academic: '#2455cf'
   casual: '#087763'
+sectionLabels:
+  interests: Off the clock
+projectCategories:
+  work: Graphics & XR
+  library: Libraries
+  fun: Tools & apps
+  indie: Games
+  retro: Retro & emulation
 hero:
   enabled: false
   label: ''
@@ -55,6 +59,8 @@ modes:
     featuredProjects: [vultra_ecosystem, light-propagation-volumes, vri, vplot]
   casual:
     sections: [projects, interests, writing, about, contact]
+    sectionTitles:
+      projects: Projects & games
     featuredProjects: [lazy_100, cells_of_division, omnilyrics, gold_minder_rebirth, pocketchip-macos, mchose-control-linux, vplot, vultra_ecosystem]
 blog:
   href: /blog/

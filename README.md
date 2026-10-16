@@ -6,7 +6,7 @@ Personal content and deployment configuration for [zzxzzk115.github.io](https://
 - Casual: `/casual/`
 - Independent VuePress blog: `/blog/`
 
-The Astro + Vue presentation lives in the separate `academic-casual-template` repository. `template.lock.json` pins the exact template commit used by CI. Personal content updates do not require copying or editing template components.
+The Astro + Vue presentation lives in the separate public [academic-casual-template](https://github.com/zzxzzk115/academic-casual-template) repository. `template.lock.json` pins the exact template commit used by CI. Personal content updates do not require copying or editing template components.
 
 ## Edit content
 
@@ -14,7 +14,7 @@ Update `site.config.yaml` for identity, contact, navigation, featured projects, 
 
 The longer biography, 7 original project pages, 2 homepage posts, news item, publication, and CV have been migrated from the previous Jekyll site. The catalog now contains 23 curated projects, with current public GitHub descriptions and selected real screenshots. Vultra documents the active `dev-VRI` branch and distinguishes the earlier `dev-next` experiment. Existing underscores in project slugs, article URLs, heading anchors, Giscus pathname mappings, PDF paths, and the root feed are retained. The original CV PDF keeps its existing Gmail contact; there is no staff address in it.
 
-Platform and toolchain preferences live in `content/profile.yaml` under `toolkit`. Social links accept a `modes` list; itch.io and Steam appear in Casual. Project frontmatter supports `status` and `links` for source, demo, or store links. `migration-audit.json` records the comparison against the original site, including 148 assets, CV data, publication fields, repository links, and the reasons for refreshed project text.
+Platform and toolchain preferences live in `content/profile.yaml` under `toolkit`. Social links accept a `modes` list; itch.io appears in Casual. Steam links belong to the game project pages. Project frontmatter supports `status` and `links` for source, demo, or store links. `migration-audit.json` records the comparison against the original site, including 148 assets, CV data, publication fields, repository links, and the reasons for refreshed project text.
 
 The homepage fetches the English JSON Feed at build time and uses `content/blog-feed.json` when it is unavailable. Rebuilding the homepage refreshes its article summaries. The blog's articles, Chinese locale, comments, repository, and deployment remain independent.
 
@@ -36,7 +36,7 @@ Node 24 and pnpm 10.34.5 are used in CI. Production builds generate the local se
 
 ## Publish and rollback
 
-The migration remains a draft pull request, and the template is local only. The configured template repository must become accessible to CI before the proposed workflow can build remotely. No publishing-source settings have been changed.
+The migration remains a draft pull request. The template is public and available to CI; no publishing-source settings have been changed.
 
 The proposed workflow builds pull requests and uploads a preview artifact; after a separately approved release, its main branch deploys through GitHub's native Pages artifact deployment using the built-in token. The existing `gh-pages` output branch remains a rollback copy. The root build does not produce a `/blog/` directory, so the separately hosted project site remains independent.
 
