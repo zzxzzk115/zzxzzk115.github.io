@@ -78,7 +78,7 @@ modes:
     sections: [now, projects, interests, writing]
     sectionTitles:
       now: Current focus
-      projects: Projects & games
+      projects: Featured Projects
       writing: Featured posts
 blog:
   href: /blog/

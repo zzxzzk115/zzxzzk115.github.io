@@ -24,6 +24,8 @@ Current work, learning topics and tentative next steps live in `content/now.yaml
 
 Projects, local posts, news and papers all use one `home` field. It defaults to false. Use `home: true` to collect a Markdown record onto the homepage, or `home: false` to keep it in its archive/detail page only. A mode-specific object controls selection and card order, for example `home: {academic: {order: 1}, casual: {order: 8}}`. Set `home.casual.hero: true` on one project to select its Casual opening image. Existing card selections and order have been moved into the corresponding project Markdown; there are no separate project-selection lists in site configuration.
 
+Casual labels its project selection **Featured Projects**. **All featured** resets the eight selected cards; the separate **All projects · 23** link opens the full catalog with Casual context preserved. Both counts come from content rather than fixed display values.
+
 BibTeX records use the same field: `home = {true}` or `home = {false}`, with optional JSON for mode-specific settings. The current paper is explicitly false. The Publications section and navigation appear automatically when at least one eligible paper exists. Detail pages, archives, RSS, search and the full bibliography retain their content. The Giscus setup note remains at its original URL with `home: false`. Imported blog articles remain controlled by the independent blog feed.
 
 The homepage fetches the English JSON Feed at build time and uses `content/blog-feed.json` when it is unavailable. Rebuilding the homepage refreshes its article summaries. The blog's articles, Chinese locale, comments, repository, and deployment remain independent.
