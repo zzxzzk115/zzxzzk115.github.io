@@ -5,7 +5,7 @@ title: "vasset"
 description: "An asset import and packaging pipeline with UUID-based registries, custom mesh and texture formats, VPK archives and a command-line tool."
 legacyPath: "/projects/vasset/"
 category: "library"
-tags: ["C++","Assets","XMake","WebAssembly"]
+tags: ["C++","Assets","xmake","WebAssembly"]
 modes: ["academic","casual"]
 order: 10
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/vasset","icon":"brands:github"}]

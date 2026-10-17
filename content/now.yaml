@@ -1,4 +1,4 @@
-updated: '2026-10-16'
+updated: '2026-10-17'
 workingOn:
   - projectId: omnilyrics
     description: Refining my cross-platform lyric tool, recently focusing on signed macOS releases, installation, and lyric display.
@@ -26,16 +26,16 @@ upNext:
     description: Build small rendering demos on libvultra, exploring GPU-driven large-scene rendering and sampling techniques relevant to my research.
     itemsTitle: Planned work items
     items:
-      - title: GPU-driven visibility
-        description: Frustum and Hi-Z occlusion culling, GPU compaction, and indirect drawing, with visibility and timing comparisons.
-      - title: Cluster LOD & geometry streaming
+      - title: GPU-driven culling & indirect rendering
+        description: Frustum culling, hierarchical Z-buffer (Hi-Z) occlusion culling, stream compaction, and indirect drawing, with visibility and timing comparisons.
+      - title: Cluster-based LOD & geometry streaming
         description: Mesh clustering, hierarchical LOD selection, and on-demand geometry streaming, taking inspiration from Nanite.
       - title: Virtual texturing
         description: Feedback-driven texture streaming, page tables, and cache management under a fixed memory budget.
-      - title: Tiled & clustered lighting
-        description: Light culling and many-light rendering, comparing tiled and clustered approaches.
+      - title: Tiled & clustered shading
+        description: Compare tiled and clustered light assignment in forward and deferred shading, including light-list construction and shading cost.
       - title: Dynamic global illumination
-        description: Experiments with VXGI and DDGI, plus selected ideas from Lumen such as surface and radiance caching.
-      - title: ReSTIR-based lighting
-        description: Start with direct illumination and spatiotemporal reservoir reuse, then explore GI extensions and connections to perceptual and VR rendering.
+        description: Explore voxel-based global illumination (VXGI), Dynamic Diffuse Global Illumination (DDGI), and Lumen-inspired surface-cache and radiance-cache experiments.
+      - title: ReSTIR DI & GI
+        description: Implement ReSTIR DI for many-light direct illumination using spatiotemporal reservoir resampling, then investigate ReSTIR GI for indirect illumination and VR applications.
     modes: [academic, casual]

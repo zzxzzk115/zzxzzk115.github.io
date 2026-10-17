@@ -11,7 +11,7 @@ education:
     institution: University of Leeds
     start: 2023-09-27
     end: 2024-09-26
-    description: "Result: First class. Courses: Foundation of Modeling and
+    description: "Result: Distinction. Courses: Foundation of Modeling and
       Rendering, Animation and Simulation, Geometry Processing, High-Performance
       Graphics, Scientific Computation"
     url: https://www.leeds.ac.uk/
@@ -31,12 +31,12 @@ work:
     institution: Shanghai Zihao Information Technology Co., Ltd
     start: 2022-07-01
     end: 2024-05-31
-    description: Develop game server by using C# .NET
+    description: Developed game servers using C# and .NET.
   - title: Intern Programmer
     institution: Shanghai Zihao Information Technology Co., Ltd
     start: 2021-12-01
     end: 2022-06
-    description: Learn C#, Win32, Multi-threading, Unix/Linux, etc
+    description: Gained experience with C#, Win32, multithreading and Unix/Linux systems.
 languages:
   - Chinese — Native speaker
   - English — Fluent

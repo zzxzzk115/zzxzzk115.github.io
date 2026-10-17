@@ -57,7 +57,7 @@
         "Java",
         "Python",
         "Lua",
-        "XMake",
+        "xmake",
         "CMake",
         "vcpkg",
         "Windows",
@@ -87,7 +87,8 @@
         "culling",
         "LOD",
         "itch.io",
-        "zzxzzk115@gmail.com"
+        "zzxzzk115@gmail.com",
+        "Tiled & clustered shading"
       ]
     },
     {
@@ -99,7 +100,7 @@
         "Wuhan",
         "West Yorkshire",
         "LS2 9JT",
-        "First class",
+        "Distinction",
         "84.3/100",
         "Chinese",
         "English",
@@ -144,7 +145,13 @@
   "reviewDate": "2026-10-17",
   "textReplacements": {
     "Gordon Love": "Gordon D. Love",
-    "Dr. Rafael Kuffner dos Anjos": "Dr. [Rafael Kuffner dos Anjos](https://rafaelkuffner.github.io/)"
+    "Dr. Rafael Kuffner dos Anjos": "Dr. [Rafael Kuffner dos Anjos](https://rafaelkuffner.github.io/)",
+    "My research interests are <strong>Virtual Reality (VR)</strong> and <strong>High-Performance Graphics (HPG)</strong>.": "My research interests are <strong>virtual reality (VR)</strong> and <strong>high-performance computer graphics</strong>.",
+    "The relative topics are: <strong>Foveated Rendering, Color / Depth / Texture Perception, Stereo Reprojection (Warping), Image Inpainting (Hole-filling)</strong>, combining with high-performance graphics techniques. The libraries that I mainly use are Vulkan and OpenXR.": "My current interests include <strong>foveated rendering; visual perception of colour, depth and texture; stereo reprojection; and image inpainting for disocclusion holes</strong>. I use the Vulkan and OpenXR APIs to build rendering and VR experiments.",
+    "Develop game server by using C# .NET": "Developed game servers using C# and .NET.",
+    "Learn C#, Win32, Multi-threading, Unix/Linux, etc": "Gained experience with C#, Win32, multithreading and Unix/Linux systems.",
+    "First class": "Distinction",
+    "XMake": "xmake"
   },
   "refreshedRecords": [
     {
@@ -157,11 +164,23 @@
     },
     {
       "id": "snow_leopard_engine",
-      "reason": "Preserved the original MSc project account; replaced its stale downstream private-engine claim with a link to optional scripting work documented by libvultra dev-VRI."
+      "reason": "Retain the MSc project account and branch links; standardize gameplay/pathfinding terminology."
     },
     {
       "id": "lazy_100",
-      "reason": "Owner approved curating browser demos: add verified Breakout and cartridge-catalog entry points, and describe the console as an evolving application."
+      "reason": "Owner requested a terminology review: distinguish cartridge VM compatibility from native execution and retain verified browser entry points."
+    },
+    {
+      "id": "gold_minder_rebirth",
+      "reason": "Owner requested precise platform claims; runtime availability does not guarantee that every device is tested."
+    },
+    {
+      "id": "catmario_gb",
+      "reason": "Owner requested precise compatibility wording; Game Boy emulator support is not universal."
+    },
+    {
+      "id": "a-little-secret-of-tracy-profiler",
+      "reason": "Owner requested a site-wide terminology review. Clarify event buffering, connection-dependent on-demand capture and memory-retention limits against Tracy v0.11.1 manual; use a complete vcpkg manifest example."
     }
   ],
   "restoredInformation": [
@@ -186,7 +205,8 @@
     "Giscus setup note excluded from homepages with home:false; original routes, archives and RSS retained",
     "Mode-aware current work, CUDA self-study progress and tentative rendering projects added at the owner request",
     "All homepage curation uses per-record home metadata; former project lists, heroProject, featured and BibTeX selected are replaced. Existing card order is retained; the paper is explicitly home:false. Unmarked local records default to false.",
-    "CV PDFs are compiled from owner-approved bilingual LaTeX sources; phone fields are removed, work dates follow the existing homepage records, and project summaries are curated for graphics and systems work."
+    "CV PDFs are compiled from owner-approved bilingual LaTeX sources; phone fields are removed, work dates follow the existing homepage records, and project summaries are curated for graphics and systems work.",
+    "Technical terminology reviewed across authored site copy and bilingual CVs; original external article titles and verbatim publication abstracts are retained. English CV uses the publication title and journal name printed in the source paper."
   ],
   "assetTextReplacements": {
     "assets/json/resume.json": {
@@ -200,7 +220,7 @@
     },
     {
       "path": "assets/json/resume.json",
-      "reason": "Owner requested removal of the phone field from the retained legacy public CV data."
+      "reason": "Owner approved phone removal and terminology consistency in retained CV data, including the MSc Distinction classification already used in the bilingual CV sources."
     }
   ],
   "cvContactRedactions": {

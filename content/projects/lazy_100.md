@@ -52,7 +52,7 @@ Two reasons. First, the serious one: Lazy-100 exercises [VRI](/projects/vri/) in
 
 - A **320×240** indexed-color screen with a 256-color palette, 16×16 sprites, and 4-channel audio.
 - A complete **in-console editor suite**: shell, code, sprite, map, sfx, and music editors — you make games _inside_ the console.
-- Scripting in **Lua 5.4** (via sol2), with a bold twist: a **dual-VM architecture** that routes PICO-8 carts to a vendored z8lua VM, so PICO-8 games run natively. Purely for fun — but it works.
+- Scripting in **Lua 5.4** (via sol2), with a bold twist: a **dual-VM architecture** that routes PICO-8 carts to a vendored z8lua VM, so supported PICO-8 cartridges execute in a separate PICO-8-compatible VM. Compatibility varies by cartridge.
 - Carts are `.lz100` text files or shareable **`.lz100.png`** images with the cart embedded in the picture.
 - Built on [VRI](/projects/vultra_ecosystem/#vri) for rendering, SDL3, and miniaudio; runs on desktop and in the browser.
 

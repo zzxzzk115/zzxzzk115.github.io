@@ -2,7 +2,7 @@
 home: true
 id: a-little-secret-of-tracy-profiler
 title: A Little Secret of Tracy Profiler
-description: Possible Memory Leak of Tracy? Not exactly...
+description: How Tracy buffers profiling events before connection, and what on-demand capture changes.
 legacyPath: /featured-posts/2025/a-little-secret-of-tracy-profiler/
 category: development
 categories: [development, tools]
@@ -16,9 +16,11 @@ order: 100
 date: 2025-04-11T01:35:00.000Z
 comments: true
 ---
-If you're using Tracy Profiler to analyze your program but haven't configured it yet, you might notice a steady increase in memory usage, which could eventually lead to an out-of-memory error.
+Tracy's default client configuration collects profiling events before the profiler connects. In a heavily instrumented application, queued events can consume substantial memory while no profiler is attached. This buffering can explain growing memory use, but it does not rule out an unrelated memory leak.
 
-This behavior might appear to be a memory leak caused by Tracy, but it's not. By default, Tracy stores all frame data captured from your running program until the profiler is connected. This can result in significant memory consumption. Thankfully, you can adjust this behavior by enabling the `TRACY_ON_DEMAND` CMake option or the `on-demand` feature in vcpkg. When enabled, Tracy will only store frame data after the profiler is connected to your program.
+Enable `TRACY_ON_DEMAND` to collect profiling events only while a profiler connection is established. The CMake option and vcpkg feature below enable that compile-time setting. On-demand capture omits earlier events, so it trades startup history for lower disconnected capture overhead.
+
+This behaviour is documented in the [Tracy v0.11.1 manual, “On-demand profiling”](https://github.com/wolfpld/tracy/blob/v0.11.1/manual/tracy.tex). It is not a general guarantee that the application's memory use will stop growing or that previously allocated profiling storage will be returned to the operating system.
 
 ## Configuring with CMake
 
@@ -34,15 +36,19 @@ set(TRACY_ON_DEMAND ON CACHE BOOL "" FORCE) # Enable on-demand mode
 FetchContent_MakeAvailable(Tracy)
 ```
 
-## Configuring with VCPKG
+## Configuring with vcpkg
 
-To enable the `on-demand` feature in vcpkg, update your `vcpkg.json` file as shown below:
+To enable the `on-demand` feature in vcpkg, add Tracy to your `vcpkg.json` dependencies as shown below. Retain your project’s existing registry baseline and other dependencies when using version constraints:
 
 ```json
 {
-  "name": "tracy",
-  "features": ["on-demand"],
-  "version>=": "0.11.1#2"
+  "dependencies": [
+    {
+      "name": "tracy",
+      "features": ["on-demand"],
+      "version>=": "0.11.1#2"
+    }
+  ]
 }
 ```
 

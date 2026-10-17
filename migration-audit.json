@@ -7,6 +7,7 @@
       "kind": "projects",
       "path": "/projects/catmario_gb/",
       "body": "preserved",
+      "reason": "Owner requested precise compatibility wording; Game Boy emulator support is not universal.",
       "pathPreserved": true,
       "datePreserved": true,
       "commentsPreserved": true
@@ -24,7 +25,8 @@
       "id": "gold_minder_rebirth",
       "kind": "projects",
       "path": "/projects/gold_minder_rebirth/",
-      "body": "preserved",
+      "body": "refreshed from current sources",
+      "reason": "Owner requested precise platform claims; runtime availability does not guarantee that every device is tested.",
       "pathPreserved": true,
       "datePreserved": true,
       "commentsPreserved": true
@@ -34,7 +36,7 @@
       "kind": "projects",
       "path": "/projects/lazy_100/",
       "body": "refreshed from current sources",
-      "reason": "Owner approved curating browser demos: add verified Breakout and cartridge-catalog entry points, and describe the console as an evolving application.",
+      "reason": "Owner requested a terminology review: distinguish cartridge VM compatibility from native execution and retain verified browser entry points.",
       "pathPreserved": true,
       "datePreserved": true,
       "commentsPreserved": true
@@ -54,7 +56,7 @@
       "kind": "projects",
       "path": "/projects/snow_leopard_engine/",
       "body": "refreshed from current sources",
-      "reason": "Preserved the original MSc project account; replaced its stale downstream private-engine claim with a link to optional scripting work documented by libvultra dev-VRI.",
+      "reason": "Retain the MSc project account and branch links; standardize gameplay/pathfinding terminology.",
       "pathPreserved": true,
       "datePreserved": true,
       "commentsPreserved": true
@@ -82,7 +84,8 @@
       "id": "a-little-secret-of-tracy-profiler",
       "kind": "posts",
       "path": "/featured-posts/2025/a-little-secret-of-tracy-profiler/",
-      "body": "preserved",
+      "body": "refreshed from current sources",
+      "reason": "Owner requested a site-wide terminology review. Clarify event buffering, connection-dependent on-demand capture and memory-retention limits against Tracy v0.11.1 manual; use a complete vcpkg manifest example.",
       "pathPreserved": true,
       "datePreserved": true,
       "commentsPreserved": true
@@ -107,7 +110,7 @@
     "intentionalRefreshes": [
       {
         "path": "assets/json/resume.json",
-        "reason": "Owner requested removal of the phone field from the retained legacy public CV data."
+        "reason": "Owner approved phone removal and terminology consistency in retained CV data, including the MSc Distinction classification already used in the bilingual CV sources."
       },
       {
         "path": "assets/pdf/CV.pdf",
@@ -229,7 +232,8 @@
     "Giscus setup note excluded from homepages with home:false; original routes, archives and RSS retained",
     "Mode-aware current work, CUDA self-study progress and tentative rendering projects added at the owner request",
     "All homepage curation uses per-record home metadata; former project lists, heroProject, featured and BibTeX selected are replaced. Existing card order is retained; the paper is explicitly home:false. Unmarked local records default to false.",
-    "CV PDFs are compiled from owner-approved bilingual LaTeX sources; phone fields are removed, work dates follow the existing homepage records, and project summaries are curated for graphics and systems work."
+    "CV PDFs are compiled from owner-approved bilingual LaTeX sources; phone fields are removed, work dates follow the existing homepage records, and project summaries are curated for graphics and systems work.",
+    "Technical terminology reviewed across authored site copy and bilingual CVs; original external article titles and verbatim publication abstracts are retained. English CV uses the publication title and journal name printed in the source paper."
   ],
   "excludedTemplateContent": [
     "_data/cv.yml (Einstein example)",
