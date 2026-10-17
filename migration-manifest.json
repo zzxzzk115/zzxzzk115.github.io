@@ -158,6 +158,10 @@
     {
       "id": "snow_leopard_engine",
       "reason": "Preserved the original MSc project account; replaced its stale downstream private-engine claim with a link to optional scripting work documented by libvultra dev-VRI."
+    },
+    {
+      "id": "lazy_100",
+      "reason": "Owner approved curating browser demos: add verified Breakout and cartridge-catalog entry points, and describe the console as an evolving application."
     }
   ],
   "restoredInformation": [

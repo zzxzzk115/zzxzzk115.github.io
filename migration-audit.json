@@ -33,7 +33,8 @@
       "id": "lazy_100",
       "kind": "projects",
       "path": "/projects/lazy_100/",
-      "body": "preserved",
+      "body": "refreshed from current sources",
+      "reason": "Owner approved curating browser demos: add verified Breakout and cartridge-catalog entry points, and describe the console as an evolving application.",
       "pathPreserved": true,
       "datePreserved": true,
       "commentsPreserved": true

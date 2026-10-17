@@ -19,8 +19,11 @@ modes:
 order: 1
 comments: false
 links:
-  - label: Play in browser
-    href: https://zzxzzk115.github.io/Lazy-100/
+  - label: Play Breakout
+    href: https://zzxzzk115.github.io/Lazy-100/?cart=breakout
+    icon: solid:gamepad
+  - label: Browse cartridges
+    href: https://zzxzzk115.github.io/Lazy-100/carts/
     icon: solid:gamepad
   - label: Source
     href: https://github.com/zzxzzk115/Lazy-100
@@ -30,15 +33,17 @@ overview:
   contribution: "I built the console and its code, sprite, map, sound and music editors, with Lua scripting and a separate VM for PICO-8 carts."
   outcome: "The console runs on desktop and in the browser. A browser build is available to try, with editor polish and further creative tools on the wishlist."
 ---
-[View repository ↗](https://github.com/zzxzzk115/Lazy-100)
+## Try it in your browser
 
-**Play it in your browser:** [zzxzzk115.github.io/Lazy-100](https://zzxzzk115.github.io/Lazy-100/)
+[Play Breakout](https://zzxzzk115.github.io/Lazy-100/?cart=breakout) to jump straight into a cartridge, or [browse the catalog](https://zzxzzk115.github.io/Lazy-100/carts/) to choose Breakout, Lazy Bird or Snake. The console runs in the page; no download or installation is required.
+
+The [console homepage](https://zzxzzk115.github.io/Lazy-100/) also exposes cartridge selection. The same application contains the shell and code, sprite, map, sound and music editors, so the playable games are examples of the console's own creation tools.
 
 ![Lazy-100 showcase](/assets/img/projects/lazy-100.gif)
 
 ## Why This Exists
 
-Two reasons. First, the serious one: Lazy-100 is the proof that [VRI](/projects/vultra_ecosystem/#vri) can carry a _mature, complete product_ — a real application exercising cross-backend rendering and web deployment end to end, not just triangle demos. Second, the honest one: I have always loved retro games, and building a fantasy console in the spirit of PICO-8 / TIC-80 / BASIC8 is its own reward.
+Two reasons. First, the serious one: Lazy-100 exercises [VRI](/projects/vri/) in a full application, bringing rendering, input, audio, editors and web deployment together. Second, the honest one: I have always loved retro games, and building a fantasy console in the spirit of PICO-8 / TIC-80 / BASIC8 is its own reward.
 
 (The name? **Lazy_V** is my online handle; **100** just sounds nice.)
 
