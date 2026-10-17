@@ -32,7 +32,7 @@ Snow Leopard Engine was the group project (COMP5530M, 2023/24) of the **High-Per
 | Ziyu Min                                         | Associate Leader. Rendering, Shaders, Report                         |
 | Jubiao Lin                                       | Physics, In-Game GUI, Poster                                         |
 | [Simiao Wang](https://wangsimiao2000.github.io/) | Physics, Poster, Showcase Video                                      |
-| Ruofan He                                        | GamePlay (Path-Finding)                                              |
+| Ruofan He                                        | Gameplay (pathfinding)                                              |
 | [Haodong Lin](https://leolanger.github.io/)      | Animation                                                            |
 | Yanni Ma                                         | Editor                                                               |
 

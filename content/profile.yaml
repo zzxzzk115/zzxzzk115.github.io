@@ -14,7 +14,7 @@ toolkit:
   - label: Programming languages
     items: [C, C++, C#, Java, Python, Lua]
   - label: Build tools
-    items: [XMake, CMake, vcpkg]
+    items: [xmake, CMake, vcpkg]
   - label: Platforms
     items: [Windows, macOS, Linux]
 interests:

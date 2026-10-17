@@ -8,6 +8,7 @@ description: A top-down bullet hell roguelike on Steam — fight alongside clone
   of your past runs inside the immune system. Free demo out now! Co-founder of
   High Path Games; programming lead.
 legacyPath: /projects/cells_of_division/
+imageFit: contain
 image: /assets/img/projects/cells-of-division.jpg
 category: indie
 tags:
