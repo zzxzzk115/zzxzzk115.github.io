@@ -49,7 +49,8 @@ theme:
   academic: '#2455cf'
   casual: '#087763'
 sectionLabels:
-  interests: Off the clock
+  writing: Posts
+  interests: Interests
 projectCategories:
   work: Graphics & XR
   library: Libraries
@@ -68,7 +69,7 @@ modes:
     sectionTitles:
       now: Current focus
       news: Milestones
-      writing: Featured writing
+      writing: Featured posts
   casual:
     sidebar: true
     email: zzxzzk115@gmail.com
@@ -76,9 +77,9 @@ modes:
     photo: https://avatars.githubusercontent.com/u/33739170?v=4
     sections: [now, projects, interests, writing]
     sectionTitles:
-      now: On my workbench
+      now: Current focus
       projects: Projects & games
-      writing: Featured writing
+      writing: Featured posts
 blog:
   href: /blog/
   feedUrl: https://zzxzzk115.github.io/blog/feed.json
