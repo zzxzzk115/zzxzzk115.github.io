@@ -12,13 +12,17 @@ tags: ["C++","Global illumination","OpenGL","MSc"]
 modes: ["academic","casual"]
 order: 2
 status: "MSc dissertation project"
-links: [{"label":"Source","href":"https://github.com/zzxzzk115/Light-Propagation-Volumes","icon":"brands:github"}]
+links:
+  - {label: "Source", href: "https://github.com/zzxzzk115/Light-Propagation-Volumes", icon: "brands:github"}
+  - {label: "Dissertation (PDF)", href: "/assets/pdf/LPV-MSc-Dissertation.pdf", icon: "solid:file-pdf"}
 overview:
   purpose: "Explore real-time global illumination with Light Propagation Volumes for my MSc dissertation."
   contribution: "I implemented an LPV renderer on VGFW, alongside cascaded shadows, ambient occlusion and screen-space reflections."
-  outcome: "The repository includes the renderer and views of the LPV contribution; the image below shows its rendering output."
+  outcome: "The renderer and MSc dissertation document the implementation, rendering results and measured pass timings."
 ---
 This renderer was developed for my MSc dissertation. It implements Light Propagation Volumes (LPV) for real-time global illumination on top of [VGFW](/projects/vgfw/).
+
+[Read the MSc dissertation (PDF)](/assets/pdf/LPV-MSc-Dissertation.pdf) for the implementation, rendering results and performance evaluation.
 
 ![Light Propagation Volumes rendering result](/assets/img/projects/enriched/lpv.webp)
 
