@@ -45,9 +45,26 @@ socials:
     href: https://lazy-v.itch.io/
     icon: brands:itch-io
     modes: [casual]
+  - label: Bilibili
+    href: https://space.bilibili.com/33320940
+    icon: brands:bilibili
+    modes: [casual]
+  - label: QQ
+    href: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=954294627&website=www.oicqzone.com
+    icon: brands:qq
+    modes: [casual]
+  - label: WeChat
+    href: https://zzxzzk115.github.io/blog/intro.html#wechat
+    copy: zkx954294627
+    icon: brands:weixin
+    modes: [casual]
 theme:
   academic: '#2455cf'
   casual: '#087763'
+externalLinks:
+  - label: Blog
+    href: https://zzxzzk115.github.io/blog/
+    icon: solid:book-open
 sectionLabels:
   writing: Posts
   interests: Interests

@@ -107,9 +107,17 @@ vasset imports meshes, textures and materials into engine formats, tracks assets
 
 ## vrendergraph — JSON Pipeline Descriptions {#vrendergraph}
 
-[Source](https://github.com/zzxzzk115/vrendergraph)
+[Project page](/projects/vrendergraph/) · [Source](https://github.com/zzxzzk115/vrendergraph)
 
 A standalone JSON render-pipeline schema and runtime builder, including resource descriptions, passes and optional editor metadata. It was used in the earlier data-driven pipeline experiments. Current `dev-VRI` documents its own RenderGraph interfaces and JSON construction separately.
+
+## webgpu-sdk — WebGPU Build and Distribution {#webgpu-sdk}
+
+[Source](https://github.com/zzxzzk115/webgpu-sdk)
+
+A reusable C/C++ SDK bundle for desktop and WebAssembly consumers. It packages third-party WebGPU implementations and build dependencies, including wgpu-native, Dawn and Emscripten integrations, with `glfw3webgpu` as a separate helper target. The repository provides platform build and prebuilt-release workflows, and credits WebGPU-distribution as an upstream influence.
+
+Its role is dependency packaging and build integration. The WebGPU implementations remain those of the bundled upstream projects.
 
 ## vbase — Foundation Utilities {#vbase}
 
@@ -123,11 +131,13 @@ Shared utilities include IDs, result/error types, binary readers and writers, mo
 
 Filesystem interfaces, normalized paths, physical and memory backends, and a virtual-filesystem mount table. Higher-level asset loading and VPK packaging live in vasset.
 
+The library is built on vbase and leaves synchronization to the host application. It does not provide asynchronous IO or task scheduling; its [README](https://github.com/zzxzzk115/vfilesystem#scope) documents these boundaries and platform-specific asset/writable filesystem handling.
+
 ## vtask — Task Scheduling {#vtask}
 
 [Source](https://github.com/zzxzzk115/vtask)
 
-A task-management library built on enkiTS. The current libvultra development branch uses it for parallel loading and import jobs.
+A work-in-progress task-management library built on enkiTS. The current libvultra development branch uses it for parallel loading and import jobs. enkiTS supplies the underlying scheduler; vtask provides the ecosystem's task-management layer.
 
 ## Where It's Going
 
