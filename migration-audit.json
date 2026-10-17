@@ -1,5 +1,5 @@
 {
-  "reviewDate": "2026-10-16",
+  "reviewDate": "2026-10-17",
   "sourceCommit": "878a9749b81018c2c45a376911ab4ce6fcc8ea97",
   "records": [
     {
@@ -102,8 +102,16 @@
     "missing": [],
     "changed": [],
     "lineEndingsOnly": [],
-    "intentionalTextUpdates": [
-      "assets/json/resume.json"
+    "intentionalTextUpdates": [],
+    "intentionalRefreshes": [
+      {
+        "path": "assets/json/resume.json",
+        "reason": "Owner requested removal of the phone field from the retained legacy public CV data."
+      },
+      {
+        "path": "assets/pdf/CV.pdf",
+        "reason": "Owner approved replacing the legacy PDF with the source-built English CV, with phone removal, corrected work dates and curated projects."
+      }
     ]
   },
   "cvRecords": [
@@ -175,6 +183,9 @@
     "summary": true,
     "address": true
   },
+  "contactRedactions": {
+    "phone": "Owner requested removal of phone numbers from public CV source and outputs."
+  },
   "papers": [
     {
       "id": "li2021mobile",
@@ -216,7 +227,8 @@
     "Concise Casual introduction replaces repeated full biography at the owner request; full text retained on CV",
     "Giscus setup note excluded from homepages with home:false; original routes, archives and RSS retained",
     "Mode-aware current work, CUDA self-study progress and tentative rendering projects added at the owner request",
-    "All homepage curation uses per-record home metadata; former project lists, heroProject, featured and BibTeX selected are replaced. Existing card order is retained; the paper is explicitly home:false. Unmarked local records default to false."
+    "All homepage curation uses per-record home metadata; former project lists, heroProject, featured and BibTeX selected are replaced. Existing card order is retained; the paper is explicitly home:false. Unmarked local records default to false.",
+    "CV PDFs are compiled from owner-approved bilingual LaTeX sources; phone fields are removed, work dates follow the existing homepage records, and project summaries are curated for graphics and systems work."
   ],
   "excludedTemplateContent": [
     "_data/cv.yml (Einstein example)",

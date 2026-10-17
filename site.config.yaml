@@ -18,7 +18,13 @@ identity:
   address: Room 2.04 & 2.26, Sir William Henry Bragg Building, University of Leeds, Woodhouse Lane, Leeds, United Kingdom.
   email: sc23kz@leeds.ac.uk
   photo: /assets/img/prof_pic_2025.webp
-  cv: /assets/pdf/CV.pdf
+  cv:
+    - label: CV · English
+      href: /assets/pdf/CV.pdf
+      lang: en
+    - label: CV · 中文
+      href: /assets/pdf/CV-zh.pdf
+      lang: zh-CN
 socials:
   - label: GitHub
     href: https://github.com/zzxzzk115
@@ -83,3 +89,11 @@ comments:
   category: Announcements
   categoryId: DIC_kwDOOFxFhc4CoAdp
   mapping: pathname
+
+latex:
+  engine: xelatex
+  documents:
+    - source: latex/cv/resume-en.tex
+      output: /assets/pdf/CV.pdf
+    - source: latex/cv/resume-zh.tex
+      output: /assets/pdf/CV-zh.pdf

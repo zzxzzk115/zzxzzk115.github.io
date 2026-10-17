@@ -104,7 +104,7 @@
         "Chinese",
         "English",
         "CMake",
-        "satisfy one\u2019s curiosity",
+        "satisfy one’s curiosity",
         "multithreading",
         "network communication"
       ]
@@ -114,7 +114,7 @@
       "text": [
         "CNKI",
         "Original citation",
-        "\u79fb\u52a8\u8fdc\u7a0b\u89c6\u9891\u76d1\u63a7\u7cfb\u7edf",
+        "移动远程视频监控系统",
         "30",
         "82"
       ]
@@ -141,9 +141,10 @@
       ]
     }
   ],
-  "reviewDate": "2026-10-16",
+  "reviewDate": "2026-10-17",
   "textReplacements": {
-    "Gordon Love": "Gordon D. Love"
+    "Gordon Love": "Gordon D. Love",
+    "Dr. Rafael Kuffner dos Anjos": "Dr. [Rafael Kuffner dos Anjos](https://rafaelkuffner.github.io/)"
   },
   "refreshedRecords": [
     {
@@ -180,11 +181,25 @@
     "Concise Casual introduction replaces repeated full biography at the owner request; full text retained on CV",
     "Giscus setup note excluded from homepages with home:false; original routes, archives and RSS retained",
     "Mode-aware current work, CUDA self-study progress and tentative rendering projects added at the owner request",
-    "All homepage curation uses per-record home metadata; former project lists, heroProject, featured and BibTeX selected are replaced. Existing card order is retained; the paper is explicitly home:false. Unmarked local records default to false."
+    "All homepage curation uses per-record home metadata; former project lists, heroProject, featured and BibTeX selected are replaced. Existing card order is retained; the paper is explicitly home:false. Unmarked local records default to false.",
+    "CV PDFs are compiled from owner-approved bilingual LaTeX sources; phone fields are removed, work dates follow the existing homepage records, and project summaries are curated for graphics and systems work."
   ],
   "assetTextReplacements": {
     "assets/json/resume.json": {
       "K.Zhang@leeds.ac.uk": "sc23kz@leeds.ac.uk"
     }
+  },
+  "refreshedAssets": [
+    {
+      "path": "assets/pdf/CV.pdf",
+      "reason": "Owner approved replacing the legacy PDF with the source-built English CV, with phone removal, corrected work dates and curated projects."
+    },
+    {
+      "path": "assets/json/resume.json",
+      "reason": "Owner requested removal of the phone field from the retained legacy public CV data."
+    }
+  ],
+  "cvContactRedactions": {
+    "phone": "Owner requested removal of phone numbers from public CV source and outputs."
   }
 }

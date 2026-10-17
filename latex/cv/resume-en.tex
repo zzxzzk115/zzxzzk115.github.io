@@ -1,0 +1,92 @@
+% !TEX program = xelatex
+\documentclass{resume}
+\hypersetup{hidelinks,pdftitle={Kexuan Zhang - Curriculum Vitae},pdfauthor={Kexuan Zhang}}
+\begin{document}
+\pagenumbering{gobble}
+\name{Kexuan Zhang}
+\centerline{PhD Researcher \textperiodcentered\ Graphics and Systems Programmer}
+\basicInfo{\email{zzxzzk115@gmail.com} \textperiodcentered\ \homepage[Portfolio]{https://zzxzzk115.github.io/}}
+\centerline{\github[zzxzzk115]{https://github.com/zzxzzk115} \textperiodcentered\ \linkedin[kexuan-zhang-leeds]{https://www.linkedin.com/in/kexuan-zhang-leeds}}
+
+\section{\faGraduationCap\ Education and Research}
+\datedsubsection{\textbf{University of Leeds}, UK}{2025 -- Present}
+\textit{PhD in Perceptual Graphics}\\
+Research: virtual reality, foveated rendering and high-performance graphics.\\
+Focus: stereo reprojection and image inpainting.
+
+\datedsubsection{\textbf{University of Leeds}, UK}{2023 -- 2024}
+\textit{MSc in High-Performance Graphics and Games Engineering, Distinction}\\
+Average: 74.7. Dissertation: real-time global illumination with Light Propagation Volumes.
+
+\datedsubsection{\textbf{Jianghan University}, Wuhan, China}{2017 -- 2021}
+\textit{BEng in Computer Science and Technology (Software Engineering)}\\
+Average: 84.3/100; rank: 18/212.
+
+\section{\faUsers\ Software Engineering Experience}
+\datedsubsection{\textbf{Shanghai Zihao Information Technology Co., Ltd}}{Jul. 2022 -- May 2024}
+\role{Game Server Development Engineer}{}
+\begin{itemize}
+  \item Developed high-performance .NET game server systems and investigated performance bottlenecks and MongoDB integration.
+  \item Built Unity skill-pipeline tools, Excel configuration tooling and Jenkins CI/CD pipelines.
+  \item Developed Roslyn-based static analysis tools to enforce code consistency.
+\end{itemize}
+\datedsubsection{\textbf{Shanghai Zihao Information Technology Co., Ltd}}{Dec. 2021 -- Jun. 2022}
+\role{Intern Programmer}{}
+\begin{itemize}
+  \item Built experience with C\#, Win32, multithreading, networking and Unix/Linux systems.
+\end{itemize}
+
+\section{\faCogs\ Selected Projects}
+\datedsubsection{\href{https://github.com/zzxzzk115/VRI}{\textbf{VRI -- Cross-platform Render Hardware Interface}}}{Active development}
+\role{C ABI, C++23, Vulkan, D3D12, Metal, WebGPU, OpenGL}{Personal project}
+\begin{itemize}
+  \item Develop an explicit rendering API with command buffers, descriptor sets and synchronization, paired with a header-only C++23 RAII wrapper.
+  \item Implement backend capability queries, validation and portable Slang shaders. Browser examples and a Vulkan path tracer demonstrate the API; feature coverage is documented per backend.
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/zzxzzk115/Light-Propagation-Volumes}{\textbf{Light Propagation Volumes}}}{2024}
+\role{C++, OpenGL, Real-time Global Illumination}{MSc dissertation}
+\begin{itemize}
+  \item Implemented an LPV renderer on VGFW to explore real-time indirect lighting.
+  \item Integrated cascaded shadow maps, HBAO, screen-space reflections, FXAA, ACES tone mapping and bloom into the rendering pipeline.
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/zzxzzk115/libvultra/tree/dev-VRI}{\textbf{libvultra -- Graphics Research Framework}}}{2024 -- Present}
+\role{C++23, Vulkan, Slang, Render Graphs}{Personal project}
+\begin{itemize}
+  \item Develop the current VRI-based framework for small rendering demos and research experiments on Windows and Linux.
+  \item Build reusable rendering, shader and asset components; the early-stage development branch includes a glTF viewer, render-graph construction and shader compilation/reload.
+\end{itemize}
+
+\datedsubsection{\href{https://store.steampowered.com/app/3879680/Cells_of_Division/}{\textbf{Cells of Division -- High Path Games}}}{2024 -- Present}
+\role{Co-founder and Programming Lead; Godot}{Independent game}
+\begin{itemize}
+  \item Design the program architecture and core gameplay subsystems for a bullet hell roguelike; lead the programming team and coordinate development.
+  \item Built framework systems including ECS, configuration, localisation and buffs. A free demo is available on Steam.
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/zzxzzk115/OmniLyrics}{\textbf{OmniLyrics -- Cross-platform Lyrics Tool}}}{Active development}
+\role{C\#, .NET 10, Avalonia, CLI/TUI}{Personal project}
+\begin{itemize}
+  \item Built a shared .NET core for desktop, terminal and status-bar interfaces, with bilingual karaoke lyrics and platform playback integrations.
+  \item Publish Windows, macOS and Linux releases, including signed and notarized macOS GUI applications.
+\end{itemize}
+
+\section{\faCogs\ Technical Skills}
+\begin{itemize}
+  \item Languages: C/C++, C\#, Python, Java and Lua. Currently studying CUDA independently through CIS5650.
+  \item Graphics and engines: Vulkan, OpenGL, Slang, render graphs, global illumination, Unity and Godot.
+  \item Systems and tooling: multithreading, networking, .NET performance, Git, XMake/CMake, Jenkins, Roslyn and MongoDB.
+  \item Languages spoken: Mandarin (native); English (IELTS 6.5).
+\end{itemize}
+
+\section{\faBook\ Publication}
+Li, S. and \textbf{Zhang, K.} (2021). Mobile remote video surveillance system.
+\textit{Computer Systems and Applications}, 30(06), 82--87.
+\href{https://doi.org/10.15888/j.cnki.csa.007939}{doi:10.15888/j.cnki.csa.007939}. Second author.
+
+\section{\faHeartO\ Honors and Awards}
+\datedline{National First Prize, Bochuang Cup AI Competition}{2019, 2020}
+\datedline{Provincial Second Prize, Blue Bridge Cup Programming Competition}{2018, 2019}
+\datedline{Provincial Third Prize, Programming Ladder Competition}{2018, 2019}
+\end{document}

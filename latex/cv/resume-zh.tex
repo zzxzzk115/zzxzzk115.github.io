@@ -1,0 +1,92 @@
+% !TEX program = xelatex
+\documentclass{resume}
+\usepackage[UTF8,fontset=fandol]{ctex}
+\hypersetup{hidelinks,pdftitle={张可宣 - 个人简历},pdfauthor={张可宣}}
+\begin{document}
+\pagenumbering{gobble}
+\name{张可宣 / Kexuan Zhang}
+\centerline{感知图形博士研究生 \textperiodcentered\ 图形与系统程序开发}
+\basicInfo{\email{zzxzzk115@gmail.com} \textperiodcentered\ \homepage[个人主页]{https://zzxzzk115.github.io/}}
+\centerline{\github[zzxzzk115]{https://github.com/zzxzzk115} \textperiodcentered\ \linkedin[kexuan-zhang-leeds]{https://www.linkedin.com/in/kexuan-zhang-leeds}}
+
+\section{\faGraduationCap\ 教育与研究}
+\datedsubsection{\textbf{利兹大学（University of Leeds）}，英国}{2025 -- 至今}
+\textit{感知图形博士（PhD in Perceptual Graphics）}\\
+研究兴趣：虚拟现实、注视点渲染、立体重投影、图像修复与高性能图形。
+
+\datedsubsection{\textbf{利兹大学（University of Leeds）}，英国}{2023 -- 2024}
+\textit{高性能图形与游戏工程硕士（MSc），Distinction}\\
+均分：74.7；毕业论文：基于 Light Propagation Volumes 的实时全局光照。
+
+\datedsubsection{\textbf{江汉大学}，湖北武汉}{2017 -- 2021}
+\textit{计算机科学与技术（软件工程方向），工学学士}\\
+均分：84.3/100；排名：18/212。
+
+\section{\faUsers\ 软件工程经历}
+\datedsubsection{\textbf{上海紫灏信息技术有限公司}}{2022.07 -- 2024.05}
+\role{游戏服务器开发工程师}{}
+\begin{itemize}
+  \item 开发高性能 .NET 游戏服务器系统，进行性能瓶颈分析与 MongoDB 功能调研、集成。
+  \item 开发 Unity 技能管线编辑器工具、Excel 配置处理工具及 Jenkins CI/CD 流水线。
+  \item 基于 Roslyn 开发静态分析工具，提升代码一致性。
+\end{itemize}
+\datedsubsection{\textbf{上海紫灏信息技术有限公司}}{2021.12 -- 2022.06}
+\role{实习程序员}{}
+\begin{itemize}
+  \item 学习并实践 C\#、Win32、多线程、网络编程与 Unix/Linux 系统开发。
+\end{itemize}
+
+\section{\faCogs\ 代表项目}
+\datedsubsection{\href{https://github.com/zzxzzk115/VRI}{\textbf{VRI -- 跨平台渲染硬件接口}}}{持续开发}
+\role{C ABI、C++23、Vulkan、D3D12、Metal、WebGPU、OpenGL}{个人项目}
+\begin{itemize}
+  \item 开发包含命令缓冲、描述符集与显式同步的渲染 API，并提供仅头文件的 C++23 RAII 封装。
+  \item 实现后端能力查询、验证与可移植 Slang 着色器；提供浏览器示例与 Vulkan 路径追踪示例，按后端记录功能覆盖情况。
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/zzxzzk115/Light-Propagation-Volumes}{\textbf{Light Propagation Volumes -- 实时全局光照}}}{2024}
+\role{C++、OpenGL、实时全局光照}{硕士毕业论文}
+\begin{itemize}
+  \item 基于 VGFW 实现 LPV 渲染器，研究实时场景中的间接光照。
+  \item 在渲染管线中集成级联阴影、HBAO、屏幕空间反射、FXAA、ACES 色调映射与 Bloom。
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/zzxzzk115/libvultra/tree/dev-VRI}{\textbf{libvultra -- 图形研究框架}}}{2024 -- 至今}
+\role{C++23、Vulkan、Slang、渲染图}{个人项目}
+\begin{itemize}
+  \item 开发基于 VRI 的框架，为 Windows、Linux 上的小型渲染 Demo 与研究实验提供基础。
+  \item 拆分并维护渲染、着色器和资产组件；当前开发分支处于早期阶段，包含 glTF 查看器、渲染图构建与着色器编译、热重载。
+\end{itemize}
+
+\datedsubsection{\href{https://store.steampowered.com/app/3879680/Cells_of_Division/}{\textbf{分裂细胞（Cells of Division）-- High Path Games}}}{2024 -- 至今}
+\role{联合创始人、程序负责人；Godot}{独立游戏}
+\begin{itemize}
+  \item 负责弹幕 Roguelike 游戏的整体程序架构、核心玩法子系统及程序团队分工。
+  \item 构建 ECS、配置读取、多语言与 Buff 等框架系统；免费 Demo 已在 Steam 发布。
+\end{itemize}
+
+\datedsubsection{\href{https://github.com/zzxzzk115/OmniLyrics}{\textbf{OmniLyrics -- 跨平台歌词工具}}}{持续开发}
+\role{C\#、.NET 10、Avalonia、CLI/TUI}{个人项目}
+\begin{itemize}
+  \item 以共享 .NET 核心支持桌面、终端和状态栏界面，实现双语卡拉 OK 歌词及平台播放集成。
+  \item 发布 Windows、macOS 和 Linux 版本，提供经过签名、公证的 macOS GUI 应用。
+\end{itemize}
+
+\section{\faCogs\ 技术能力}
+\begin{itemize}
+  \item 编程语言：C/C++、C\#、Python、Java、Lua；正在通过 CIS5650 自主学习 CUDA。
+  \item 图形与引擎：Vulkan、OpenGL、Slang、渲染图、全局光照、Unity、Godot。
+  \item 系统与工具：多线程、网络编程、.NET 性能优化、Git、XMake/CMake、Jenkins、Roslyn、MongoDB。
+  \item 语言：中文（母语）、英语（IELTS 6.5）。
+\end{itemize}
+
+\section{\faBook\ 论文}
+李少伟、\textbf{张可宣}（第二作者），2021。移动远程视频监控系统。\\
+\textit{计算机系统与应用}，30(06)，82--87。\\
+\href{https://doi.org/10.15888/j.cnki.csa.007939}{doi:10.15888/j.cnki.csa.007939}。
+
+\section{\faHeartO\ 荣誉奖励}
+\datedline{博创杯全国人工智能设计大赛全国一等奖}{2019、2020}
+\datedline{蓝桥杯程序设计竞赛省二等奖}{2018、2019}
+\datedline{程序设计天梯赛省三等奖}{2018、2019}
+\end{document}
