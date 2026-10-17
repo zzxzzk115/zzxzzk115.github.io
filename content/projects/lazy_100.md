@@ -8,6 +8,7 @@ title: Lazy-100
 description: A Lua fantasy console with code, sprite, map, sound and music
   editors, built on VRI for desktop and browser play.
 legacyPath: /projects/lazy_100/
+imageFit: contain
 image: /assets/img/projects/lazy-100-poster.webp
 category: retro
 tags:

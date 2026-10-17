@@ -9,6 +9,7 @@ tags: ["C++","Assets","XMake","WebAssembly"]
 modes: ["academic","casual"]
 order: 10
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/vasset","icon":"brands:github"}]
+imageFit: contain
 image: "/assets/img/projects/enriched/vasset.svg"
 imageAlt: "Import source assets, cook registry entries, and package them for runtime loading."
 ---

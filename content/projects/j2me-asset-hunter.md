@@ -9,6 +9,7 @@ tags: ["C++","J2ME","Game tools"]
 modes: ["casual"]
 order: 18
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/j2me-asset-hunter","icon":"brands:github"}]
+imageFit: contain
 image: "/assets/img/projects/enriched/j2me-asset-hunter.svg"
 imageAlt: "Recover images and MIDI from J2ME archives, with FluidSynth audio conversion."
 ---

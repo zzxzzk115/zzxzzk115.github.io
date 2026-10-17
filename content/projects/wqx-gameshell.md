@@ -10,6 +10,7 @@ modes: ["casual"]
 order: 15
 status: "Handheld adaptation"
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/WqxEmulator-GameShell","icon":"brands:github"}]
+imageFit: contain
 image: "/assets/img/projects/enriched/wqx-gameshell.webp"
 imageAlt: "NC1020 emulator calendar and clock running from this repository in a local browser."
 ---

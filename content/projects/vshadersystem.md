@@ -9,6 +9,7 @@ tags: ["C++","Slang","Shaders","Tools"]
 modes: ["academic","casual"]
 order: 9
 links: [{"label":"Source","href":"https://github.com/zzxzzk115/vshadersystem","icon":"brands:github"}]
+imageFit: contain
 image: "/assets/img/projects/enriched/vshadersystem.svg"
 imageAlt: "Expand Slang keyword variants, compile shader stages, and bundle bytecode with reflection."
 ---
