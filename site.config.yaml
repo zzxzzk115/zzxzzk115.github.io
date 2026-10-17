@@ -48,6 +48,10 @@ socials:
 theme:
   academic: '#2455cf'
   casual: '#087763'
+externalLinks:
+  - label: Blog
+    href: https://zzxzzk115.github.io/blog/
+    icon: solid:book-open
 sectionLabels:
   writing: Posts
   interests: Interests

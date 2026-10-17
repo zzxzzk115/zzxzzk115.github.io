@@ -8,6 +8,8 @@ Personal content and deployment configuration for [zzxzzk115.github.io](https://
 
 The Astro + Vue presentation lives in the separate public [academic-casual-template](https://github.com/zzxzzk115/academic-casual-template) repository. `template.lock.json` pins the exact template commit used by CI. Personal content updates do not require copying or editing template components.
 
+`externalLinks` in `site.config.yaml` adds independently hosted destinations to desktop and mobile navigation. Blog points to `https://zzxzzk115.github.io/blog/`, with a book icon and an external-site indicator in both modes. The template also supports optional per-link mode visibility. The blog remains a separate VuePress site and keeps its existing article URLs and comments.
+
 The current pin includes the template's optional profile/contact fields, portrait credits and content-aware section labels. Its separate Albert Einstein example and historical photograph are used only by the template demo; this site continues to load its own configuration, content and assets.
 
 ## Edit content
