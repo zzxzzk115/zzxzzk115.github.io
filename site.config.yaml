@@ -45,6 +45,14 @@ socials:
     href: https://lazy-v.itch.io/
     icon: brands:itch-io
     modes: [casual]
+  - label: Bilibili
+    href: https://space.bilibili.com/33320940
+    icon: brands:bilibili
+    modes: [casual]
+  - label: QQ · 954294627
+    href: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=954294627&website=www.oicqzone.com
+    icon: brands:qq
+    modes: [casual]
 theme:
   academic: '#2455cf'
   casual: '#087763'
