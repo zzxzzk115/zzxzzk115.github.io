@@ -49,7 +49,7 @@ socials:
     href: https://space.bilibili.com/33320940
     icon: brands:bilibili
     modes: [casual]
-  - label: QQ · 954294627
+  - label: QQ
     href: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=954294627&website=www.oicqzone.com
     icon: brands:qq
     modes: [casual]
