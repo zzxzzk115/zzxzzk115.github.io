@@ -53,6 +53,11 @@ socials:
     href: tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=954294627&website=www.oicqzone.com
     icon: brands:qq
     modes: [casual]
+  - label: WeChat
+    href: https://zzxzzk115.github.io/blog/intro.html#wechat
+    copy: zkx954294627
+    icon: brands:weixin
+    modes: [casual]
 theme:
   academic: '#2455cf'
   casual: '#087763'
