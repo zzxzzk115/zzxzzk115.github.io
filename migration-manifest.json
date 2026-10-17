@@ -151,7 +151,8 @@
     "Develop game server by using C# .NET": "Developed game servers using C# and .NET.",
     "Learn C#, Win32, Multi-threading, Unix/Linux, etc": "Gained experience with C#, Win32, multithreading and Unix/Linux systems.",
     "First class": "Distinction",
-    "XMake": "xmake"
+    "XMake": "xmake",
+    "I previously obtained my Master of Science degree in <strong>High-Performance Graphics and Games Engineering</strong>. Before that, I worked as a game server development engineer, specializing in C#, multithreading, network communication, and performance optimization.": "Before starting my PhD, I completed an MSc in <strong>High-Performance Graphics and Games Engineering</strong> at the University of Leeds with Distinction. My MSc covered modelling and rendering, animation and simulation, geometry processing, high-performance graphics, and scientific computation.\n\nI also have professional experience as a game server development engineer in Shanghai, working with C#, multithreading, network communication, and performance optimisation."
   },
   "refreshedRecords": [
     {
