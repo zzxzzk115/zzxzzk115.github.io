@@ -1,4 +1,8 @@
-Hello, I am Kexuan Zhang from China, currently pursuing a PhD in <strong>Perceptual Graphics</strong> at the University of Leeds under the supervision of Dr. [Rafael Kuffner dos Anjos](https://rafaelkuffner.github.io/), Dr. Markus Billeter, and Prof. Gordon D. Love. I previously obtained my Master of Science degree in <strong>High-Performance Graphics and Games Engineering</strong>. Before that, I worked as a game server development engineer, specializing in C#, multithreading, network communication, and performance optimization.
+Hello, I am Kexuan Zhang from China, currently pursuing a PhD in <strong>Perceptual Graphics</strong> at the University of Leeds under the supervision of Dr. [Rafael Kuffner dos Anjos](https://rafaelkuffner.github.io/), Dr. Markus Billeter, and Prof. Gordon D. Love.
+
+Before starting my PhD, I completed an MSc in <strong>High-Performance Graphics and Games Engineering</strong> at the University of Leeds with Distinction. My MSc covered modelling and rendering, animation and simulation, geometry processing, high-performance graphics, and scientific computation.
+
+I also have professional experience as a game server development engineer in Shanghai, working with C#, multithreading, network communication, and performance optimisation.
 
 My research interests are <strong>virtual reality (VR)</strong> and <strong>high-performance computer graphics</strong>.
 
