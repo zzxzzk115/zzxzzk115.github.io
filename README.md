@@ -30,7 +30,7 @@ Casual labels its project selection **Featured Projects**. **All featured** rese
 
 BibTeX records use the same field: `home = {true}` or `home = {false}`, with optional JSON for mode-specific settings. The current paper is explicitly false. The Publications section and navigation appear automatically when at least one eligible paper exists. Detail pages, archives, RSS, search and the full bibliography retain their content. The Giscus setup note remains at its original URL with `home: false`. Imported blog articles remain controlled by the independent blog feed.
 
-The homepage fetches the English JSON Feed at build time and uses `content/blog-feed.json` when it is unavailable. Rebuilding the homepage refreshes its article summaries. The blog's articles, Chinese locale, comments, repository, and deployment remain independent.
+The homepage fetches the English JSON Feed at build time from `/blog/feed.json` and uses `content/blog-feed.json` when it is unavailable. Rebuilding the homepage refreshes its article summaries; the checked-in snapshot is a compact copy of the generated English feed, retaining original publication dates. The Blog publishes RSS, Atom and JSON Feed in English under `/blog/` and Chinese under `/blog/zh/`. The homepage's `/feed.xml` remains the feed for its own local posts. The blog's articles, Chinese locale, comments, repository, and deployment remain independent.
 
 ## Local development
 
