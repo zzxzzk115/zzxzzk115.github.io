@@ -32,6 +32,11 @@ BibTeX records use the same field: `home = {true}` or `home = {false}`, with opt
 
 The homepage fetches the English JSON Feed at build time from `/blog/feed.json` and uses `content/blog-feed.json` when it is unavailable. Rebuilding the homepage refreshes its article summaries; the checked-in snapshot is a compact copy of the generated English feed, retaining original publication dates. The Blog publishes RSS, Atom and JSON Feed in English under `/blog/` and Chinese under `/blog/zh/`. The homepage's `/feed.xml` remains the feed for its own local posts. The blog's articles, Chinese locale, comments, repository, and deployment remain independent.
 
+The root RSS now includes `/feed.xsl` for a readable browser preview with
+article dates, summaries and a selectable subscription address. It uses the
+configured site metadata and accent, supports narrow screens and system dark
+mode, and keeps the existing `/feed.xml` subscription URL and post permalinks.
+
 ## Local development
 
 Clone the template into a sibling directory, check out the revision in `template.lock.json`, and run:
