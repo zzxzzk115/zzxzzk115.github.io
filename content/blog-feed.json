@@ -1,39 +1,85 @@
 {
   "version": "https://jsonfeed.org/version/1.1",
+  "title": "Lazy_V's Blog",
+  "home_page_url": "https://zzxzzk115.github.io/blog/",
+  "feed_url": "https://zzxzzk115.github.io/blog/feed.json",
+  "description": "Notes on graphics, games, and things I build. By Kexuan Zhang / Lazy_V.",
   "items": [
     {
-      "id": "https://zzxzzk115.github.io/blog/posts/phd-life/openxr-simulator.html",
-      "url": "https://zzxzzk115.github.io/blog/posts/phd-life/openxr-simulator.html",
+      "title": "Repeated macOS Permission Prompts with GodotSteam or a Custom Godot Build",
+      "url": "https://zzxzzk115.github.io/blog/posts/game-engine/godotsteam-macos-permission.html",
+      "id": "https://zzxzzk115.github.io/blog/posts/game-engine/godotsteam-macos-permission.html",
+      "summary": "These are the steps I used for repeated permission prompts with a locally installed GodotSteam build on macOS. First, reset the relevant privacy permissions. Use the bundle iden...",
+      "date_published": "2026-04-12T00:00:00.000Z"
+    },
+    {
+      "title": "IEEE TVCG Submission Guidelines",
+      "url": "https://zzxzzk115.github.io/blog/posts/phd-life/ieee-tvcg-guidelines.html",
+      "id": "https://zzxzzk115.github.io/blog/posts/phd-life/ieee-tvcg-guidelines.html",
+      "summary": "A general checklist to read before preparing a submission.",
+      "date_published": "2026-03-30T00:00:00.000Z"
+    },
+    {
       "title": "Develop OpenXR native PC apps without a headset by using Meta XR Simulator",
+      "url": "https://zzxzzk115.github.io/blog/posts/phd-life/openxr-simulator.html",
+      "id": "https://zzxzzk115.github.io/blog/posts/phd-life/openxr-simulator.html",
       "summary": "If you don't have an XR headset but you want to develop OpenXR apps, you can use Meta XR Simulator! It's great.",
       "date_published": "2025-02-11T00:00:00.000Z"
     },
     {
-      "id": "https://zzxzzk115.github.io/blog/posts/algorithms/dynamic-programming/framework.html",
-      "url": "https://zzxzzk115.github.io/blog/posts/algorithms/dynamic-programming/framework.html",
+      "title": "Drawing a Simple Sprite with GBDK",
+      "url": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/gbdk/003-gbdk-simple-sprites.html",
+      "id": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/gbdk/003-gbdk-simple-sprites.html",
+      "summary": "The Game Boy has a screen resolution of 160 × 144 pixels. That may seem tiny today, but it was enough to bring many memorable characters to life. A sprite is a bitmap image used...",
+      "date_published": "2022-12-20T00:00:00.000Z"
+    },
+    {
+      "title": "Setting Up GBDK",
+      "url": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/gbdk/002-gbdk-preparation.html",
+      "id": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/gbdk/002-gbdk-preparation.html",
+      "summary": "GBDK is open source, with release builds available on GitHub. I was using macOS when I wrote this tutorial, so I will start with setting up GBDK on macOS and compiling a Hello W...",
+      "date_published": "2022-12-18T19:10:00.000Z"
+    },
+    {
+      "title": "An Introduction to GBDK",
+      "url": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/gbdk/001-gbdk-intro.html",
+      "id": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/gbdk/001-gbdk-intro.html",
+      "summary": "Assembly language is a common choice for GB/GBC development. However, starting with it requires learning the hardware and instruction set together, which can be a substantial ba...",
+      "date_published": "2022-12-18T19:05:00.000Z"
+    },
+    {
+      "title": "GB/GBC Game Development — Introduction",
+      "url": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/intro.html",
+      "id": "https://zzxzzk115.github.io/blog/game-dev/retro/gameboy/intro.html",
+      "summary": "Before we begin Nintendo's Game Boy was popular around the world, but I never had one as a child. When I learned about it later, I became fascinated by it and wanted to make gam...",
+      "date_published": "2022-12-18T19:00:00.000Z"
+    },
+    {
       "title": "The algorithm framework for solving DP problems",
+      "url": "https://zzxzzk115.github.io/blog/posts/algorithms/dynamic-programming/framework.html",
+      "id": "https://zzxzzk115.github.io/blog/posts/algorithms/dynamic-programming/framework.html",
       "summary": "Dynamic Programming problems are the most complicated problems in algorithms. However, it is actually simple to solve if you understand the key concepts and the main algorithm f...",
       "date_published": "2022-12-09T00:00:00.000Z"
     },
     {
-      "id": "https://zzxzzk115.github.io/blog/posts/programming-languages/csharp/static-abstract-members-in-interfaces.html",
-      "url": "https://zzxzzk115.github.io/blog/posts/programming-languages/csharp/static-abstract-members-in-interfaces.html",
       "title": "Deeply dive into static abstract interface methods in C# 11",
+      "url": "https://zzxzzk115.github.io/blog/posts/programming-languages/csharp/static-abstract-members-in-interfaces.html",
+      "id": "https://zzxzzk115.github.io/blog/posts/programming-languages/csharp/static-abstract-members-in-interfaces.html",
       "summary": "Static abstract interface method is a new feature in C# 11 (corresponding .NET 7.0). In this article, we are going to deeply dive into it, talk about why we need it, what it is ...",
       "date_published": "2022-11-30T00:00:00.000Z"
     },
     {
-      "id": "https://zzxzzk115.github.io/blog/posts/backend/mongodb/auto-increment-id-in-mongodb.html",
-      "url": "https://zzxzzk115.github.io/blog/posts/backend/mongodb/auto-increment-id-in-mongodb.html",
-      "title": "Implement automatically increase ids in MongoDB",
-      "summary": "In MongoDB, every documents have an object id (Bson ID). But sometimes we need ids that can automatically increase when creating a new model. And the id should be an integer sta...",
+      "title": "New Beginning",
+      "url": "https://zzxzzk115.github.io/blog/posts/jottings/new-beginning.html",
+      "id": "https://zzxzzk115.github.io/blog/posts/jottings/new-beginning.html",
+      "summary": "It's time for deploying a new blog!",
       "date_published": "2022-11-27T00:00:00.000Z"
     },
     {
-      "id": "https://zzxzzk115.github.io/blog/posts/jottings/new-beginning.html",
-      "url": "https://zzxzzk115.github.io/blog/posts/jottings/new-beginning.html",
-      "title": "New Beginning",
-      "summary": "It's time for deploying a new blog!",
+      "title": "Implement automatically increase ids in MongoDB",
+      "url": "https://zzxzzk115.github.io/blog/posts/backend/mongodb/auto-increment-id-in-mongodb.html",
+      "id": "https://zzxzzk115.github.io/blog/posts/backend/mongodb/auto-increment-id-in-mongodb.html",
+      "summary": "In MongoDB, every documents have an object id (Bson ID). But sometimes we need ids that can automatically increase when creating a new model. And the id should be an integer sta...",
       "date_published": "2022-11-27T00:00:00.000Z"
     }
   ]
