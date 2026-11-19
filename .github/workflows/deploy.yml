@@ -5,8 +5,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
-  repository_dispatch:
-    types: [featured-projects-updated]   # sent by github.com/zzxzzk115/featured-projects after a change
+  schedule:
+    - cron: "30 3 * * *"   # daily rebuild: picks up changes in the featured-projects catalog
 permissions:
   contents: read
 concurrency:
