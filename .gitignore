@@ -6,3 +6,7 @@ reports/
 .DS_Store
 
 **/.latex-build/
+
+# generated from the project catalog (github.com/zzxzzk115/featured-projects) by scripts/catalog-content.mjs
+content/projects/
+public/assets/img/catalog/
