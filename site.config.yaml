@@ -69,11 +69,8 @@ sectionLabels:
   writing: Posts
   interests: Interests
 projectCategories:
-  work: Graphics & XR
-  library: Libraries
-  fun: Tools & apps
-  indie: Games
-  retro: Retro & emulation
+  work: Work
+  fun: Fun
 hero:
   enabled: false
   label: ''

@@ -45,7 +45,8 @@ for (const p of catalog.projects) {
     if (p.image.alt) fm.imageAlt = en(p.image.alt);
     if (p.image.fit && p.image.fit !== 'cover') fm.imageFit = p.image.fit;
   }
-  Object.assign(fm, { category: p.category, tags: p.tags ?? [], modes: hp.modes ?? ['academic', 'casual'], order: p.order });
+  // the project filter is the catalog's homepage.tag (work | fun); the catalog's category is what the blog groups by
+  Object.assign(fm, { category: hp.tag ?? 'fun', tags: p.tags ?? [], modes: hp.modes ?? ['academic', 'casual'], order: p.order });
   if (p.status) fm.status = en(p.status);
   if (hp.comments) fm.comments = true;
   const links = (p.links ?? []).map((l) => ({ label: en(l.label), href: en(l.href), ...(l.icon ? { icon: l.icon } : {}) }));
