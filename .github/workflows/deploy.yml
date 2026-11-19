@@ -5,6 +5,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  repository_dispatch:
+    types: [featured-projects-updated]   # sent by github.com/zzxzzk115/featured-projects after a change
 permissions:
   contents: read
 concurrency:
@@ -33,6 +35,12 @@ jobs:
           node-version: 24
           cache: pnpm
           cache-dependency-path: template/pnpm-lock.yaml
+      - uses: actions/checkout@v4
+        with:
+          repository: zzxzzk115/featured-projects
+          path: catalog
+      - name: Generate project pages from the catalog
+        run: node content/scripts/catalog-content.mjs catalog
       - run: pnpm --dir template install --frozen-lockfile
       - name: Compile configured CV PDFs
         uses: ./template/.github/actions/compile-latex
